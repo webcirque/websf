@@ -1,0 +1,98 @@
+# Smell The Roses 玫瑰花香 # //ignores # and //, validates /**/
+# Licensed by original lyrics author Mu_guang_138 under CC BY-NC 4.0 License.
+# This file is not yet finished to create a proper timeline. Updated on Mar 14th, 2020 (BJS), the file stayed as a demo file.
+
+[v1] //create a namespace named v1
+前頭路途險峻又長遠 //index starts at 0
+There's a long and winding road ahead
+//blank line is omitted
+幾朵烏雲遮住臉
+A few black clouds lay over head
+
+而那太陽卻總是不見蹤影
+And the shining sun is nowhere to be seen
+
+但有你不斷起身繼續的每步
+But with every step and fall you take
+
+總敢於接受新事物
+All your thoughts and leaps of faith
+
+雨過似乎就一定有天青
+There's a silver lining somewhere in between
+
+[pre-chorus]
+閉上眼
+Close your eyes
+深呼吸
+Breathe in slow
+緩緩吐氣
+Then let it go
+
+[chorus]
+當旅途漸漸變長
+也別忘了聞聞玫瑰花香
+Stop and smell the roses
+when your journey's getting long
+
+當生命和你唱反調
+感到全身毫無能量
+When you feel your life's against you
+and your energy is gone
+
+畢竟並非誰都知道
+何時該讓自己放個鬆
+'Cause not everybody knows when-
+-it's just time to catch a break
+
+當你累到只想自己靜一靜
+When you're draining
+and you just don't wanna show it
+
+停下來聞聞玫瑰花香
+Stop and smell the roses
+
+[v2]
+今天又有了新點子
+想將昨天帶回到眼前
+Today has found another way
+to turn right into yesterday
+
+只因時間又再次洗刷了一切
+'Cause time has taken all the light again
+
+就算我擺弄著現實
+想試圖改變我的未來
+But if I fiddle with reality
+to try and change who I should be
+
+最後還不是仍然呆站在起點
+I'm tucking my own destiny in bed
+
+repeat [pre-chorus] //ignores "repeat [" interpreting
+> ... //treats "> ." as a symbol of ignorance
+
+repeat [chorus]
+> ...
+
+repeat [chorus]
+> ...
+
+[:style] //starts to announce style
+4efb:{finish: #777; back: #fff; outline: #333;} //create a display style named 4efb with style announced inside the brackets
+
+[:conf]
+spaceFallback=true
+
+[:lrc] //starts to announce LRC timeline
+[ti:Smell the Roses]
+[ar:4everfreebrony]
+[by:Mu_guang_138] //lyrics maker
+[by:Chdkfd] //timeline creator
+[00:00.00]~v1:0,v1:1@A //lyric without timings
+#[00:05.00]~v1:2,v1:3@A //lyric with global timings
+#[00:10.00]~v1:4,v1:5@A,1926,810,114,514,817 //lyric with overriden global timings
+#[00:15.00]~v1:6,v1:7@A,1926,810,114,514,817 //add timings to a lyric without global timings
+#Timing points are created with pipes "|". If not present, spaces are used instead. Disable this fallback feature with spaceFallback=false in [:conf].
+#[00:20.00]There's a long and winding road ahead //fallback LRC support
+#[00:25.00]A<1240> few<1919> black<810> clouds<810> lay<817> overhead<1440> //fallback enhanced LRC support

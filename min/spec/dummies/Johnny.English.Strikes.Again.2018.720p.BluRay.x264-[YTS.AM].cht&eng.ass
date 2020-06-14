@@ -1,0 +1,1064 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: 
+Original Script: 
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 384
+PlayResY: 288
+Timer: 100.0000
+Synch Point: 
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,18,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,3,2,20,20,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:01:29.39,0:01:30.92,Default,,0000,0000,0000,,哦 見鬼...\N{\fs12}Oh, bollocks.
+Dialogue: 0,0:01:35.56,0:01:36.59,Default,,0000,0000,0000,,我們遇到一點問題\N{\fs12}We've got a problem.
+Dialogue: 0,0:01:36.80,0:01:39.26,Default,,0000,0000,0000,,- 一場網絡攻擊？\N- 是的首相大人　\N{\fs12}- A cyber attack? - Yes, prime minister.
+Dialogue: 0,0:01:39.50,0:01:45.19,Default,,0000,0000,0000,,唉 我喝了兩瓶紅酒 吃了半包安眠藥好不容易才睡著...\N{\fs12}Ahh... Took me two bottles of wine and half a packet of sleeping pills to finally nod off.
+Dialogue: 0,0:01:45.32,0:01:49.81,Default,,0000,0000,0000,,然後你把我吵醒 就因為某個胖手指的黑客偷了你的密碼？\N{\fs12}And you wake me because some fat-fingered hacker's pinched your pin number?
+Dialogue: 0,0:01:50.11,0:01:52.00,Default,,0000,0000,0000,,實際上問題要比您說的更嚴重一些 首相大人\N{\fs12}Well, it's a little more serious than that, prime minister.
+Dialogue: 0,0:01:52.20,0:01:55.73,Default,,0000,0000,0000,,- 嗯？　　　　　　　　　　　　　\N- 我們所有在職特工的身份都暴露了\N{\fs12}- Hmm? - The identities of every one of our serving agents have been exposed.
+Dialogue: 0,0:01:56.75,0:01:57.78,Default,,0000,0000,0000,,什麼？\N{\fs12}What?
+Dialogue: 0,0:01:57.91,0:01:59.90,Default,,0000,0000,0000,,- 誰在發動這場攻擊？\N- 我們還不確定夫人　\N{\fs12}- Who's doing this? - We're not sure, ma'am.
+Dialogue: 0,0:02:00.04,0:02:02.83,Default,,0000,0000,0000,,所以在我主辦自己的第一場 G12峰會的一周前\N{\fs12}So one week before I host my first G12 summit,
+Dialogue: 0,0:02:02.92,0:02:05.13,Default,,0000,0000,0000,,整個英國的安全設施都癱瘓了？\N{\fs12}britain's entire security apparatus has been taken down
+Dialogue: 0,0:02:05.25,0:02:06.62,Default,,0000,0000,0000,,而且你對此毫無頭緒？\N{\fs12}and you know absolutely nothing?
+Dialogue: 0,0:02:06.71,0:02:09.46,Default,,0000,0000,0000,,那確實非常好地說明了說明了當前的情況 是的 夫人\N{\fs12}That does pretty much sums up the situation, ma'am, yes.
+Dialogue: 0,0:02:09.59,0:02:11.53,Default,,0000,0000,0000,,好吧 那你最好趕緊找些能弄清真相的人！\N{\fs12}Well, you better get someone on it and find me some answers!
+Dialogue: 0,0:02:11.55,0:02:13.82,Default,,0000,0000,0000,,是的 不過那正是問題所在 我們沒有可以調查的特工了\N{\fs12}Yes, but that's the problem. We don't have any agents left.
+Dialogue: 0,0:02:13.85,0:02:14.88,Default,,0000,0000,0000,,他們都已經曝光了\N{\fs12}They've all been outed.
+Dialogue: 0,0:02:15.14,0:02:17.38,Default,,0000,0000,0000,,所以找個老特工回來！\N{\fs12}So bring back an old one!
+Dialogue: 0,0:02:17.38,0:02:19.38,Default,,0000,0000,0000,,
+Dialogue: 0,0:02:19.38,0:02:21.38,Default,,0000,0000,0000,,
+Dialogue: 0,0:02:31.20,0:02:35.28,Default,,0000,0000,0000,,所有小隊聽著 這裡是朱麗葉 原地等待目標出現\N{\fs12}All units, this is Juliet echo. Stand by for target coordinates.
+Dialogue: 0,0:02:37.79,0:02:41.78,Default,,0000,0000,0000,,鎖定目標 重複 目標已鎖定\N{\fs12}Target acquired. Repeat, target acquired.
+Dialogue: 0,0:02:59.81,0:03:02.60,Default,,0000,0000,0000,,好勒 看看我們抓到了誰？\N{\fs12}Now then, what have we here?
+Dialogue: 0,0:03:05.20,0:03:06.31,Default,,0000,0000,0000,,抱歉 先生\N{\fs12}Sorry, sir.
+Dialogue: 0,0:03:06.49,0:03:08.07,Default,,0000,0000,0000,,別在意 巴格利\N{\fs12}Never mind, baggaley.
+Dialogue: 0,0:03:08.16,0:03:11.20,Default,,0000,0000,0000,,你的隱蔽和偽裝能力毫無疑問有了進步\N{\fs12}Your concealment and camouflage work is definitely improving.
+Dialogue: 0,0:03:11.33,0:03:12.41,Default,,0000,0000,0000,,謝謝您 先生\N{\fs12}Thank you, sir.
+Dialogue: 0,0:03:12.62,0:03:13.62,Default,,0000,0000,0000,,快來啊\N{\fs12}Come on.
+Dialogue: 0,0:03:13.71,0:03:15.62,Default,,0000,0000,0000,,你也是 伊巴杜拉\N{\fs12}You, too, ibadulla.
+Dialogue: 0,0:03:15.75,0:03:18.91,Default,,0000,0000,0000,,　　　　　　　　　　　　　　\N出色極了那是一流的大號陷阱洞\N{\fs12}Excellent. That is a first-class man-trap.
+Dialogue: 0,0:03:19.63,0:03:21.46,Default,,0000,0000,0000,,獎勵 6點學院分！\N{\fs12}Six house points. Yes!
+Dialogue: 0,0:03:22.92,0:03:26.45,Default,,0000,0000,0000,,好的 讓我們趕緊回學校吧 以免看守發現你們不在\N{\fs12}Right, let's get back to school before matron notices you're missing.
+Dialogue: 0,0:03:26.67,0:03:29.21,Default,,0000,0000,0000,,還有別擔心 這裡已經沒別的陷阱了\N{\fs12}And don't worry, there aren't any more booby traps.
+Dialogue: 0,0:03:32.05,0:03:34.38,Default,,0000,0000,0000,,當然這個是有點大\N{\fs12}Apart from this one, of course.
+Dialogue: 0,0:03:49.53,0:03:50.61,Default,,0000,0000,0000,,英格力士老師？\N{\fs12}Mr. English?
+Dialogue: 0,0:03:50.90,0:03:52.39,Default,,0000,0000,0000,,我們沒見到他 先生\N{\fs12}We haven't seen him, sir.
+Dialogue: 0,0:03:52.86,0:03:53.98,Default,,0000,0000,0000,,好吧\N{\fs12}Huh.
+Dialogue: 0,0:03:56.50,0:03:58.03,Default,,0000,0000,0000,,而這... 就是偽裝\N{\fs12}And that's camouflage.
+Dialogue: 0,0:04:06.29,0:04:07.29,Default,,0000,0000,0000,,然後...出發！\N{\fs12}And go!
+Dialogue: 0,0:04:08.38,0:04:09.46,Default,,0000,0000,0000,,接著是你\N{\fs12}And go.
+Dialogue: 0,0:04:10.30,0:04:11.66,Default,,0000,0000,0000,,走你\N{\fs12}And go.
+Dialogue: 0,0:04:11.88,0:04:14.79,Default,,0000,0000,0000,,您們孩子的安全是我們最重視的問題\N{\fs12}The welfare of your children is our Paramount concern.
+Dialogue: 0,0:04:15.18,0:04:17.17,Default,,0000,0000,0000,,他們從不用直面任何不必要的風險\N{\fs12}They're never exposed to any unnecessary risk,
+Dialogue: 0,0:04:17.26,0:04:18.67,Default,,0000,0000,0000,,我可以向您們保證\N{\fs12}I assure you.
+Dialogue: 0,0:04:29.57,0:04:33.68,Default,,0000,0000,0000,,我覺得該給你的炸彈處理課給個F 哈特斯利\N{\fs12}I think that's an "f" for your bomb disposal coursework, hattersley.
+Dialogue: 0,0:04:34.15,0:04:36.81,Default,,0000,0000,0000,,你今晚看上去特別地美麗動人\N{\fs12}"You're looking particularly beautiful tonight."
+Dialogue: 0,0:04:36.95,0:04:40.36,Default,,0000,0000,0000,,你今晚看上去特別地美麗動人\N{\fs12}You're looking particularly beautiful tonight.
+Dialogue: 0,0:04:40.66,0:04:41.66,Default,,0000,0000,0000,,叮！~\N{\fs12}"Ching!"
+Dialogue: 0,0:04:41.99,0:04:43.23,Default,,0000,0000,0000,,叮！~\N{\fs12}Ching!
+Dialogue: 0,0:04:45.33,0:04:47.87,Default,,0000,0000,0000,,祝您半學期愉快 先生 - 多謝\N{\fs12}- Have a good half-term, sir! - Thank you.
+Dialogue: 0,0:05:00.50,0:05:02.50,Default,,0000,0000,0000,,致 喬尼·英格力士
+Dialogue: 0,0:05:12.50,0:05:12.99,Default,,0000,0000,0000,,{\an1\fn宋体\fs50\shad2\4a&H50&\3c&HFF8000&\4c&HFF8000&}　　　　憨豆特工3
+Dialogue: 0,0:05:13.00,0:05:15.50,Default,,0000,0000,0000,,{\an1\fn宋体\fs50\shad2\4a&H50&\3c&HFF8000&\4c&HFF8000&}　　　　憨豆特工3 {\fad(300,0)\fn宋体\fs45\shad2\4a&H50&\3c&H0000FF&\4c&H0000FF&}再度出擊！
+Dialogue: 0,0:05:15.50,0:05:17.50,Default,,0000,0000,0000,,
+Dialogue: 0,0:05:17.50,0:05:19.50,Default,,0000,0000,0000,,
+Dialogue: 0,0:05:19.50,0:05:21.50,Default,,0000,0000,0000,,
+Dialogue: 0,0:05:40.84,0:05:43.09,Default,,0000,0000,0000,,你不會是真的在告訴我 我們就只有他了吧？\N{\fs12}Are you seriously telling me this is all we've got?
+Dialogue: 0,0:05:43.22,0:05:44.55,Default,,0000,0000,0000,,他們中大多數人要麼已經去世\N{\fs12}Most of them are either dead,
+Dialogue: 0,0:05:44.64,0:05:47.47,Default,,0000,0000,0000,,要麼正處於前列腺手術後恢復期\N{\fs12}having hip operations or recovering from prostate surgery.
+Dialogue: 0,0:05:49.56,0:05:50.56,Default,,0000,0000,0000,,好吧\N{\fs12}Okay.
+Dialogue: 0,0:05:51.19,0:05:54.93,Default,,0000,0000,0000,,在您們聽取任務簡報之前 我們需要你重新簽署這份官方保密協議\N{\fs12}Before your briefing, we'll need you to re-sign the official secrets act.
+Dialogue: 0,0:05:55.07,0:05:56.23,Default,,0000,0000,0000,,謝謝\N{\fs12}Thank you.
+Dialogue: 0,0:05:56.61,0:05:57.65,Default,,0000,0000,0000,,多謝\N{\fs12}Thank you.
+Dialogue: 0,0:05:57.74,0:05:58.74,Default,,0000,0000,0000,,謝啦\N{\fs12}Thank you.
+Dialogue: 0,0:05:59.24,0:06:00.73,Default,,0000,0000,0000,,非常感謝\N{\fs12}Thank you very much.
+Dialogue: 0,0:06:01.16,0:06:03.40,Default,,0000,0000,0000,,你們中任何紳士還記得這個嗎？\N{\fs12}Any of you gentlemen remember this?
+Dialogue: 0,0:06:03.87,0:06:07.41,Default,,0000,0000,0000,,哦 萬寶龍爆破筆 好些年沒見過了...\N{\fs12}Ooh, the Montblanc blaster. Haven't seen one of those for years.
+Dialogue: 0,0:06:07.66,0:06:12.33,Default,,0000,0000,0000,,拿掉筆帽 如果沒記錯的話 在20秒內將筆帽重新蓋上\N{\fs12}Take the cap off and, if memory serves, you've 20 seconds to replace it
+Dialogue: 0,0:06:12.46,0:06:15.29,Default,,0000,0000,0000,,或是把它當做擊暈手榴彈引爆\N{\fs12}or it detonates with the force of a stun grenade.
+Dialogue: 0,0:06:35.77,0:06:37.11,Default,,0000,0000,0000,,謝了\N{\fs12}Thank you.
+Dialogue: 0,0:06:39.78,0:06:42.14,Default,,0000,0000,0000,,茶在左邊 先生們\N{\fs12}Teas on the left, gentlemen.
+Dialogue: 0,0:06:42.28,0:06:44.24,Default,,0000,0000,0000,,咖啡在右邊\N{\fs12}And coffees on the right.
+Dialogue: 0,0:06:44.53,0:06:45.74,Default,,0000,0000,0000,,棒極了\N{\fs12}Excellent.
+Dialogue: 0,0:06:45.87,0:06:48.83,Default,,0000,0000,0000,,哦 可惡 我忘付賬了\N{\fs12}Oh, damn it, I forgot my pills.
+Dialogue: 0,0:06:56.96,0:06:58.95,Default,,0000,0000,0000,,還是喝咖啡吧...\N{\fs12}Coffee. Oh.
+Dialogue: 0,0:06:59.05,0:07:01.29,Default,,0000,0000,0000,,來 請讓我為你端\N{\fs12}Here, let me help you with that.
+Dialogue: 0,0:07:06.60,0:07:07.68,Default,,0000,0000,0000,,茶嗎？\N{\fs12}Tea?
+Dialogue: 0,0:07:13.15,0:07:15.93,Default,,0000,0000,0000,,哦 這杯似乎需要加上一點熱水\N{\fs12}Ooh, this one just needs a little top-up of hot water.
+Dialogue: 0,0:07:16.57,0:07:18.02,Default,,0000,0000,0000,,失陪了 我馬上回來\N{\fs12}I'll be right back.
+Dialogue: 0,0:07:33.83,0:07:34.99,Default,,0000,0000,0000,,哦...\N{\fs12}Ohl
+Dialogue: 0,0:07:37.29,0:07:39.29,Default,,0000,0000,0000,,啊 早上好 抱歉讓你等了這麼久\N{\fs12}ah, good morning. Sorry to keep you.
+Dialogue: 0,0:07:41.26,0:07:42.80,Default,,0000,0000,0000,,其他人到了嗎？\N{\fs12}Are the others here?
+Dialogue: 0,0:07:43.30,0:07:44.54,Default,,0000,0000,0000,,呃...\N{\fs12}Um...
+Dialogue: 0,0:07:45.64,0:07:46.80,Default,,0000,0000,0000,,哦\N{\fs12}Oh.
+Dialogue: 0,0:07:51.10,0:07:54.51,Default,,0000,0000,0000,,他們... 他們犯困了...\N{\fs12}They, um... they nodded off.
+Dialogue: 0,0:07:55.06,0:07:56.06,Default,,0000,0000,0000,,好吧\N{\fs12}Right...
+Dialogue: 0,0:07:57.31,0:07:58.60,Default,,0000,0000,0000,,所以說你到底是誰？\N{\fs12}And who are you exactly?
+Dialogue: 0,0:07:59.11,0:08:00.19,Default,,0000,0000,0000,,英格力士\N{\fs12}English.
+Dialogue: 0,0:08:01.15,0:08:02.86,Default,,0000,0000,0000,,- 喬尼·英格力士\N- 好吧　　　　　\N{\fs12}- Johnny English. - Well...
+Dialogue: 0,0:08:04.32,0:08:05.81,Default,,0000,0000,0000,,英格力士\N{\fs12}"English..."
+Dialogue: 0,0:08:07.16,0:08:08.61,Default,,0000,0000,0000,,你將馬上動身出發\N{\fs12}You'll leave immediately.
+Dialogue: 0,0:08:08.70,0:08:10.78,Default,,0000,0000,0000,,我的人會在路上 給你完整介紹這次任務的內容\N{\fs12}My people will give you the full briefing en route.
+Dialogue: 0,0:08:10.87,0:08:12.20,Default,,0000,0000,0000,,對了 你有什麼需要的嗎？\N{\fs12}Oh, is there anything you need?
+Dialogue: 0,0:08:12.29,0:08:16.00,Default,,0000,0000,0000,,是的 我需要鼻腔型神經噴霧毒劑 和一套四號外骨骼裝甲...\N{\fs12}Yes, nerve gas nasal spray, a type-four exoskeleton...
+Dialogue: 0,0:08:16.12,0:08:18.04,Default,,0000,0000,0000,,你還是寫一份清單比較好\N{\fs12}You should probably start a list.
+Dialogue: 0,0:08:18.17,0:08:21.58,Default,,0000,0000,0000,,還有一枚絞殺手錶 橡皮表帶 不要鋼表帶的款式\N{\fs12}And a garroting watch, with a rubber strap, not the steel bracelet
+Dialogue: 0,0:08:21.71,0:08:25.05,Default,,0000,0000,0000,,因為鋼表鏈會卡住我手腕上的汗毛\N{\fs12}because the links get caught in the little hairs on my wrist.
+Dialogue: 0,0:08:25.38,0:08:27.47,Default,,0000,0000,0000,,哦 我還需要一位鮑夫\N{\fs12}Oh, and I'll also need a bough.
+Dialogue: 0,0:08:28.01,0:08:29.50,Default,,0000,0000,0000,,Bough也有樹枝的意思
+Dialogue: 0,0:08:28.01,0:08:29.50,Default,,0000,0000,0000,,什麼樹枝？\N{\fs12}What's a bough?
+Dialogue: 0,0:08:29.50,0:08:30.89,Default,,0000,0000,0000,,
+Dialogue: 0,0:08:30.89,0:08:30.89,Default,,0000,0000,0000,,
+Dialogue: 0,0:08:30.89,0:08:31.89,Default,,0000,0000,0000,,長官！\N{\fs12}Sir!
+Dialogue: 0,0:08:33.98,0:08:35.81,Default,,0000,0000,0000,,見到你真是太棒啦！\N{\fs12}Wonderful to see you!
+Dialogue: 0,0:08:37.02,0:08:39.73,Default,,0000,0000,0000,,好啦好啦 鮑夫 咱們要去執行一個任務 不是去度蜜月\N{\fs12}Yes, all right, bough. We're going on a mission, not a honeymoon.
+Dialogue: 0,0:08:39.98,0:08:41.56,Default,,0000,0000,0000,,哦 當然是的 長官\N{\fs12}Yes, of course, sir.
+Dialogue: 0,0:08:42.19,0:08:45.23,Default,,0000,0000,0000,,我想應該是你皮帶上的扣針卡住了我的襯衫 長官？\N{\fs12}I think it's the pin of your buckle, sir. It's caught on my jumper.
+Dialogue: 0,0:08:45.32,0:08:46.67,Default,,0000,0000,0000,,安啦 我看得出哪裡出了問題 鮑夫\N{\fs12}Yes, I can see what's wrong, bough.
+Dialogue: 0,0:08:46.70,0:08:49.86,Default,,0000,0000,0000,,如果你往左邊動 我往右邊\N{\fs12}If you go to your left and I'll go to my right.
+Dialogue: 0,0:08:51.24,0:08:54.49,Default,,0000,0000,0000,,抱歉 不對 如果你走你的右邊 我走我的左邊\N{\fs12}I'm sorry, no, if you go to your right and I'll go to my left.
+Dialogue: 0,0:08:56.54,0:09:00.08,Default,,0000,0000,0000,,也不對 如果我順時針轉身 你逆時針轉\N{\fs12}No. If I go clockwise and you go anti-clockwise...
+Dialogue: 0,0:09:01.04,0:09:02.61,Default,,0000,0000,0000,,呃 不 我覺得這好像更弄不開了 長官\N{\fs12}Er, no, I think that's making it worse, sir.
+Dialogue: 0,0:09:02.63,0:09:05.04,Default,,0000,0000,0000,,唔... 我真意外這竟然不管用...\N{\fs12}Hmm. I'm surprised that didn't work.
+Dialogue: 0,0:09:10.30,0:09:13.47,Default,,0000,0000,0000,,早安 先生 我準備好了您的特工通信裝備\N{\fs12}Good morning, sir. I have your agent activation pack here.
+Dialogue: 0,0:09:14.02,0:09:15.68,Default,,0000,0000,0000,,內部生產的專用智能手機\N{\fs12}Department-issue smartphone.
+Dialogue: 0,0:09:15.77,0:09:20.06,Default,,0000,0000,0000,,　　　　　　　　　　　　　\N５８０萬像素４．７寸高清屏\N{\fs12}580-megapixel camera, 4.7-inch retina hd display.
+Dialogue: 0,0:09:20.15,0:09:25.14,Default,,0000,0000,0000,,哼哼 挺巧妙 所以說它能發射出什麼？毒飛鏢？\N{\fs12}Hmm-hmm. Ingenious. And what does it shoot? Poison darts?
+Dialogue: 0,0:09:25.78,0:09:29.49,Default,,0000,0000,0000,,它...不能發射任何東西 就是部手機\N{\fs12}It doesn't shoot anything. It's a phone.
+Dialogue: 0,0:09:30.07,0:09:31.98,Default,,0000,0000,0000,,上面有 Twitter 和 Instagram\N{\fs12}There's a Twitter handle, instagram feed
+Dialogue: 0,0:09:32.08,0:09:34.07,Default,,0000,0000,0000,,Uber 優步 海外的滴滴打車 始創於美國硅谷
+Dialogue: 0,0:09:32.08,0:09:34.07,Default,,0000,0000,0000,,以及支持安全登錄的 部門專用 Uber賬戶\N{\fs12}and secure login for the department uber account.
+Dialogue: 0,0:09:34.16,0:09:35.20,Default,,0000,0000,0000,,他在搞什麼 鮑夫？\N{\fs12}What's he on about, bough?
+Dialogue: 0,0:09:35.25,0:09:37.50,Default,,0000,0000,0000,,我需要一件武器 不是一連串的不實用的官腔廢話\N{\fs12}I need a weapon. Not a box of gobbledygook.
+Dialogue: 0,0:09:37.60,0:09:40.00,Default,,0000,0000,0000,,我想... 呃，英格力士特工想嘗試說的重點是...\N{\fs12}I think, uh, what agent English is getting at
+Dialogue: 0,0:09:40.10,0:09:42.29,Default,,0000,0000,0000,,長官 所有這些程序都是高度可追蹤的信息源\N{\fs12}Sir, is all this is highly trackable.
+Dialogue: 0,0:09:42.59,0:09:45.95,Default,,0000,0000,0000,,因為我們面對的是一個非常複雜的數字目標...\N{\fs12}But since we're dealing with a very sophisticated, digital target,
+Dialogue: 0,0:09:46.05,0:09:50.63,Default,,0000,0000,0000,,所以我們可能需要採取更低調、低科技的方法來避免被注意到\N{\fs12}We might be less visible if we took a more analog, low-tech approach.
+Dialogue: 0,0:09:52.30,0:09:53.38,Default,,0000,0000,0000,,正是如此\N{\fs12}Exactly.
+Dialogue: 0,0:09:54.81,0:09:56.14,Default,,0000,0000,0000,,我明白了\N{\fs12}I see.
+Dialogue: 0,0:09:56.68,0:09:58.47,Default,,0000,0000,0000,,啊 那有什麼我可以幫你提供的嗎？\N{\fs12}Ahh, Is there anything else I can get you?
+Dialogue: 0,0:09:58.89,0:10:00.23,Default,,0000,0000,0000,,一把槍\N{\fs12}A gun.
+Dialogue: 0,0:10:01.77,0:10:05.94,Default,,0000,0000,0000,,我們...已經不再生產槍支了\N{\fs12}We don't really do guns anymore.
+Dialogue: 0,0:10:06.32,0:10:07.90,Default,,0000,0000,0000,,只是 給他把槍\N{\fs12}Just get him a gun.
+Dialogue: 0,0:10:08.32,0:10:09.61,Default,,0000,0000,0000,,好吧 槍槍\N{\fs12}Right, a gun.
+Dialogue: 0,0:10:16.24,0:10:19.33,Default,,0000,0000,0000,,好吧 實際上第一次拿出這個\N{\fs12}Right. Haven't actually done one of these before.
+Dialogue: 0,0:10:20.80,0:10:24.56,Default,,0000,0000,0000,,「根據健康和安全指示第14條 我有義務告知您——\N{\fs12}"It is my obligation under section 14 of the health and safety directive to inform you
+Dialogue: 0,0:10:24.59,0:10:29.25,Default,,0000,0000,0000,,你將使用的設備可能會造成創傷和肢體傷害...」\N{\fs12}"that the equipment with which you are about to be issued can cause injury and bodily harm.
+Dialogue: 0,0:10:33.18,0:10:37.07,Default,,0000,0000,0000,,「更多需要注意的是 任何對堅果過敏的特工都應該知道追蹤嫁棗油的痕跡...」\N{\fs12}"Furthermore, any agents with nut allergies should be aware that traces of cashew oil..."
+Dialogue: 0,0:10:37.10,0:10:38.43,Default,,0000,0000,0000,,謝謝你\N{\fs12}Thank you.
+Dialogue: 0,0:10:41.06,0:10:42.47,Default,,0000,0000,0000,,好吧 交通工具\N{\fs12}Right, transport.
+Dialogue: 0,0:10:46.27,0:10:48.31,Default,,0000,0000,0000,,所以 選輛你想開的吧\N{\fs12}So, take any hybrid you want.
+Dialogue: 0,0:11:04.21,0:11:05.45,Default,,0000,0000,0000,,就是她啦\N{\fs12}I'll take this one.
+Dialogue: 0,0:11:05.71,0:11:08.75,Default,,0000,0000,0000,,哦 別開玩笑了 英格力士 這輛是古董紀念品\N{\fs12}Oh, don't be ridiculous, English. This car is a relic.
+Dialogue: 0,0:11:08.84,0:11:11.63,Default,,0000,0000,0000,,喝汽油 漏燃油 連被動安全裝置都沒...\N{\fs12}Drinks petrol, leaks oil and has no passive,
+Dialogue: 0,0:11:11.72,0:11:13.38,Default,,0000,0000,0000,,更別提主動安全了\N{\fs12}let alone active safety features.
+Dialogue: 0,0:11:13.59,0:11:15.07,Default,,0000,0000,0000,,你知道這輛車還缺少什麼嗎 長官？\N{\fs12}Do you know what else it doesn't have, sir?
+Dialogue: 0,0:11:15.10,0:11:17.84,Default,,0000,0000,0000,,它也沒搭載衛星導航和電腦芯片\N{\fs12}Satellite navigation or a single computer chip.
+Dialogue: 0,0:11:17.93,0:11:21.17,Default,,0000,0000,0000,,這讓它在數字敵人面前完全隱形\N{\fs12}Making it completely invisible to a digital enemy.
+Dialogue: 0,0:11:23.19,0:11:25.27,Default,,0000,0000,0000,,英格力士特工要求的裝備拿來了 長官\N{\fs12}The equipment agent English requested, sir.
+Dialogue: 0,0:11:25.36,0:11:26.56,Default,,0000,0000,0000,,謝啦\N{\fs12}Thank you.
+Dialogue: 0,0:11:27.69,0:11:29.48,Default,,0000,0000,0000,,- 手機鮑夫？\N- 好的　　　\N{\fs12}- Phone, bough? - Yeah.
+Dialogue: 0,0:11:32.65,0:11:35.86,Default,,0000,0000,0000,,那高科技惡棍永遠看不到我們接近他...\N{\fs12}That hi-tech villain of yours will never see us coming.
+Dialogue: 0,0:11:35.86,0:11:37.86,Default,,0000,0000,0000,,
+Dialogue: 0,0:11:37.86,0:11:39.86,Default,,0000,0000,0000,,
+Dialogue: 0,0:11:53.38,0:11:55.21,Default,,0000,0000,0000,,讓我們來看看都有什麼\N{\fs12}Let's see what they've given us.
+Dialogue: 0,0:11:55.93,0:12:00.64,Default,,0000,0000,0000,,外骨骼裝備 爆炸棉簽 充氣式舊鞋盒\N{\fs12}Exoskeleton, exploding cotton buds, the old shoebox inflatable.
+Dialogue: 0,0:12:00.72,0:12:01.93,Default,,0000,0000,0000,,嗯哼\N{\fs12}Hmm.
+Dialogue: 0,0:12:02.89,0:12:07.26,Default,,0000,0000,0000,,- 哦這是什麼？　　　　　\N- 瞬間釋放超高能量的藥片\N{\fs12}- Ooh, what are these? - Instant release super high energy pills.
+Dialogue: 0,0:12:07.48,0:12:11.60,Default,,0000,0000,0000,,未成年觀眾 注意這是電影 別做傻事
+Dialogue: 0,0:12:07.48,0:12:11.60,Default,,0000,0000,0000,,就像把手指插到電源插座裡 高度推薦\N{\fs12}Like sticking your fingers in an electric socket. Highly recommended.
+Dialogue: 0,0:12:12.53,0:12:15.64,Default,,0000,0000,0000,,好吧 所以這紅色的一定是令人昏睡的強力安眠藥\N{\fs12}Right, so, the red ones must be the total knockout sleeping pills.
+Dialogue: 0,0:12:15.78,0:12:16.86,Default,,0000,0000,0000,,對啦\N{\fs12}Correct.
+Dialogue: 0,0:12:16.95,0:12:19.23,Default,,0000,0000,0000,,唔... 可能還是貼上標籤比較好\N{\fs12}Hmm. Probably worth labeling these.
+Dialogue: 0,0:12:19.33,0:12:20.36,Default,,0000,0000,0000,,哦\N{\fs12}Oh.
+Dialogue: 0,0:12:20.45,0:12:22.86,Default,,0000,0000,0000,,看啊 長官 還有小糖果\N{\fs12}Look, sir. Sweeties.
+Dialogue: 0,0:12:23.87,0:12:24.95,Default,,0000,0000,0000,,哦嗚~\N{\fs12}Ooh.
+Dialogue: 0,0:12:25.50,0:12:27.24,Default,,0000,0000,0000,,讓我嘗嘗\N{\fs12}Hang on a minute.
+Dialogue: 0,0:12:27.38,0:12:29.21,Default,,0000,0000,0000,,我一直很喜愛這些果凍軟糖\N{\fs12}I always did love a jelly baby.
+Dialogue: 0,0:12:29.29,0:12:32.38,Default,,0000,0000,0000,,我可不喜歡 鮑夫 果凍是凝膠炸藥的縮寫\N{\fs12}I wouldn't if I was you, bough. "Jelly" is short for gelignite.
+Dialogue: 0,0:12:32.46,0:12:34.23,Default,,0000,0000,0000,,一小口就會轟掉你的頭\N{\fs12}One bite and it'll take the top of your head off
+Dialogue: 0,0:12:34.26,0:12:35.92,Default,,0000,0000,0000,,連同這輛車的車頂一起\N{\fs12}along with the roof of the car.
+Dialogue: 0,0:12:36.51,0:12:38.25,Default,,0000,0000,0000,,所以這些是用來做什麼的？\N{\fs12}So, what does this do?
+Dialogue: 0,0:12:39.51,0:12:41.38,Default,,0000,0000,0000,,只是卷磁帶 鮑夫\N{\fs12}It's a mixtape, bough.
+Dialogue: 0,0:12:41.38,0:12:43.38,Default,,0000,0000,0000,,
+Dialogue: 0,0:12:43.38,0:12:45.38,Default,,0000,0000,0000,,
+Dialogue: 0,0:12:45.90,0:12:48.47,Default,,0000,0000,0000,,- 所以目的地是？\N- 法國南部長官　\N{\fs12}- So, destination? - South of France, sir.
+Dialogue: 0,0:12:48.60,0:12:53.11,Default,,0000,0000,0000,,那次網絡攻擊似乎是從一家旅館的Wi-Fi信號發出\N{\fs12}That cyber attack seems to have been launched from the Wi-Fi signal of a hotel in antibes.
+Dialogue: 0,0:13:05.60,0:13:07.50,Default,,0000,0000,0000,,Initial D！
+Dialogue: 0,0:13:37.86,0:13:41.15,Default,,0000,0000,0000,,長官 我剛從總部收到一份傳真\N{\fs12}Sir? Sir, I've just had a fax through from hq.
+Dialogue: 0,0:13:41.57,0:13:44.69,Default,,0000,0000,0000,,調查旅館裡所有使用Wi-Fi 的旅客背景身份\N{\fs12}Background checks on all the guests that accessed the Wi-Fi network.
+Dialogue: 0,0:13:44.79,0:13:46.90,Default,,0000,0000,0000,,你瞧 誰需要用電子郵件？\N{\fs12}You see? Who needs email?
+Dialogue: 0,0:13:52.67,0:13:53.91,Default,,0000,0000,0000,,呃...\N{\fs12}Um...
+Dialogue: 0,0:13:54.00,0:13:56.34,Default,,0000,0000,0000,,有個名字被重點標記了 長官\N{\fs12}One name has raised a red flag, sir.
+Dialogue: 0,0:13:57.13,0:14:00.04,Default,,0000,0000,0000,,塞巴斯蒂安·林奇 前陸軍軍事情報人員\N{\fs12}Sebastian lynch, ex-army and military intelligence.
+Dialogue: 0,0:14:00.30,0:14:03.13,Default,,0000,0000,0000,,現在他服務於出價最高的買家\N{\fs12}Now selling his services to the highest bidder.
+Dialogue: 0,0:14:03.43,0:14:06.09,Default,,0000,0000,0000,,- 我們到哪兒才能找到他？\N- 就在你正前方長官　　　\N{\fs12}- Where do we find him? - Directly ahead, sir.
+Dialogue: 0,0:14:07.77,0:14:10.98,Default,,0000,0000,0000,,他預定過 科特迪羅餐廳八點的座位\N{\fs12}He's got an 8:00 reservation at the cote de roc restaurant.
+Dialogue: 0,0:14:21.57,0:14:24.78,Default,,0000,0000,0000,,問題在於如何接近 進行全面監測 長官\N{\fs12}The problem's going to be getting close enough for a full surveillance, sir.
+Dialogue: 0,0:14:25.03,0:14:26.95,Default,,0000,0000,0000,,不一定非要如此\N{\fs12}Not necessarily.
+Dialogue: 0,0:14:26.95,0:14:28.95,Default,,0000,0000,0000,,
+Dialogue: 0,0:14:28.95,0:14:30.95,Default,,0000,0000,0000,,
+Dialogue: 0,0:14:47.43,0:14:51.57,Default,,0000,0000,0000,,計劃簡單 一共兩步 你分散注意力 我去拿手機\N{\fs12}Simple plan, two parts. You provide the distraction, I'll get the phone.
+Dialogue: 0,0:14:52.00,0:14:53.99,Default,,0000,0000,0000,,- 好的長官　　　\N- 以及從現在開始\N{\fs12}- Yes, sir. - And from now on,
+Dialogue: 0,0:14:54.56,0:14:59.32,Default,,0000,0000,0000,,或許我們該裝作法國服務員的口音\N{\fs12}perhaps we should sound like French waiters.
+Dialogue: 0,0:15:01.20,0:15:02.86,Default,,0000,0000,0000,,法果腔？\N{\fs12}French waiters?
+Dialogue: 0,0:15:03.95,0:15:04.99,Default,,0000,0000,0000,,似的\N{\fs12}Yees.
+Dialogue: 0,0:15:06.74,0:15:07.70,Default,,0000,0000,0000,,上吧\N{\fs12}Go on.
+Dialogue: 0,0:15:13.67,0:15:15.00,Default,,0000,0000,0000,,你現在忙完了嗎？\N{\fs12}Are you finished now?
+Dialogue: 0,0:15:17.00,0:15:18.29,Default,,0000,0000,0000,,麵包圈？\N{\fs12}Bread roll?
+Dialogue: 0,0:15:18.76,0:15:19.64,Default,,0000,0000,0000,,好的 多謝\N{\fs12}Yes, thank you.
+Dialogue: 0,0:15:20.22,0:15:21.97,Default,,0000,0000,0000,,出色的選擇 女士\N{\fs12}Excellent choice, madame.
+Dialogue: 0,0:15:23.64,0:15:24.85,Default,,0000,0000,0000,,晚上嚎\N{\fs12}Good evening.
+Dialogue: 0,0:15:25.64,0:15:27.02,Default,,0000,0000,0000,,泥們孩好吧？\N{\fs12}How are you?
+Dialogue: 0,0:15:29.02,0:15:30.31,Default,,0000,0000,0000,,要麵包圈嗎 先生？\N{\fs12}Bread roll, sir?
+Dialogue: 0,0:15:30.64,0:15:31.85,Default,,0000,0000,0000,,好的 謝謝\N{\fs12}Yes. Thank you.
+Dialogue: 0,0:15:37.07,0:15:38.15,Default,,0000,0000,0000,,再等一下\N{\fs12}One second.
+Dialogue: 0,0:15:38.65,0:15:40.36,Default,,0000,0000,0000,,不好意思 能否麻煩？\N{\fs12}Excuse me, would you mind?
+Dialogue: 0,0:15:41.40,0:15:43.41,Default,,0000,0000,0000,,哦 好滴 晚上嚎\N{\fs12}Oh, yes. Evening.
+Dialogue: 0,0:15:44.20,0:15:45.08,Default,,0000,0000,0000,,月色真美\N{\fs12}Evening.
+Dialogue: 0,0:15:59.63,0:16:00.76,Default,,0000,0000,0000,,蟹蟹\N{\fs12}Thank you.
+Dialogue: 0,0:16:15.23,0:16:16.19,Default,,0000,0000,0000,,我手機呢？\N{\fs12}Where's my phone?
+Dialogue: 0,0:16:18.06,0:16:19.23,Default,,0000,0000,0000,,在那兒呢\N{\fs12}That is your phone.
+Dialogue: 0,0:16:21.53,0:16:23.16,Default,,0000,0000,0000,,哦嗚\N{\fs12}Ooh.
+Dialogue: 0,0:16:28.03,0:16:28.83,Default,,0000,0000,0000,,謝謝\N{\fs12}Thank you.
+Dialogue: 0,0:16:30.33,0:16:31.16,Default,,0000,0000,0000,,這位先生！\N{\fs12}Monsieur.
+Dialogue: 0,0:16:32.54,0:16:35.63,Default,,0000,0000,0000,,那個... 能請你幫我去掉我妻子的龍蝦殼嗎？\N{\fs12}The, uh, shell on my wife's lobster, could you remove it, please?
+Dialogue: 0,0:16:38.04,0:16:39.00,Default,,0000,0000,0000,,好滴\N{\fs12}Yees.
+Dialogue: 0,0:16:40.00,0:16:41.71,Default,,0000,0000,0000,,呃... 恩姆...\N{\fs12}Uh... um...
+Dialogue: 0,0:16:42.17,0:16:43.13,Default,,0000,0000,0000,,哼嗯...\N{\fs12}Hmm.
+Dialogue: 0,0:16:47.34,0:16:49.43,Default,,0000,0000,0000,,讓我幫泥砸開吧\N{\fs12}Let me crack it for you.
+Dialogue: 0,0:17:03.48,0:17:06.57,Default,,0000,0000,0000,,這是當年憨豆在法國餐廳 被吃掉那只龍蝦的復仇嗎www
+Dialogue: 0,0:17:03.48,0:17:04.62,Default,,0000,0000,0000,,噢！哦！\N{\fs12}Ow! Oh!
+Dialogue: 0,0:17:05.61,0:17:06.57,Default,,0000,0000,0000,,噢嗚！\N{\fs12}Owl
+Dialogue: 0,0:17:38.23,0:17:39.19,Default,,0000,0000,0000,,你好？\N{\fs12}hello?
+Dialogue: 0,0:17:54.74,0:17:56.58,Default,,0000,0000,0000,,塞巴斯蒂安 別摻和\N{\fs12}Sebastian, don't get involved.
+Dialogue: 0,0:18:00.12,0:18:01.26,Default,,0000,0000,0000,,哈\N{\fs12}Ah.
+Dialogue: 0,0:18:13.05,0:18:14.06,Default,,0000,0000,0000,,噠噠~\N{\fs12}Voila.
+Dialogue: 0,0:18:21.65,0:18:23.69,Default,,0000,0000,0000,,嗯... 祝您好胃口\N{\fs12}Hmm. Bon appetit.
+Dialogue: 0,0:18:39.33,0:18:41.21,Default,,0000,0000,0000,,簡直完美 鮑夫~\N{\fs12}Textbook, bough.
+Dialogue: 0,0:18:45.88,0:18:47.51,Default,,0000,0000,0000,,只是些假期照片 長官\N{\fs12}Just holiday snaps, sir.
+Dialogue: 0,0:18:48.92,0:18:50.63,Default,,0000,0000,0000,,等一下 這照片\N{\fs12}Wait a minute, this photo.
+Dialogue: 0,0:18:51.09,0:18:54.73,Default,,0000,0000,0000,,是敵人接入Wi-Fi 攻擊我們的那天 還有看\N{\fs12}It was taken the same day our villain accessed the Wi-Fi, and look.
+Dialogue: 0,0:18:59.35,0:19:00.80,Default,,0000,0000,0000,,無論誰在那艘遊艇上\N{\fs12}Whoever was on that yacht
+Dialogue: 0,0:19:01.30,0:19:06.61,Default,,0000,0000,0000,,都可以輕鬆地使用旅館Wi-Fi 發出那個信號 然後乘船離開\N{\fs12}could easily have used the hotel's Wi-Fi, sent that signal and then just sailed away.
+Dialogue: 0,0:19:07.36,0:19:11.82,Default,,0000,0000,0000,,我想現在是我們付費參觀 Dot CALM號的時候了\N{\fs12}I think it's time we paid the Dot CALM a visit.
+Dialogue: 0,0:19:11.82,0:19:13.82,Default,,0000,0000,0000,,
+Dialogue: 0,0:19:13.82,0:19:15.82,Default,,0000,0000,0000,,
+Dialogue: 0,0:19:24.75,0:19:25.55,Default,,0000,0000,0000,,運算程序\N{\fs12}Algorithms.
+Dialogue: 0,0:19:25.84,0:19:27.84,Default,,0000,0000,0000,,我們的身邊無處不在\N{\fs12}We are surrounded by them.
+Dialogue: 0,0:19:28.13,0:19:30.09,Default,,0000,0000,0000,,運算程序推動著我們的生活\N{\fs12}Algorithms run our lives,
+Dialogue: 0,0:19:30.38,0:19:34.64,Default,,0000,0000,0000,,選擇電視節目 播放喜愛音樂 甚至幫我們找到一個約會\N{\fs12}choose our TV shows, stream our music. Even find us a date.
+Dialogue: 0,0:19:36.89,0:19:38.43,Default,,0000,0000,0000,,我好像認識這傢伙 不是嗎？\N{\fs12}I know this chap, don't I?
+Dialogue: 0,0:19:38.76,0:19:41.81,Default,,0000,0000,0000,,沒錯 他就是那個和卡戴珊約會的硅谷億萬富翁\N{\fs12}Yes, he's that silicon valley billionaire who dated a Kardashian.
+Dialogue: 0,0:19:42.10,0:19:44.61,Default,,0000,0000,0000,,兩位卡戴珊姐妹 還有黑眼豆豆女主唱 閉嘴好好看\N{\fs12}Two Kardashians and a black-eyed pea. Keep watching.
+Dialogue: 0,0:19:44.98,0:19:48.02,Default,,0000,0000,0000,,但讓我們假設有個針對於整個國家的運算程序\N{\fs12}But supposing there was an algorithm for an entire country.
+Dialogue: 0,0:19:48.32,0:19:51.70,Default,,0000,0000,0000,,一個應用於每個人自身問題的運算程序\N{\fs12}A single algorithm that could be applied to every one of its problems.
+Dialogue: 0,0:19:52.15,0:19:56.50,Default,,0000,0000,0000,,　　　　　　　　　　　　　　　　　\N一個運算程序可以讓平庸國家變得——\N{\fs12}A single algorithm that could take a second-rate nation and make it
+Dialogue: 0,0:19:56.87,0:19:58.53,Default,,0000,0000,0000,,世界一流\N{\fs12}world class.
+Dialogue: 0,0:20:00.08,0:20:02.29,Default,,0000,0000,0000,,每個國家都數據氾濫\N{\fs12}Every nation is awash with data.
+Dialogue: 0,0:20:03.21,0:20:07.63,Default,,0000,0000,0000,,所以現在 我們比任何時候都需要將這些數據 用於為人們服務\N{\fs12}So now, more than ever, we need to put that data to work for the people.
+Dialogue: 0,0:20:08.34,0:20:11.00,Default,,0000,0000,0000,,這幾行代碼就能帶來那種改變\N{\fs12}These few lines of code will deliver the kind of change
+Dialogue: 0,0:20:11.34,0:20:13.88,Default,,0000,0000,0000,,是他們長久以來 一生所夢想的\N{\fs12}they have been dreaming of their entire lives.
+Dialogue: 0,0:20:14.22,0:20:17.05,Default,,0000,0000,0000,,我是 Xander 我熱愛數據\N{\fs12}I am Xander. I love data.
+Dialogue: 0,0:20:20.47,0:20:22.01,Default,,0000,0000,0000,,他真他喵聰明\N{\fs12}He's so clever.
+Dialogue: 0,0:20:24.00,0:20:25.06,Default,,0000,0000,0000,,喬布斯：Excuse 喵？
+Dialogue: 0,0:20:22.35,0:20:25.06,Default,,0000,0000,0000,,他年輕 性感 他取得了非同凡響的成功！\N{\fs12}He's young, he's sexy, he's insanely successful!
+Dialogue: 0,0:20:25.39,0:20:28.15,Default,,0000,0000,0000,,這正是我需要人們與我 交流合作所需要的品質！\N{\fs12}Just the qualities we need people to associate with me!
+Dialogue: 0,0:20:29.69,0:20:30.53,Default,,0000,0000,0000,,好吧 首相大人\N{\fs12}Yes, prime minister.
+Dialogue: 0,0:20:30.86,0:20:33.15,Default,,0000,0000,0000,,人們會變成那樣 等他開始過來和我們一同工作時\N{\fs12}And they will do when he starts working with us.
+Dialogue: 0,0:20:33.49,0:20:35.87,Default,,0000,0000,0000,,但為什麼硅谷的億萬富翁會和我們一起工作？\N{\fs12}But why would a silicon valley billionaire work with us?
+Dialogue: 0,0:20:36.20,0:20:38.70,Default,,0000,0000,0000,,你只管把他安排進10號的日程 讓我來搞定他\N{\fs12}Just get him into number 10 and let me work on him.
+Dialogue: 0,0:20:38.99,0:20:40.20,Default,,0000,0000,0000,,- 好的夫人\N- 快去快去\N{\fs12}- Yes, ma'am. - Go on.
+Dialogue: 0,0:20:43.33,0:20:44.37,Default,,0000,0000,0000,,哦 老天 又怎麼了？\N{\fs12}Oh, god, now what?
+Dialogue: 0,0:20:45.12,0:20:46.48,Default,,0000,0000,0000,,又發生了另一次襲擊 首相大人\N{\fs12}There's been another attack, prime minister.
+Dialogue: 0,0:20:46.71,0:20:47.84,Default,,0000,0000,0000,,- 又來！　　　\N- 空中交通管制\N{\fs12}- Oh! - Air traffic control.
+Dialogue: 0,0:20:48.71,0:20:51.38,Default,,0000,0000,0000,,有人把前往歐洲的每場航班都改到盧頓了\N{\fs12}Someone's rerouted every flight in Europe to luton.
+Dialogue: 0,0:20:51.71,0:20:55.43,Default,,0000,0000,0000,,看在上帝份兒上 告訴我你派到這個領域的特工 取得了一些進展！\N{\fs12}For god's sake, tell me the agent you've got in the field is making some progress!
+Dialogue: 0,0:20:55.43,0:20:57.43,Default,,0000,0000,0000,,
+Dialogue: 0,0:20:57.43,0:20:59.43,Default,,0000,0000,0000,,
+Dialogue: 0,0:21:05.30,0:21:07.89,Default,,0000,0000,0000,,所以 我們怎麼才能找到那艘遊艇？長官\N{\fs12}So, how are we gonna find the location of that yacht, sir?
+Dialogue: 0,0:21:08.50,0:21:11.36,Default,,0000,0000,0000,,很簡單 鮑夫 我們給 MI7打電話就行了\N{\fs12}Very easily, bough. We ring MI7.
+Dialogue: 0,0:21:15.82,0:21:18.95,Default,,0000,0000,0000,,你好 你好？是的 我需要一艘船的位置 它叫——\N{\fs12}Hello, hello? Yes, I need the location of a boat called...
+Dialogue: 0,0:21:23.45,0:21:26.42,Default,,0000,0000,0000,,你好？你好 是的 一艘叫 Dot CALM的船\N{\fs12}Hello? Hello, yes. A boat called the Dot CALM.
+Dialogue: 0,0:21:27.33,0:21:29.29,Default,,0000,0000,0000,,對 是個雙關語沒錯\N{\fs12}Yes, it's a play on words. Yeah.
+Dialogue: 0,0:21:29.83,0:21:30.63,Default,,0000,0000,0000,,哪裡？\N{\fs12}Where?
+Dialogue: 0,0:21:37.90,0:21:39.31,Default,,0000,0000,0000,,看上去就在半公里外 長官\N{\fs12}Looks about half a mile out, sir.
+Dialogue: 0,0:21:40.90,0:21:42.59,Default,,0000,0000,0000,,所以我們是游泳去還是...\N{\fs12}Do we wanna try and swim it or...
+Dialogue: 0,0:21:43.10,0:21:46.14,Default,,0000,0000,0000,,不用 鮑夫 這裡該充氣鞋盒出場啦\N{\fs12}No, bough. This is a job for the shoebox inflatable.
+Dialogue: 0,0:21:46.48,0:21:47.89,Default,,0000,0000,0000,,不 別在車裡打開它！長官！\N{\fs12}No, don't open it in the car, sir!
+Dialogue: 0,0:21:54.61,0:21:57.40,Default,,0000,0000,0000,,你那邊能摸到門把手嗎？\N{\fs12}Can you reach your door handle?
+Dialogue: 0,0:22:00.03,0:22:01.41,Default,,0000,0000,0000,,不能 長官\N{\fs12}No, sir.
+Dialogue: 0,0:22:02.12,0:22:04.25,Default,,0000,0000,0000,,我試試我這邊\N{\fs12}I'll try my side.
+Dialogue: 0,0:22:21.84,0:22:25.64,Default,,0000,0000,0000,,好的 鮑夫 我們的目標是在不被察覺的情況下登船\N{\fs12}Right, bough, our aim is to get on board without anyone noticing.
+Dialogue: 0,0:22:26.39,0:22:27.85,Default,,0000,0000,0000,,所以具體怎麼做？\N{\fs12}And how are we gonna do it?
+Dialogue: 0,0:22:28.27,0:22:30.43,Default,,0000,0000,0000,,- 磁力鞋出場\N- 機智長官　\N{\fs12}- Magnetic boots. - Brilliant, sir.
+Dialogue: 0,0:22:31.52,0:22:32.73,Default,,0000,0000,0000,,用法簡單\N{\fs12}Simple mechanism.
+Dialogue: 0,0:22:33.06,0:22:35.98,Default,,0000,0000,0000,,左開關激活左邊鞋子 右開關激活右邊的\N{\fs12}Left switch activates left boot. Right switch activates right.
+Dialogue: 0,0:22:36.90,0:22:38.53,Default,,0000,0000,0000,,好的 行動吧\N{\fs12}Okay, let's go.
+Dialogue: 0,0:22:53.63,0:22:58.92,Default,,0000,0000,0000,,記住 這次任務中最重要因素的是出其不意\N{\fs12}Remember, the absolutely vital element of this mission is surprise.
+Dialogue: 0,0:23:20.82,0:23:24.61,Default,,0000,0000,0000,,除非你起得特別早 才可能勝過英國情報人員\N{\fs12}Now, you have to get up pretty early in the morning to outwit British intelligence.
+Dialogue: 0,0:23:31.00,0:23:31.88,Default,,0000,0000,0000,,行動！\N{\fs12}Quick!
+Dialogue: 0,0:23:39.26,0:23:40.89,Default,,0000,0000,0000,,晚上好 先生們\N{\fs12}Good evening, gentlemen.
+Dialogue: 0,0:23:42.38,0:23:44.17,Default,,0000,0000,0000,,讓我們先從自我介紹開始吧？\N{\fs12}Shall we start with your names?
+Dialogue: 0,0:23:45.51,0:23:48.27,Default,,0000,0000,0000,,顯然你並不清楚自己在和誰打交道\N{\fs12}Clearly you have no idea who you're dealing with.
+Dialogue: 0,0:23:49.47,0:23:51.61,Default,,0000,0000,0000,,所以我才在問你的名字\N{\fs12}That's why I'm starting with your names.
+Dialogue: 0,0:23:52.35,0:23:54.02,Default,,0000,0000,0000,,實際上 你能到下面來嗎？\N{\fs12}Actually, would you mind coming down here?
+Dialogue: 0,0:23:54.35,0:23:56.82,Default,,0000,0000,0000,,這樣真的很難交流\N{\fs12}It's really hard to have a conversation like this.
+Dialogue: 0,0:23:58.40,0:23:59.86,Default,,0000,0000,0000,,我有個更好的想法\N{\fs12}I have a better idea.
+Dialogue: 0,0:23:59.86,0:24:01.86,Default,,0000,0000,0000,,
+Dialogue: 0,0:24:01.86,0:24:03.86,Default,,0000,0000,0000,,
+Dialogue: 0,0:24:07.74,0:24:09.25,Default,,0000,0000,0000,,情況不妙 這門堅若磐石 長官\N{\fs12}It's no good, it won't move, sir.
+Dialogue: 0,0:24:10.24,0:24:11.96,Default,,0000,0000,0000,,我們會弄清楚的\N{\fs12}We'll see about that.
+Dialogue: 0,0:24:12.29,0:24:14.42,Default,,0000,0000,0000,,低強度爆炸棉棒\N{\fs12}Low-intensity exploding cotton bud.
+Dialogue: 0,0:24:18.46,0:24:20.80,Default,,0000,0000,0000,,會不會有點過於火爆了？這裡空間狹小 長官\N{\fs12}That's quite a powerful charge for such a small space, sir.
+Dialogue: 0,0:24:21.09,0:24:22.30,Default,,0000,0000,0000,,哦 想太多\N{\fs12}Oh, nonsense.
+Dialogue: 0,0:24:24.76,0:24:26.72,Default,,0000,0000,0000,,這聲音就像爆米花一樣輕微\N{\fs12}There will just be a slight pop.
+Dialogue: 0,0:24:34.94,0:24:37.65,Default,,0000,0000,0000,,我們要不要去找貨艙 然後搜尋那個信號來源？\N{\fs12}Shall we locate the hold and look for the source of that signal?
+Dialogue: 0,0:24:37.94,0:24:41.73,Default,,0000,0000,0000,,我覺得我們應該去找貨艙！然後搜尋那個信號來源！\N{\fs12}I think we should locate the hold and look for the source of that signal!
+Dialogue: 0,0:24:45.60,0:24:46.30,Default,,0000,0000,0000,,走起！\N{\fs12}Come on!
+Dialogue: 0,0:24:58.33,0:25:00.63,Default,,0000,0000,0000,,我覺得咱們找到那個惡棍了 鮑夫！\N{\fs12}I'd say we have our villain, bough!
+Dialogue: 0,0:25:00.96,0:25:02.92,Default,,0000,0000,0000,,你需要小點聲 長官！\N{\fs12}You need to keep your voice down, sir.
+Dialogue: 0,0:25:04.01,0:25:05.80,Default,,0000,0000,0000,,還有我們絕不會讓他溜走\N{\fs12}And we're not going to lose him.
+Dialogue: 0,0:25:19.52,0:25:21.56,Default,,0000,0000,0000,,把果露泉給我\N{\fs12}Hand me the sherbet fountain.
+Dialogue: 0,0:25:24.28,0:25:27.07,Default,,0000,0000,0000,,吸三下 位置發送器就會激活\N{\fs12}Three sucks and the location transmitter is activated.
+Dialogue: 0,0:25:27.36,0:25:31.16,Default,,0000,0000,0000,,「杜松子酒店」將從3萬英尺的高空中 以充滿敵意的姿態出現\N{\fs12}This gin palace will show up as a hostile from 30,000 feet.
+Dialogue: 0,0:25:31.70,0:25:32.54,Default,,0000,0000,0000,,哇哦\N{\fs12}Hmm.
+Dialogue: 0,0:25:39.63,0:25:42.26,Default,,0000,0000,0000,,這下敵人就成了活靶子\N{\fs12}This is now an enemy target.
+Dialogue: 0,0:25:47.88,0:25:49.34,Default,,0000,0000,0000,,麥麗素何在？\N{\fs12}Aniseed balls.
+Dialogue: 0,0:26:04.65,0:26:07.69,Default,,0000,0000,0000,,如果你想殺我 那麼你已經動手了\N{\fs12}If you'd wanted to kill me, you would have already done so.
+Dialogue: 0,0:26:11.32,0:26:12.95,Default,,0000,0000,0000,,後會有期\N{\fs12}Till we meet again.
+Dialogue: 0,0:26:21.29,0:26:22.25,Default,,0000,0000,0000,,噢\N{\fs12}Owl
+Dialogue: 0,0:26:27.05,0:26:29.13,Default,,0000,0000,0000,,好吧 這真是比我預期的還快\N{\fs12}Well, that was sooner than I expected.
+Dialogue: 0,0:26:33.18,0:26:36.06,Default,,0000,0000,0000,,噢 噢 噢...\N{\fs12}Ow, ow, ow, ow, ow.
+Dialogue: 0,0:26:39.81,0:26:41.48,Default,,0000,0000,0000,,你覺得她是誰 長官？\N{\fs12}Who do you think she is, sir?
+Dialogue: 0,0:26:41.77,0:26:44.23,Default,,0000,0000,0000,,這個嘛 如果她不是那艘船的主人\N{\fs12}Well, if she's not the owner of that yacht,
+Dialogue: 0,0:26:44.52,0:26:45.90,Default,,0000,0000,0000,,那她一定知道那船是誰的\N{\fs12}then she knows who is.
+Dialogue: 0,0:26:47.11,0:26:49.40,Default,,0000,0000,0000,,不論哪種 她是這次事件的關鍵\N{\fs12}Either way, she's the key to this case.
+Dialogue: 0,0:26:51.95,0:26:54.78,Default,,0000,0000,0000,,在這次事件發生之前 你在教書嗎 長官？\N{\fs12}Is it true you were teaching, sir? Before all this blew up?
+Dialogue: 0,0:26:56.29,0:26:58.33,Default,,0000,0000,0000,,如果「教書」你指的是...\N{\fs12}If by "teaching" you mean
+Dialogue: 0,0:26:58.66,0:27:03.42,Default,,0000,0000,0000,,尋找有潛力的諜報人才 那麼是的 我在「教書」\N{\fs12}scouting for potential intelligence operatives then yes, I was.
+Dialogue: 0,0:27:03.71,0:27:04.59,Default,,0000,0000,0000,,這樣\N{\fs12}Hmm.
+Dialogue: 0,0:27:04.88,0:27:09.34,Default,,0000,0000,0000,,實際上 我已經結婚了 長官 不知你聽說了沒\N{\fs12}I actually got married, sir. I don't know if you heard.
+Dialogue: 0,0:27:11.43,0:27:12.23,Default,,0000,0000,0000,,沒\N{\fs12}No.
+Dialogue: 0,0:27:12.80,0:27:13.93,Default,,0000,0000,0000,,好吧\N{\fs12}Hmm.
+Dialogue: 0,0:27:14.35,0:27:15.73,Default,,0000,0000,0000,,她叫 麗迪雅\N{\fs12}Yeah, Lydia.
+Dialogue: 0,0:27:16.01,0:27:16.85,Default,,0000,0000,0000,,可愛的女孩\N{\fs12}Lovely girl.
+Dialogue: 0,0:27:20.81,0:27:23.27,Default,,0000,0000,0000,,你從沒想過自己結婚的事嗎？長官\N{\fs12}You never think about getting hitched yourself, sir?
+Dialogue: 0,0:27:24.73,0:27:29.02,Default,,0000,0000,0000,,已婚男人沒有生活可言 鮑夫 伴隨危險、持續不斷旅行的生活...\N{\fs12}This is no life for a married man, bough. The danger, the constant travel.
+Dialogue: 0,0:27:29.32,0:27:30.20,Default,,0000,0000,0000,,給您 先生\N{\fs12}Here you go, sir.
+Dialogue: 0,0:27:30.49,0:27:32.28,Default,,0000,0000,0000,,麗迪雅在我的生活中更重要 長官\N{\fs12}More Lydia's life than mine, sir.
+Dialogue: 0,0:27:33.95,0:27:35.03,Default,,0000,0000,0000,,她在海軍\N{\fs12}She's in the Navy, you see.
+Dialogue: 0,0:27:36.20,0:27:37.16,Default,,0000,0000,0000,,做什麼 是廚師嗎？\N{\fs12}What, as a cook?
+Dialogue: 0,0:27:38.20,0:27:41.21,Default,,0000,0000,0000,,還是某種海航秘書或是什麼的？...\N{\fs12}Or some kind of seagoing secretary or...
+Dialogue: 0,0:27:41.50,0:27:44.16,Default,,0000,0000,0000,,哦不 長官 她是核潛艇的長官\N{\fs12}Oh, no, sir. She's the captain of a nuclear submarine.
+Dialogue: 0,0:27:45.71,0:27:46.84,Default,,0000,0000,0000,,哦 這樣啊\N{\fs12}Oh, right. Hmm.
+Dialogue: 0,0:27:49.46,0:27:52.01,Default,,0000,0000,0000,,你覺得我們該給那輛紅色阿斯頓加點油嗎？\N{\fs12}Do you think we should get some petrol for the Aston, sir?
+Dialogue: 0,0:27:53.68,0:27:57.72,Default,,0000,0000,0000,,安啦 阿斯頓馬丁意外地非常經濟 鮑夫\N{\fs12}No. An Aston Martin is surprisingly economical, bough.
+Dialogue: 0,0:27:59.97,0:28:02.77,Default,,0000,0000,0000,,此外 看來我們有客人到了\N{\fs12}Besides, it looks like we're in business.
+Dialogue: 0,0:28:17.03,0:28:17.99,Default,,0000,0000,0000,,動身吧\N{\fs12}Come on.
+Dialogue: 0,0:28:17.99,0:28:19.99,Default,,0000,0000,0000,,
+Dialogue: 0,0:28:19.99,0:28:21.99,Default,,0000,0000,0000,,
+Dialogue: 0,0:28:25.42,0:28:27.17,Default,,0000,0000,0000,,看起來像是輛電動的車\N{\fs12}Looks like an electric car, sir.
+Dialogue: 0,0:28:27.46,0:28:29.72,Default,,0000,0000,0000,,是啊 發動機聲音聽上去跟鼻毛修剪器一樣\N{\fs12}Yes, and sounds like a nose hair trimmer.
+Dialogue: 0,0:28:32.05,0:28:36.13,Default,,0000,0000,0000,,　　　　　　　　　　　　　　　　　　　　　　\N一堆３Ａ電池不可能是經典款式的英國馬力對手！\N{\fs12}A bunch of triple-a batteries is no match for old-fashioned British horsepower.
+Dialogue: 0,0:28:57.87,0:29:01.03,Default,,0000,0000,0000,,看看她的過彎 看上去很輕鬆不是嗎？長官\N{\fs12}Look at her cornering. Seems so effortless, doesn't it, sir?
+Dialogue: 0,0:29:42.28,0:29:43.20,Default,,0000,0000,0000,,什麼？\N{\fs12}The what?
+Dialogue: 0,0:29:43.49,0:29:45.54,Default,,0000,0000,0000,,我說導彈 鮑夫 那個搭載有催淚彈頭的\N{\fs12}The missile, bough, the one with the tear gas warhead.
+Dialogue: 0,0:29:45.83,0:29:48.17,Default,,0000,0000,0000,,但他們只是自行車選手 長官 我們等一會兒就過去了\N{\fs12}But they're just cyclists, sir. We'll get past in a minute.
+Dialogue: 0,0:29:48.46,0:29:49.50,Default,,0000,0000,0000,,他們是法國選手 鮑夫\N{\fs12}They're French cyclists, bough,
+Dialogue: 0,0:29:49.75,0:29:52.26,Default,,0000,0000,0000,,還有他們妨礙了女王陛下的特工任務\N{\fs12}and they're obstructing her majesty's secret service.
+Dialogue: 0,0:30:00.30,0:30:01.43,Default,,0000,0000,0000,,雨刷已武裝 長官\N{\fs12}Wiper stalk is armed, sir.
+Dialogue: 0,0:30:10.94,0:30:11.74,Default,,0000,0000,0000,,抱歉\N{\fs12}Sorry.
+Dialogue: 0,0:30:12.40,0:30:14.48,Default,,0000,0000,0000,,非常抱歉 深感歉意\N{\fs12}Terribly sorry. We do apologize.
+Dialogue: 0,0:30:14.82,0:30:16.78,Default,,0000,0000,0000,,別說了 鮑夫 你應該鼓勵他們\N{\fs12}Stop it, bough, you'll only encourage them.
+Dialogue: 0,0:30:32.50,0:30:34.96,Default,,0000,0000,0000,,- 我們現在怎麼辦長官？\N- 耐心點鮑夫　　　　　\N{\fs12} - What are we gonna do now, sir? - Patience, bough.
+Dialogue: 0,0:30:35.71,0:30:38.60,Default,,0000,0000,0000,,開那麼快 她的電池隨時都會沒電\N{\fs12}Driving like that, her battery will be dead any moment.
+Dialogue: 0,0:30:38.76,0:30:41.80,Default,,0000,0000,0000,,然後她就會尷尬地停下\N{\fs12}And she'll roll to a humiliating stop.
+Dialogue: 0,0:31:01.28,0:31:04.66,Default,,0000,0000,0000,,鮑夫 保持車裡有油是你的工作\N{\fs12}Bough, it is your job to keep an eye on the fuel Gauge.
+Dialogue: 0,0:31:12.54,0:31:14.50,Default,,0000,0000,0000,,真是令人驚艷的車技 請問閣下是...\N{\fs12}Very impressive driving, Mr...
+Dialogue: 0,0:31:16.42,0:31:17.30,Default,,0000,0000,0000,,戈萊特利\N{\fs12}Golightly.
+Dialogue: 0,0:31:18.55,0:31:20.46,Default,,0000,0000,0000,,巴茲爾·戈萊特利\N{\fs12}Basil golightly.
+Dialogue: 0,0:31:23.05,0:31:25.47,Default,,0000,0000,0000,,你也表現得不錯 小姐貴姓...\N{\fs12}And you're rather useful yourself, miss...
+Dialogue: 0,0:31:26.35,0:31:29.18,Default,,0000,0000,0000,,布魯托娃 奧菲利亞·布魯托娃\N{\fs12}Bhuletova. Ophelia bhuletova.
+Dialogue: 0,0:31:29.56,0:31:30.60,Default,,0000,0000,0000,,哦\N{\fs12}Hmm.
+Dialogue: 0,0:31:30.89,0:31:32.43,Default,,0000,0000,0000,,這位是...\N{\fs12}And this is...
+Dialogue: 0,0:31:33.02,0:31:33.82,Default,,0000,0000,0000,,柯林\N{\fs12}Colin.
+Dialogue: 0,0:31:35.65,0:31:37.61,Default,,0000,0000,0000,,我以為我們在用假名\N{\fs12}I thought we were using fake names.
+Dialogue: 0,0:31:38.73,0:31:40.27,Default,,0000,0000,0000,,這就是假名\N{\fs12}That is a fake name.
+Dialogue: 0,0:31:43.32,0:31:44.45,Default,,0000,0000,0000,,哦 好吧\N{\fs12}Oh, right.
+Dialogue: 0,0:31:46.66,0:31:48.32,Default,,0000,0000,0000,,沒錯 這位是柯林\N{\fs12}Yes, this is Colin,
+Dialogue: 0,0:31:49.79,0:31:50.70,Default,,0000,0000,0000,,所以我是...\N{\fs12}and I'm...
+Dialogue: 0,0:31:55.08,0:31:56.00,Default,,0000,0000,0000,,「達茲爾」\N{\fs12}"Dasil."
+Dialogue: 0,0:31:56.67,0:31:57.47,Default,,0000,0000,0000,,達茲爾\N{\fs12}Dasil.
+Dialogue: 0,0:31:58.09,0:31:58.89,Default,,0000,0000,0000,,巴茲爾\N{\fs12}Basil.
+Dialogue: 0,0:32:00.34,0:32:02.35,Default,,0000,0000,0000,,好吧 巴茲爾\N{\fs12}Well, basil,
+Dialogue: 0,0:32:03.18,0:32:04.66,Default,,0000,0000,0000,,也許有個更簡單的方法處理這件事\N{\fs12}Maybe there is a simpler way of doing this.
+Dialogue: 0,0:32:05.55,0:32:06.76,Default,,0000,0000,0000,,喝點酒 或許？\N{\fs12}Over a drink perhaps?
+Dialogue: 0,0:32:07.05,0:32:09.22,Default,,0000,0000,0000,,那真是 樂意之極\N{\fs12}Well, that would be lovely.
+Dialogue: 0,0:32:09.51,0:32:13.98,Default,,0000,0000,0000,,　　　　　　　　　　　　　　　\N我們八點在濱海卡涅酒吧見好嗎？\N{\fs12}Shall we say the bar at the hotel de Paris in cagnes-sur-mer? 8:00?
+Dialogue: 0,0:32:14.27,0:32:16.15,Default,,0000,0000,0000,,好極 一言為定\N{\fs12}Mmm. It's a date.
+Dialogue: 0,0:32:21.74,0:32:22.54,Default,,0000,0000,0000,,好吧\N{\fs12}Well,
+Dialogue: 0,0:32:23.32,0:32:27.28,Default,,0000,0000,0000,,我想我的「耗光燃油」策略很奏效\N{\fs12}I think my "running out of fuel" ruse worked pretty well.
+Dialogue: 0,0:32:27.91,0:32:28.91,Default,,0000,0000,0000,,可不是嘛\N{\fs12}Mmm.
+Dialogue: 0,0:32:28.91,0:32:30.91,Default,,0000,0000,0000,,
+Dialogue: 0,0:32:30.91,0:32:32.87,Default,,0000,0000,0000,,
+Dialogue: 0,0:32:32.87,0:32:33.75,Default,,0000,0000,0000,,又怎麼了？\N{\fs12}What?
+Dialogue: 0,0:32:34.12,0:32:36.32,Default,,0000,0000,0000,,新人醫生 他們在罷工\N{\fs12}Er, junior doctors. They've confirmed they are going on strike
+Dialogue: 0,0:32:36.58,0:32:38.22,Default,,0000,0000,0000,,地鐵司機也跑出來支持\N{\fs12}and the tube drivers are coming out in support.
+Dialogue: 0,0:32:38.46,0:32:41.16,Default,,0000,0000,0000,,哦 天哪 反對派那些人 他們又死灰復燃了？\N{\fs12}Oh, god. Leader of the opposition, has he come round from his heart surgery?
+Dialogue: 0,0:32:41.38,0:32:42.22,Default,,0000,0000,0000,,是的 首相大人\N{\fs12}Yes, prime minister.
+Dialogue: 0,0:32:42.51,0:32:45.42,Default,,0000,0000,0000,,哦 上帝啊 什麼時候我才能輕鬆點！你又是什麼事？\N{\fs12}Oh, Jesus Christ, when will something go right for me? What do you want?
+Dialogue: 0,0:32:46.43,0:32:48.26,Default,,0000,0000,0000,,他們又攻擊我們了 首相大人\N{\fs12}They've hit us again, prime minister.
+Dialogue: 0,0:32:49.01,0:32:51.30,Default,,0000,0000,0000,,- 什麼？　　　　　　　　\N- 入侵了中央交通控制系統\N{\fs12}- Huh? - Hacked into the central traffic control system.
+Dialogue: 0,0:32:51.81,0:32:55.02,Default,,0000,0000,0000,,沒錯 他們把倫敦的交通信號燈都變成了紅色\N{\fs12}Yes, they've turned every traffic light in London to red.
+Dialogue: 0,0:32:57.85,0:32:59.27,Default,,0000,0000,0000,,我那該死的飲料在哪兒？\N{\fs12}Where's my bloody drink?
+Dialogue: 0,0:33:00.23,0:33:02.40,Default,,0000,0000,0000,,你是在開玩笑吧？伏特加通寧 不加冰 不加通寧水\N{\fs12}You've got to be joking? Vodka tonic, no ice, no tonic.
+Dialogue: 0,0:33:02.69,0:33:05.03,Default,,0000,0000,0000,,- 好的馬上來　　　　　　　\N- 哦沃爾塔先生已經到了夫人\N{\fs12}- Yes, ma'am. - Oh, and Mr. Volta has arrived, ma'am.
+Dialogue: 0,0:33:09.74,0:33:12.16,Default,,0000,0000,0000,,沃爾塔先生 歡迎來到唐寧街\N{\fs12}Mr. volta, welcome to downing street.
+Dialogue: 0,0:33:12.49,0:33:15.38,Default,,0000,0000,0000,,我讀過許多關於這幢美妙建築的書籍\N{\fs12}I have read so much about this wonderful building.
+Dialogue: 0,0:33:15.71,0:33:19.00,Default,,0000,0000,0000,,這是威廉·肯特設計的三級樓梯嗎？\N{\fs12}Is this the stone triple staircase designed by William Kent?
+Dialogue: 0,0:33:19.33,0:33:22.30,Default,,0000,0000,0000,,呃 沒錯 也許是 我並不確定\N{\fs12}Um, yes, it probably is. I can't swear to it.
+Dialogue: 0,0:33:22.63,0:33:24.97,Default,,0000,0000,0000,,- 我們是否可以拍張．．．\N- 圖像正在處理　　　　　\N{\fs12}- Can we do a quick... - Needs Photoshop.
+Dialogue: 0,0:33:25.26,0:33:27.55,Default,,0000,0000,0000,,哦！那還真是... 呃 這邊請\N{\fs12}Oh! This way. hmm... this way.
+Dialogue: 0,0:33:27.88,0:33:29.47,Default,,0000,0000,0000,,我來的有些晚 非常抱歉\N{\fs12}I am horribly late, I do apologize.
+Dialogue: 0,0:33:29.80,0:33:32.39,Default,,0000,0000,0000,,交通問題 這是我不喜歡倫敦的地方\N{\fs12}It's the traffic, it's the one thing I don't love about London.
+Dialogue: 0,0:33:32.72,0:33:36.94,Default,,0000,0000,0000,,是的 沒錯 我必須承認我們在燈光方面有點小問題 不是很嚴重\N{\fs12}Yes, well, I must admit we are having a slight problem with the lights at the moment. Nothing major.
+Dialogue: 0,0:33:37.27,0:33:40.06,Default,,0000,0000,0000,,如果你想 我可以看看能否解決？這有點像我所在的行業領域\N{\fs12}If you wanted, I could take a look? It is kind of what I do.
+Dialogue: 0,0:33:40.36,0:33:42.77,Default,,0000,0000,0000,,我認為這實際上要比你所在的領域更複雜...\N{\fs12}I think it's actually a little bit more complex than...
+Dialogue: 0,0:33:43.11,0:33:46.28,Default,,0000,0000,0000,,Xander 找個倫敦交通控制中心的網址\N{\fs12}Xander, get a web address for London's traffic control center.
+Dialogue: 0,0:33:47.15,0:33:50.66,Default,,0000,0000,0000,,這是登錄頁面 傑森 你持有密碼嗎？\N{\fs12}Here is the login page, Jason. Do you have a password?
+Dialogue: 0,0:33:53.33,0:33:54.29,Default,,0000,0000,0000,,呃...\N{\fs12}Um...
+Dialogue: 0,0:33:57.62,0:34:00.26,Default,,0000,0000,0000,,- 我不會透露如果你也睜一隻眼閉一隻眼\N- 好吧　　　　　　　　　　　　　　　\N{\fs12}- I won't tell if you won't. - Right you are.
+Dialogue: 0,0:34:01.75,0:34:05.17,Default,,0000,0000,0000,,正在繞過安全檢測 安全檢測已跳過\N{\fs12}Bypassing security. Security bypassed.
+Dialogue: 0,0:34:05.46,0:34:06.26,Default,,0000,0000,0000,,哦 技術大佬\N{\fs12}Oh, that's terrific.
+Dialogue: 0,0:34:07.84,0:34:10.80,Default,,0000,0000,0000,,- 有人正在攻擊你們\N- 哦我不那麼認為　\N{\fs12}- Someone is hacking you. - Oh, I don't think so.
+Dialogue: 0,0:34:11.35,0:34:14.98,Default,,0000,0000,0000,,DoS攻擊 沒錯 原始但絕對有效\N{\fs12}Denied service attack. Yeah, primitive but effective.
+Dialogue: 0,0:34:16.31,0:34:21.69,Default,,0000,0000,0000,,你知道其實我們可以嘗試 重新分配服務請求到我們在內華達州的服務器農場\N{\fs12}You know what we could try, rerouting all service requests to our server farm in Nevada.
+Dialogue: 0,0:34:22.90,0:34:23.98,Default,,0000,0000,0000,,- 呃　　\N- 我．．\N{\fs12} - Um... - I.
+Dialogue: 0,0:34:25.44,0:34:26.98,Default,,0000,0000,0000,,重新分配 傑森\N{\fs12}Rerouting, Jason.
+Dialogue: 0,0:34:27.28,0:34:28.82,Default,,0000,0000,0000,,重分配 完成\N{\fs12}Rerouting complete.
+Dialogue: 0,0:34:33.33,0:34:34.87,Default,,0000,0000,0000,,給力！\N{\fs12}Crikey.
+Dialogue: 0,0:34:36.70,0:34:39.50,Default,,0000,0000,0000,,所以 你想和我談的是什麼？\N{\fs12}So, what was it you wanted to talk to me about?
+Dialogue: 0,0:34:40.04,0:34:41.96,Default,,0000,0000,0000,,你 傑森\N{\fs12}You, Jason.
+Dialogue: 0,0:34:43.34,0:34:44.47,Default,,0000,0000,0000,,出去\N{\fs12}Get out.
+Dialogue: 0,0:34:44.80,0:34:46.13,Default,,0000,0000,0000,,我想談談你\N{\fs12}I want to talk about you.
+Dialogue: 0,0:34:46.13,0:34:48.13,Default,,0000,0000,0000,,
+Dialogue: 0,0:34:48.13,0:34:50.13,Default,,0000,0000,0000,,
+Dialogue: 0,0:35:00.81,0:35:03.48,Default,,0000,0000,0000,,出色極了 鮑夫 馬上就到\N{\fs12}Excellent, bough. Nearly there.
+Dialogue: 0,0:35:04.56,0:35:05.82,Default,,0000,0000,0000,,就差一點\N{\fs12}Nearly there.
+Dialogue: 0,0:35:06.15,0:35:08.94,Default,,0000,0000,0000,,這真是家不錯的酒店 鮑夫\N{\fs12}This is actually a really nice hotel, bough.
+Dialogue: 0,0:35:09.90,0:35:12.57,Default,,0000,0000,0000,,我要朝右轉了\N{\fs12}I'm turning to the right.
+Dialogue: 0,0:35:25.79,0:35:29.55,Default,,0000,0000,0000,,我們一個人拖住布魯托娃小姐 另一個人搜索她的房間好嗎 長官？\N{\fs12}Shall one of us keep miss bhuletova busy while the other searches her room, sir?
+Dialogue: 0,0:35:29.97,0:35:33.76,Default,,0000,0000,0000,,好主意 如果你發現了什麼警告我\N{\fs12}Good idea, bough. Alert me if you find anything.
+Dialogue: 0,0:35:56.12,0:35:57.08,Default,,0000,0000,0000,,戈萊特利先生\N{\fs12}Mr. golightly.
+Dialogue: 0,0:36:00.29,0:36:01.09,Default,,0000,0000,0000,,哦...\N{\fs12}Oh...
+Dialogue: 0,0:36:01.96,0:36:02.79,Default,,0000,0000,0000,,就是我\N{\fs12}Indeed.
+Dialogue: 0,0:36:04.00,0:36:06.30,Default,,0000,0000,0000,,我還以為你大概不會來\N{\fs12}I thought perhaps you weren't coming.
+Dialogue: 0,0:36:06.50,0:36:09.67,Default,,0000,0000,0000,,恰恰相反 野馬也攔不住我\N{\fs12}On the contrary, wild horses couldn't keep me away.
+Dialogue: 0,0:36:10.63,0:36:11.55,Default,,0000,0000,0000,,女士 先生\N{\fs12}Madame? Monsieur?
+Dialogue: 0,0:36:12.30,0:36:14.01,Default,,0000,0000,0000,,晚上好 你想來杯什麼？\N{\fs12}Evening. What would you like?
+Dialogue: 0,0:36:14.93,0:36:18.34,Default,,0000,0000,0000,,我今晚有點思鄉 就來杯莫斯科旅子吧\N{\fs12}I'm feeling a little homesick tonight. I'll have a Moscow mule.
+Dialogue: 0,0:36:22.10,0:36:24.23,Default,,0000,0000,0000,,那我就來杯倫敦...\N{\fs12}And I'll have a London...
+Dialogue: 0,0:36:24.77,0:36:26.56,Default,,0000,0000,0000,,旅鼠吧 多謝\N{\fs12}Lemming, please.
+Dialogue: 0,0:36:28.32,0:36:29.95,Default,,0000,0000,0000,,我不確定 你點的是？\N{\fs12}I'm not sure, what...
+Dialogue: 0,0:36:31.44,0:36:39.41,Default,,0000,0000,0000,,就是 呃... 杜松子、伏特加、達馬尼亞克、雪莉...\N{\fs12}It's, uh, gin, vodka, darmagnac, sherry,
+Dialogue: 0,0:36:40.00,0:36:41.40,Default,,0000,0000,0000,,我就靜靜地看你裝... O x O
+Dialogue: 0,0:36:40.29,0:36:42.58,Default,,0000,0000,0000,,加上一點帕爾馬乾酪...\N{\fs12}with just a little bit of parmesan.
+Dialogue: 0,0:36:48.96,0:36:52.47,Default,,0000,0000,0000,,所以 什麼讓你來到了法國南部？\N{\fs12}So, what brings you to the south of France, miss...
+Dialogue: 0,0:36:52.76,0:36:53.97,Default,,0000,0000,0000,,比利...波利...\N{\fs12}Bhilli... bholly...
+Dialogue: 0,0:36:54.26,0:36:55.26,Default,,0000,0000,0000,,布魯托娃\N{\fs12}Bhuletova.
+Dialogue: 0,0:36:55.97,0:36:57.13,Default,,0000,0000,0000,,布魯托娃\N{\fs12}Bhuletova.
+Dialogue: 0,0:36:57.68,0:36:59.26,Default,,0000,0000,0000,,我只是拜訪一個朋友\N{\fs12}I'm just visiting a friend of mine.
+Dialogue: 0,0:36:59.55,0:37:00.47,Default,,0000,0000,0000,,哦~\N{\fs12}Hmm.
+Dialogue: 0,0:37:03.73,0:37:06.77,Default,,0000,0000,0000,,這位朋友是 Dot CALM號遊艇的主人嗎？\N{\fs12}And would this friend be the owner of the Dot CALM?
+Dialogue: 0,0:37:08.15,0:37:09.03,Default,,0000,0000,0000,,哼\N{\fs12}Hmm.
+Dialogue: 0,0:37:09.31,0:37:10.32,Default,,0000,0000,0000,,沒錯 他是的\N{\fs12}Yes, he would.
+Dialogue: 0,0:37:16.32,0:37:17.95,Default,,0000,0000,0000,,那麼你呢？\N{\fs12}And what about you,
+Dialogue: 0,0:37:18.24,0:37:19.04,Default,,0000,0000,0000,,巴茲爾\N{\fs12}basil?
+Dialogue: 0,0:37:19.41,0:37:21.54,Default,,0000,0000,0000,,哦 我只是因為生意上的事到這兒\N{\fs12}Oh, I'm just here on business.
+Dialogue: 0,0:37:21.99,0:37:24.79,Default,,0000,0000,0000,,不過 它很快就變成了一種樂趣\N{\fs12}Although, it's rapidly turning into pleasure.
+Dialogue: 0,0:37:29.08,0:37:30.62,Default,,0000,0000,0000,,哦！我喜愛這些小零食\N{\fs12}Ooh! I love these.
+Dialogue: 0,0:37:36.05,0:37:37.06,Default,,0000,0000,0000,,它們真的很辣\N{\fs12}They're really hot.
+Dialogue: 0,0:37:46.31,0:37:47.77,Default,,0000,0000,0000,,你還好嗎？\N{\fs12}Are you all right?
+Dialogue: 0,0:37:48.40,0:37:49.53,Default,,0000,0000,0000,,嗯吶 還行\N{\fs12}Yes, fine.
+Dialogue: 0,0:37:58.78,0:37:59.62,Default,,0000,0000,0000,,哼\N{\fs12}Hmm.
+Dialogue: 0,0:38:06.29,0:38:07.17,Default,,0000,0000,0000,,乾杯\N{\fs12}Cheers.
+Dialogue: 0,0:38:07.83,0:38:10.79,Default,,0000,0000,0000,,我不確定我以前有沒有遇到過像你這樣的男人 巴茲爾\N{\fs12}I'm not sure I've ever met a man quite like you, basil.
+Dialogue: 0,0:38:12.00,0:38:14.13,Default,,0000,0000,0000,,讓我明確告訴你吧\N{\fs12}Let me clear up the uncertainty for you.
+Dialogue: 0,0:38:14.96,0:38:16.13,Default,,0000,0000,0000,,你從未\N{\fs12}You haven't.
+Dialogue: 0,0:38:30.56,0:38:34.78,Default,,0000,0000,0000,,抱歉 巴茲爾 我明天還要早起\N{\fs12}I'm sorry, basil. I have to get up really early tomorrow morning.
+Dialogue: 0,0:38:35.36,0:38:36.69,Default,,0000,0000,0000,,哦 那可真可惜\N{\fs12}Oh, that's a shame.
+Dialogue: 0,0:38:47.45,0:38:48.92,Default,,0000,0000,0000,,情況如何 長官？\N{\fs12}How did you get on, sir?
+Dialogue: 0,0:38:49.25,0:38:51.71,Default,,0000,0000,0000,,哦 天啊 多麼美妙的一位女性 美妙極了\N{\fs12}Oh, gosh, what a wonderful woman, bough. Wonderful.
+Dialogue: 0,0:38:52.04,0:38:52.84,Default,,0000,0000,0000,,好好\N{\fs12}Right.
+Dialogue: 0,0:38:53.17,0:38:54.83,Default,,0000,0000,0000,,迷人 知性美\N{\fs12}Charming. Intelligent.
+Dialogue: 0,0:38:55.13,0:38:59.00,Default,,0000,0000,0000,,可愛的幽默感 很明顯是完全無辜的\N{\fs12}Lovely sense of humor. And obviously entirely innocent.
+Dialogue: 0,0:38:59.30,0:39:01.88,Default,,0000,0000,0000,,儘管如此 我闖入她的房間發現了三本護照 長官\N{\fs12}Although, I broke into her room and she does have three passports, sir.
+Dialogue: 0,0:39:02.18,0:39:04.81,Default,,0000,0000,0000,,羅馬尼亞人 保加利亞人 俄國人 每本上面都是不同名字\N{\fs12}Romanian, Bulgarian, Russian. Different name in each.
+Dialogue: 0,0:39:05.94,0:39:08.11,Default,,0000,0000,0000,,所以她嫁過三次不同的人\N{\fs12}So she's been married to three different people.
+Dialogue: 0,0:39:08.44,0:39:10.23,Default,,0000,0000,0000,,在她這個年紀可不常見 鮑夫\N{\fs12}Not unusual in this day and age, bough.
+Dialogue: 0,0:39:10.57,0:39:13.24,Default,,0000,0000,0000,,除此之外 我還發現了一些絞線和兩盒炸藥\N{\fs12}And I also found some garroting wire and two boxes of ammunition.
+Dialogue: 0,0:39:13.53,0:39:18.16,Default,,0000,0000,0000,,好吧 一個女人 單身旅行 不能不沒點防備\N{\fs12}Well, single woman, traveling alone, you can't be too careful.
+Dialogue: 0,0:39:19.54,0:39:22.29,Default,,0000,0000,0000,,你不覺得她可能是個特工 長官？\N{\fs12}You don't think she might be a spy, sir?
+Dialogue: 0,0:39:22.96,0:39:24.67,Default,,0000,0000,0000,,特工？\N{\fs12}A spy?
+Dialogue: 0,0:39:25.63,0:39:28.17,Default,,0000,0000,0000,,我想我知道特工長什麼樣 鮑夫\N{\fs12}I think I know what a spy looks like, bough.
+Dialogue: 0,0:39:28.17,0:39:30.17,Default,,0000,0000,0000,,
+Dialogue: 0,0:39:30.17,0:39:32.17,Default,,0000,0000,0000,,
+Dialogue: 0,0:40:14.51,0:40:15.64,Default,,0000,0000,0000,,唉\N{\fs12}Oh.
+Dialogue: 0,0:43:25.82,0:43:26.62,Default,,0000,0000,0000,,長官？\N{\fs12}Sir?
+Dialogue: 0,0:43:27.12,0:43:27.92,Default,,0000,0000,0000,,長官！\N{\fs12}Sir!
+Dialogue: 0,0:43:29.45,0:43:31.24,Default,,0000,0000,0000,,我剛和倫敦打過電話\N{\fs12}I just got off the phone to pin London.
+Dialogue: 0,0:43:31.54,0:43:32.90,Default,,0000,0000,0000,,那艘船主人的身份查明了\N{\fs12}He's found out who the owner of that yacht is.
+Dialogue: 0,0:43:33.12,0:43:33.92,Default,,0000,0000,0000,,傑森·沃爾塔！\N{\fs12}Jason volta!
+Dialogue: 0,0:43:34.21,0:43:36.21,Default,,0000,0000,0000,,這世界上最有權勢的互聯網億萬富翁 長官\N{\fs12}The world's most powerful Internet billionaire, sir!
+Dialogue: 0,0:43:36.50,0:43:37.67,Default,,0000,0000,0000,,並且他現在就在倫敦\N{\fs12}And he's in London, right now.
+Dialogue: 0,0:43:37.96,0:43:41.17,Default,,0000,0000,0000,,首相正在親自和他談判一項貿易協議\N{\fs12}The prime minister is personally negotiating a trade deal with him.
+Dialogue: 0,0:43:42.38,0:43:43.76,Default,,0000,0000,0000,,好吧 那我們該出發了\N{\fs12}Well, what are we waiting for?
+Dialogue: 0,0:44:15.21,0:44:17.84,Default,,0000,0000,0000,,你不覺得我們可以稍微慢一點嗎 長官？\N{\fs12}Do you think we might slow down a little, sir?
+Dialogue: 0,0:44:18.83,0:44:19.71,Default,,0000,0000,0000,,什麼？\N{\fs12}What?
+Dialogue: 0,0:44:22.09,0:44:23.30,Default,,0000,0000,0000,,沒什麼！\N{\fs12}Never mind!
+Dialogue: 0,0:44:23.30,0:44:25.30,Default,,0000,0000,0000,,
+Dialogue: 0,0:44:25.30,0:44:27.30,Default,,0000,0000,0000,,
+Dialogue: 0,0:44:29.30,0:44:32.83,Default,,0000,0000,0000,,隨著又一次網絡攻擊 首相面臨的壓力也越來越大
+Dialogue: 0,0:44:33.06,0:44:34.81,Default,,0000,0000,0000,,- 英格蘭的每輛火車？\N- 是的長官　　　　　\N{\fs12}- Every train in england? - Yes, sir.
+Dialogue: 0,0:44:35.10,0:44:37.98,Default,,0000,0000,0000,,它們都想停在 布里斯托爾寺院草原站\N{\fs12}They're all trying to terminate at Bristol temple meads.
+Dialogue: 0,0:44:41.40,0:44:42.23,Default,,0000,0000,0000,,早安 長官！\N{\fs12}Morning, sir!
+Dialogue: 0,0:44:42.53,0:44:44.41,Default,,0000,0000,0000,,- 你看這個了嗎英格力士？\N- 看了　　　　　　　　　\N{\fs12}- You see this, English? - Yes!
+Dialogue: 0,0:44:45.53,0:44:46.33,Default,,0000,0000,0000,,請坐\N{\fs12}Please.
+Dialogue: 0,0:44:47.32,0:44:48.45,Default,,0000,0000,0000,,哦！\N{\fs12}Ooh!
+Dialogue: 0,0:44:49.24,0:44:51.50,Default,,0000,0000,0000,,告訴我你們都發現了什麼？我好告知首相大人\N{\fs12}Tell me you've got something I can take to the prime minister.
+Dialogue: 0,0:44:51.78,0:44:54.58,Default,,0000,0000,0000,,對這一切該負責的人的名字嗎？長官\N{\fs12}Would the name of the man responsible do, sir?
+Dialogue: 0,0:44:55.12,0:44:56.50,Default,,0000,0000,0000,,出色至極 英格力士 說吧\N{\fs12}Excellent, English, yes.
+Dialogue: 0,0:44:57.33,0:44:59.42,Default,,0000,0000,0000,,他是 傑森...\N{\fs12}It's Jason...
+Dialogue: 0,0:45:09.80,0:45:12.06,Default,,0000,0000,0000,,沃爾塔 長官 是傑森·沃爾塔\N{\fs12}Volta, sir. Jason volta.
+Dialogue: 0,0:45:12.68,0:45:13.48,Default,,0000,0000,0000,,什麼？\N{\fs12}What?
+Dialogue: 0,0:45:13.85,0:45:16.23,Default,,0000,0000,0000,,你在問罪穿著閃亮鎧甲的午夜騎士？\N{\fs12}You're accusing the pm's knight in shining armor?
+Dialogue: 0,0:45:16.52,0:45:18.15,Default,,0000,0000,0000,,我需要強有力的證據！\N{\fs12}I'd need hard evidence!
+Dialogue: 0,0:45:25.48,0:45:26.62,Default,,0000,0000,0000,,那會是...\N{\fs12}Which...
+Dialogue: 0,0:45:27.57,0:45:32.49,Default,,0000,0000,0000,,所以英格力士特工建議 對沃爾塔在薩里郡的鄉村別墅進行滲透\N{\fs12}Is why agent English is proposing a penetration of volta's country estate in surrey.
+Dialogue: 0,0:45:32.91,0:45:36.50,Default,,0000,0000,0000,,對 對 對...\N{\fs12}Yes, yes, yes, yes...
+Dialogue: 0,0:45:37.25,0:45:39.38,Default,,0000,0000,0000,,好吧 做你需要做的 英格力士\N{\fs12}Well, do what you have to do, English.
+Dialogue: 0,0:45:39.96,0:45:41.75,Default,,0000,0000,0000,,但看在上帝份上！一定要謹慎行動\N{\fs12}But for god's sake! be discreet about it.
+Dialogue: 0,0:45:42.17,0:45:44.00,Default,,0000,0000,0000,,哦...\N{\fs12}Oh! Oh.
+Dialogue: 0,0:45:44.30,0:45:45.13,Default,,0000,0000,0000,,醒了\N{\fs12}Good.
+Dialogue: 0,0:45:45.42,0:45:46.30,Default,,0000,0000,0000,,明白\N{\fs12}Oh. Oh.
+Dialogue: 0,0:45:46.30,0:45:48.30,Default,,0000,0000,0000,,
+Dialogue: 0,0:45:48.30,0:45:50.30,Default,,0000,0000,0000,,
+Dialogue: 0,0:45:52.76,0:45:54.27,Default,,0000,0000,0000,,虛擬現實？\N{\fs12}"Virtual reality"?
+Dialogue: 0,0:45:54.60,0:45:55.40,Default,,0000,0000,0000,,是的 先生\N{\fs12}That's right, sir.
+Dialogue: 0,0:45:55.68,0:45:57.84,Default,,0000,0000,0000,,P 建立了沃爾塔別墅內部的計算機模型\N{\fs12}P's built a computer model of the inside of volta's mansion.
+Dialogue: 0,0:45:58.10,0:46:02.86,Default,,0000,0000,0000,,當您戴上這個頭部設備 會讓您視聽感官上像是到了別墅裡面一樣\N{\fs12}When you put on this headset, it will look and feel as if you are inside the house.
+Dialogue: 0,0:46:03.15,0:46:06.41,Default,,0000,0000,0000,,您可以開關門 上下樓梯\N{\fs12}You'll be able to open and close doors, walk up and down staircases,
+Dialogue: 0,0:46:06.69,0:46:09.28,Default,,0000,0000,0000,,完整地去熟悉適應它的建築佈局\N{\fs12}completely familiarize yourself with its layout.
+Dialogue: 0,0:46:09.57,0:46:12.61,Default,,0000,0000,0000,,這塊板可以向任何方向移動 所以你可以走動...\N{\fs12}This floor moves in any direction. So you can walk...
+Dialogue: 0,0:46:14.08,0:46:20.50,Default,,0000,0000,0000,,在虛擬世界裡走多遠都不用離開這個房間\N{\fs12}You can walk as far as you want in the virtual world without ever actually leaving this room.
+Dialogue: 0,0:46:21.08,0:46:21.92,Default,,0000,0000,0000,,唯一要注意的是 長官\N{\fs12}One thing though, sir.
+Dialogue: 0,0:46:23.33,0:46:24.84,Default,,0000,0000,0000,,這種體驗可能會讓你迷失方向\N{\fs12}The experience can be very disorientating.
+Dialogue: 0,0:46:25.13,0:46:26.13,Default,,0000,0000,0000,,這是完全的沉浸式體驗\N{\fs12}It's completely immersive
+Dialogue: 0,0:46:26.42,0:46:29.26,Default,,0000,0000,0000,,有些人會完全忘記 自己實際身處的環境\N{\fs12}and some people lose all track of their actual surroundings.
+Dialogue: 0,0:46:29.55,0:46:32.56,Default,,0000,0000,0000,,我想我們可以非常確定這種情況不會發生\N{\fs12}I think we can pretty much guarantee that's not gonna happen.
+Dialogue: 0,0:46:33.09,0:46:35.23,Default,,0000,0000,0000,,我需要您在 健康和安全聲明上簽字確認\N{\fs12}I'll just need you to sign the health and safety releases.
+Dialogue: 0,0:46:35.76,0:46:38.27,Default,,0000,0000,0000,,請允許我去找一台 iPad\N{\fs12}Would you excuse me while I find an iPad.
+Dialogue: 0,0:46:39.48,0:46:42.56,Default,,0000,0000,0000,,哦 陪他去吧 鮑夫 如果我們不催著點他 一整天都會耗在這兒\N{\fs12}Oh, go with him, bough. If we don't chivvy him along we'll be here all day.
+Dialogue: 0,0:46:48.82,0:46:49.86,Default,,0000,0000,0000,,哼..\N{\fs12}Hmm.
+Dialogue: 0,0:46:49.86,0:46:51.86,Default,,0000,0000,0000,,
+Dialogue: 0,0:46:51.86,0:46:53.86,Default,,0000,0000,0000,,
+Dialogue: 0,0:47:10.26,0:47:11.22,Default,,0000,0000,0000,,啊~\N{\fs12}Ah.
+Dialogue: 0,0:47:33.49,0:47:34.29,Default,,0000,0000,0000,,看著點路！\N{\fs12}Watch out!
+Dialogue: 0,0:47:40.10,0:47:41.50,Default,,0000,0000,0000,,目標
+Dialogue: 0,0:47:57.00,0:47:57.60,Default,,0000,0000,0000,,搞什麼！？
+Dialogue: 0,0:48:02.77,0:48:04.35,Default,,0000,0000,0000,,正在關門
+Dialogue: 0,0:48:05.19,0:48:06.32,Default,,0000,0000,0000,,下樓中...
+Dialogue: 0,0:48:37.80,0:48:40.50,Default,,0000,0000,0000,,你好 今天怎麼樣？
+Dialogue: 0,0:49:07.25,0:49:08.21,Default,,0000,0000,0000,,嘿！\N{\fs12}Hey!
+Dialogue: 0,0:49:23.89,0:49:25.58,Default,,0000,0000,0000,,抱歉 先生 但我想恐怕您得離開了\N{\fs12}I'm sorry, sir, but you're going to have to leave.
+Dialogue: 0,0:49:25.61,0:49:26.20,Default,,0000,0000,0000,,噢！\N{\fs12}Ow!
+Dialogue: 0,0:49:26.70,0:49:27.00,Default,,0000,0000,0000,,三小！？\N{\fs12}What the...
+Dialogue: 0,0:49:27.14,0:49:27.98,Default,,0000,0000,0000,,噢！\N{\fs12}Ow!!
+Dialogue: 0,0:49:51.83,0:49:54.75,Default,,0000,0000,0000,,所以我們馬上就要抵達海軍部大樓了\N{\fs12}So, we'll shortly be arriving at admiralty house.
+Dialogue: 0,0:49:55.09,0:49:58.80,Default,,0000,0000,0000,,以及 那實際上曾是 奧利弗·克倫威爾自己的房子\N{\fs12}And, er, that actually used to be Oliver cromwell's own house. Um...
+Dialogue: 0,0:50:00.80,0:50:01.93,Default,,0000,0000,0000,,呃...\N{\fs12}Uh...
+Dialogue: 0,0:50:02.26,0:50:05.55,Default,,0000,0000,0000,,然後我們將去參加皇家騎兵衛隊的遊行\N{\fs12}And then we'll be going to horse guards parade.
+Dialogue: 0,0:50:08.52,0:50:10.10,Default,,0000,0000,0000,,也許你想坐下 這位先生？\N{\fs12}Perhaps you'd like to sit down, sir?
+Dialogue: 0,0:50:25.66,0:50:29.42,Default,,0000,0000,0000,,儘管如此 我相信我們這次任務的特工正在取得重大進展\N{\fs12}However, the agent we have on this mission is confident he's making major progress.
+Dialogue: 0,0:50:29.71,0:50:32.29,Default,,0000,0000,0000,,以及 呃 是的 我們找到了一個潛在嫌疑犯 已經被確認\N{\fs12}And, uh, yes, we have a potential suspect, he's been identified.
+Dialogue: 0,0:50:33.00,0:50:36.79,Default,,0000,0000,0000,,進一步的調查正在秘密進行之中...\N{\fs12}And further covert investigations are now ongoing.
+Dialogue: 0,0:50:38.30,0:50:39.30,Default,,0000,0000,0000,,沒錯 都冷靜點\N{\fs12}Yes, quite.
+Dialogue: 0,0:50:39.76,0:50:42.47,Default,,0000,0000,0000,,所以我期待這方面有更多消息能宣佈\N{\fs12}So I expect to have more to announce on this front
+Dialogue: 0,0:50:44.43,0:50:45.39,Default,,0000,0000,0000,,在短期內...\N{\fs12}shortly.
+Dialogue: 0,0:51:01.53,0:51:02.33,Default,,0000,0000,0000,,長官？\N{\fs12}Sir?
+Dialogue: 0,0:51:02.61,0:51:03.53,Default,,0000,0000,0000,,嗯？\N{\fs12}Mmm?
+Dialogue: 0,0:51:03.82,0:51:06.46,Default,,0000,0000,0000,,- 一切都還正常吧長官　\N- 是的我已經完成了鮑夫\N{\fs12} - Is everything all right, sir? - Yes, I've done it, bough.
+Dialogue: 0,0:51:06.91,0:51:09.45,Default,,0000,0000,0000,,小孩子過家家 不知有什麼可大驚小怪的\N{\fs12}Child's play. Don't know what all the fuss was about.
+Dialogue: 0,0:51:09.45,0:51:11.45,Default,,0000,0000,0000,,
+Dialogue: 0,0:51:23.26,0:51:25.05,Default,,0000,0000,0000,,很高興再次會面 首相大人\N{\fs12}Pleasure to see you again, prime minister.
+Dialogue: 0,0:51:26.89,0:51:29.60,Default,,0000,0000,0000,,這是全息影像的會話 很常見 您只是普通點交流就好\N{\fs12}It's a hologram. Apparently you just speak to it normally.
+Dialogue: 0,0:51:31.48,0:51:33.44,Default,,0000,0000,0000,,這是我的榮幸\N{\fs12}The pleasure's all mine.
+Dialogue: 0,0:51:33.73,0:51:37.40,Default,,0000,0000,0000,,不想催促你  但有什麼是你特別需要的嗎？\N{\fs12}Hate to rush you, but was there something in particular you needed?
+Dialogue: 0,0:51:37.69,0:51:44.28,Default,,0000,0000,0000,,實際上 我只是來電想問下你是否有認真考慮下\N{\fs12}Actually, I was just calling really to see if you had had a chance to think things over.
+Dialogue: 0,0:51:44.74,0:51:45.54,Default,,0000,0000,0000,,我有\N{\fs12}I have.
+Dialogue: 0,0:51:48.24,0:51:51.63,Default,,0000,0000,0000,,但問題是 菲奧娜 我實際上並不關心人們的安全問題\N{\fs12}But the thing is, Fiona, I just don't really do other people's security.
+Dialogue: 0,0:51:51.91,0:51:55.08,Default,,0000,0000,0000,,不是我不在乎 而是你的基礎設施很陳舊\N{\fs12}Not that I don't want to. But your infrastructure is old.
+Dialogue: 0,0:51:55.62,0:52:00.71,Default,,0000,0000,0000,,此外 唯一能保持你安全的方法就是將你的數據儲蓄在我個人的服務器上\N{\fs12}Plus the only way I could keep you secure in the meantime would be by storing all your data on my own servers.
+Dialogue: 0,0:52:01.00,0:52:02.92,Default,,0000,0000,0000,,- 很顯然那是．．．\N- 可以傑森！　　　\N{\fs12}- Obviously, that would be... - Yes. Jason,
+Dialogue: 0,0:52:03.22,0:52:06.97,Default,,0000,0000,0000,,我真正想做的是在G12峰會上宣佈這次合作\N{\fs12}What I really want to do is announce this tie-up at the G12 meeting.
+Dialogue: 0,0:52:08.05,0:52:10.19,Default,,0000,0000,0000,,我們達成共識了嗎？\N{\fs12}Do we have a deal?
+Dialogue: 0,0:52:19.57,0:52:21.03,Default,,0000,0000,0000,,祝你好運 長官\N{\fs12}Good luck, sir.
+Dialogue: 0,0:52:39.92,0:52:40.72,Default,,0000,0000,0000,,嘿\N{\fs12}Hey.
+Dialogue: 0,0:52:41.09,0:52:41.89,Default,,0000,0000,0000,,怎麼了 老闆？\N{\fs12}Sir?
+Dialogue: 0,0:52:42.17,0:52:44.46,Default,,0000,0000,0000,,我說過在那裡準備好直升機\N{\fs12}I said to get the chopper ready. Right there.
+Dialogue: 0,0:52:44.76,0:52:45.76,Default,,0000,0000,0000,,老闆 馬上去辦\N{\fs12}Sir. Right away, sir.
+Dialogue: 0,0:52:46.13,0:52:47.14,Default,,0000,0000,0000,,「多謝」你\N{\fs12}Thank you.
+Dialogue: 0,0:52:47.55,0:52:48.93,Default,,0000,0000,0000,,- 泰勒在嗎\N- 在　　　\N{\fs12}- Tyler, come in. - Copy.
+Dialogue: 0,0:52:49.55,0:52:51.31,Default,,0000,0000,0000,,泰勒 你能現在準備一台直升機嗎？\N{\fs12}Tyler, can you prepare the chopper now?
+Dialogue: 0,0:53:25.76,0:53:28.00,Default,,0000,0000,0000,,我們總是這樣不期而遇 戈萊特利先生\N{\fs12}We can't keep meeting like this, Mr. golightly.
+Dialogue: 0,0:53:28.84,0:53:29.97,Default,,0000,0000,0000,,好吧 的確\N{\fs12}Oh, yes.
+Dialogue: 0,0:53:30.26,0:53:33.02,Default,,0000,0000,0000,,還是你打算不再說謊 告訴我你的真實姓名？\N{\fs12}Or do you want to end this charade and tell me your real name?
+Dialogue: 0,0:53:33.81,0:53:35.15,Default,,0000,0000,0000,,走\N{\fs12}Go.
+Dialogue: 0,0:53:37.98,0:53:41.64,Default,,0000,0000,0000,,你對自己所涉入的這個世界 有太多不知道的事了\N{\fs12}There's so much you don't understand about this world you've got caught up in.
+Dialogue: 0,0:53:42.94,0:53:46.11,Default,,0000,0000,0000,,別再瞎扯了 你是英國特勤局的人\N{\fs12}Spare me the idiot act. You're British secret service.
+Dialogue: 0,0:53:47.53,0:53:51.07,Default,,0000,0000,0000,,順便一提 你在法國的表現令人印象深刻 什麼時候發現我是特工的？\N{\fs12}Impressive work in France, by the way. When did you realize I was a spy, too?
+Dialogue: 0,0:53:52.78,0:53:55.87,Default,,0000,0000,0000,,哦 差不多一見面就看穿了\N{\fs12}Oh, pretty much straight away.
+Dialogue: 0,0:53:56.95,0:53:57.79,Default,,0000,0000,0000,,這樣...\N{\fs12}Hmm.
+Dialogue: 0,0:54:00.37,0:54:04.17,Default,,0000,0000,0000,,我花了兩年時間臥底 本來任務簡單 直到你出現\N{\fs12}I've spent two years undercover. Simple operation until you showed up.
+Dialogue: 0,0:54:04.59,0:54:06.13,Default,,0000,0000,0000,,不過我喜歡將事情簡單化\N{\fs12}And I like to keep things simple.
+Dialogue: 0,0:54:07.21,0:54:08.88,Default,,0000,0000,0000,,簡單是我的中間名\N{\fs12}"Simple" is my middle name.
+Dialogue: 0,0:54:13.35,0:54:15.01,Default,,0000,0000,0000,,看來你需要做個選擇了\N{\fs12}It would seem you've got a choice to make.
+Dialogue: 0,0:54:17.85,0:54:21.56,Default,,0000,0000,0000,,- 暫停立場上的敵對關係？\N- 成為短期搭檔？　　　　\N{\fs12} - Temporary suspension of hostilities?  - A short-term partnership?
+Dialogue: 0,0:54:22.94,0:54:23.90,Default,,0000,0000,0000,,　　\N同意\N{\fs12} - Agreed. - Hmm.
+Dialogue: 0,0:54:23.90,0:54:25.90,Default,,0000,0000,0000,,
+Dialogue: 0,0:54:25.90,0:54:27.90,Default,,0000,0000,0000,,
+Dialogue: 0,0:54:32.07,0:54:34.83,Default,,0000,0000,0000,,政治家比風投資本家更容易上當\N{\fs12}Politicians are even more gullible than venture capitalists.
+Dialogue: 0,0:54:35.12,0:54:35.92,Default,,0000,0000,0000,,說的沒錯\N{\fs12}That is correct.
+Dialogue: 0,0:54:36.20,0:54:37.28,Default,,0000,0000,0000,,給我一份目標名單的拷貝\N{\fs12}Get me a copy of the target list.
+Dialogue: 0,0:54:37.74,0:54:39.88,Default,,0000,0000,0000,,保險起見 我們再對他們發起一次攻擊\N{\fs12}We'll hit them once more just to be on the safe side.
+Dialogue: 0,0:54:40.62,0:54:43.54,Default,,0000,0000,0000,,- 把你的手機借我\N- 你沒有手機？　\N{\fs12}- Give me your phone. - You don't have a phone?
+Dialogue: 0,0:54:43.88,0:54:46.04,Default,,0000,0000,0000,,一台手機可以告訴任何人你的精準位置\N{\fs12}A phone will give anyone your precise location.
+Dialogue: 0,0:54:46.34,0:54:48.80,Default,,0000,0000,0000,,但它們對聯繫他人很有用\N{\fs12}And yet they're so useful for making phone calls.
+Dialogue: 0,0:54:49.09,0:54:51.26,Default,,0000,0000,0000,,出色的見解 不過我並不打算打電話給任何人\N{\fs12}Excellent. I'm not phoning anyone.
+Dialogue: 0,0:54:52.22,0:54:54.93,Default,,0000,0000,0000,,我要用它收集證據\N{\fs12}I'm gathering evidence.
+Dialogue: 0,0:54:57.01,0:55:00.65,Default,,0000,0000,0000,,這是目標列表 傑森 四個標誌性的倫敦坐標\N{\fs12}The target list, Jason. Four iconic central London landmarks.
+Dialogue: 0,0:55:00.98,0:55:02.86,Default,,0000,0000,0000,,- 請選擇一個\N- 三號　　　\N{\fs12}- Make your selection. - Number three.
+Dialogue: 0,0:55:03.19,0:55:04.82,Default,,0000,0000,0000,,倫敦眼 摩天輪\N{\fs12}The London eye.
+Dialogue: 0,0:55:06.27,0:55:11.28,Default,,0000,0000,0000,,這次網絡攻擊潛在可能影響到1萬6千名遊客\N{\fs12}This cyber attack could potentially impact 16,000 visitors.
+Dialogue: 0,0:55:16.83,0:55:19.12,Default,,0000,0000,0000,,我發現他在樓梯那邊偷窺\N{\fs12}I found him snooping around upstairs.
+Dialogue: 0,0:55:20.41,0:55:22.12,Default,,0000,0000,0000,,所以你是誰？\N{\fs12}And who are you exactly?
+Dialogue: 0,0:55:22.46,0:55:23.71,Default,,0000,0000,0000,,我不會告訴你任何信息\N{\fs12}I'm not telling you anything.
+Dialogue: 0,0:55:24.00,0:55:24.83,Default,,0000,0000,0000,,好吧\N{\fs12}Hmm.
+Dialogue: 0,0:55:26.08,0:55:28.05,Default,,0000,0000,0000,,臉部識別軟體已啟動\N{\fs12}Face recognition software launched.
+Dialogue: 0,0:55:28.59,0:55:31.85,Default,,0000,0000,0000,,喬尼·英格力士是林肯郡的一名地理老師\N{\fs12}Johnny English is a geography teacher from lincolnshire.
+Dialogue: 0,0:55:32.51,0:55:36.14,Default,,0000,0000,0000,,更願意全副武裝地來上一堂歐洲資本課 英格力士先生\N{\fs12}Rather heavily armed for a lesson on European capitals, Mr. English.
+Dialogue: 0,0:55:38.85,0:55:39.85,Default,,0000,0000,0000,,有什麼想法嗎 親愛的？\N{\fs12}Any thoughts, sweetheart?
+Dialogue: 0,0:55:41.06,0:55:42.77,Default,,0000,0000,0000,,他是英國特工\N{\fs12}He's British intelligence.
+Dialogue: 0,0:55:44.27,0:55:49.23,Default,,0000,0000,0000,,我們想法一樣 他所在的機構真是虛有其名\N{\fs12}And there you have I, two words that have no right being in the same sentence together.
+Dialogue: 0,0:55:49.82,0:55:52.61,Default,,0000,0000,0000,,你真的認為我是孤身一人來這裡的？\N{\fs12}Do you really think I came here alone?
+Dialogue: 0,0:55:53.20,0:55:57.86,Default,,0000,0000,0000,,我有一整只突擊隊在外面守候 時刻準備突擊進這裡\N{\fs12}I have a team of crack operatives out there, right now, just waiting to strike.
+Dialogue: 0,0:55:58.16,0:55:59.24,Default,,0000,0000,0000,,好吧\N{\fs12}Uh-huh.
+Dialogue: 0,0:56:04.54,0:56:05.37,Default,,0000,0000,0000,,長官！\N{\fs12}Sir!
+Dialogue: 0,0:56:08.79,0:56:10.88,Default,,0000,0000,0000,,這國家到底發生什麼了！？\N{\fs12}What has happened to this country?
+Dialogue: 0,0:56:11.21,0:56:13.72,Default,,0000,0000,0000,,這在一個世紀前是絕對不可能的\N{\fs12}How is it possible that less than a century ago
+Dialogue: 0,0:56:14.01,0:56:20.52,Default,,0000,0000,0000,,那時的大英帝國統治著四分之一世界 現在卻依靠著某一個人\N{\fs12}the British empire ruled a quarter of the globe and now it's relying on someone
+Dialogue: 0,0:56:21.89,0:56:24.10,Default,,0000,0000,0000,,像是你這種？\N{\fs12}Like you?
+Dialogue: 0,0:56:28.86,0:56:29.69,Default,,0000,0000,0000,,嘿 站住！\N{\fs12}Hey! Stop!
+Dialogue: 0,0:56:31.23,0:56:32.03,Default,,0000,0000,0000,,誰去攔住他？\N{\fs12}Stop him?
+Dialogue: 0,0:56:46.16,0:56:46.96,Default,,0000,0000,0000,,行動\N{\fs12}Go.
+Dialogue: 0,0:56:55.63,0:56:56.84,Default,,0000,0000,0000,,- 把門關上\N- 遵命老闆\N{\fs12}- Close the gates. - Yes, sir.
+Dialogue: 0,0:57:07.94,0:57:09.07,Default,,0000,0000,0000,,救命 停下！\N{\fs12}Help! Stop!
+Dialogue: 0,0:57:09.35,0:57:11.52,Default,,0000,0000,0000,,前方有障礙 特蘭特納太太\N{\fs12}Obstacle directly ahead, Mrs. trattner.
+Dialogue: 0,0:57:11.86,0:57:15.57,Default,,0000,0000,0000,,檢查你的後視鏡然後停車\N{\fs12}Check your mirrors and bring the car to a stop.
+Dialogue: 0,0:57:18.11,0:57:19.62,Default,,0000,0000,0000,,不好意思 嘿！\N{\fs12}Er, excuse me. Hey.
+Dialogue: 0,0:57:21.83,0:57:22.63,Default,,0000,0000,0000,,多謝\N{\fs12}Thank you.
+Dialogue: 0,0:57:26.41,0:57:27.21,Default,,0000,0000,0000,,飆車吧！\N{\fs12}Drive!
+Dialogue: 0,0:57:29.71,0:57:30.51,Default,,0000,0000,0000,,不好意思\N{\fs12}Excuse me.
+Dialogue: 0,0:57:30.79,0:57:32.33,Default,,0000,0000,0000,,你...你知道自己在做什麼嗎？\N{\fs12}What... what do you think you're doing?
+Dialogue: 0,0:57:32.63,0:57:35.01,Default,,0000,0000,0000,,不好意思 你不是個持證的教練\N{\fs12}Excuse me! You are not a qualified instructor.
+Dialogue: 0,0:57:44.39,0:57:46.43,Default,,0000,0000,0000,,- 我的教練怎麼辦？\N- 左轉　　　　　　\N{\fs12}- But what about my instructor? - Turn left.
+Dialogue: 0,0:57:48.64,0:57:49.48,Default,,0000,0000,0000,,右轉\N{\fs12}Turn right.
+Dialogue: 0,0:57:54.11,0:57:56.44,Default,,0000,0000,0000,,為了以後參考 我坐你的左邊\N{\fs12}For future reference, I'm on your left.
+Dialogue: 0,0:57:56.99,0:58:00.28,Default,,0000,0000,0000,,請停下 別踩油門了 我沒法再開了！\N{\fs12}Please, stop. I can't do this anymore!
+Dialogue: 0,0:58:04.87,0:58:06.25,Default,,0000,0000,0000,,我現在什麼都看不清了！\N{\fs12}I can't see anything now!
+Dialogue: 0,0:58:06.95,0:58:07.75,Default,,0000,0000,0000,,好極\N{\fs12}Good.
+Dialogue: 0,0:58:19.63,0:58:21.39,Default,,0000,0000,0000,,當我說「轉」的時候 迅速往右邊轉彎\N{\fs12}When I say "go," turn sharp right.
+Dialogue: 0,0:58:21.68,0:58:22.68,Default,,0000,0000,0000,,好\N{\fs12}Uh-huh.
+Dialogue: 0,0:58:26.68,0:58:28.72,Default,,0000,0000,0000,,三、二、一\N{\fs12}Three, two, one.
+Dialogue: 0,0:58:29.43,0:58:30.23,Default,,0000,0000,0000,,轉！\N{\fs12}Gol
+Dialogue: 0,0:58:33.69,0:58:35.40,Default,,0000,0000,0000,,回正、回正、回正...\N{\fs12}and straighten up, straighten up, straighten up.
+Dialogue: 0,0:58:35.69,0:58:36.70,Default,,0000,0000,0000,,接著開！\N{\fs12}And go!
+Dialogue: 0,0:58:37.69,0:58:38.49,Default,,0000,0000,0000,,動起來 追上去！\N{\fs12}Let's go, let's go.
+Dialogue: 0,0:58:47.49,0:58:49.21,Default,,0000,0000,0000,,哦 這應該勉強過得去\N{\fs12}Oh, now just bear left a little. Good.
+Dialogue: 0,0:58:49.83,0:58:51.00,Default,,0000,0000,0000,,開直點 開直點\N{\fs12}Straighten up, straighten up.
+Dialogue: 0,0:58:55.67,0:58:56.47,Default,,0000,0000,0000,,贊啊！\N{\fs12}Good!
+Dialogue: 0,0:58:56.47,0:58:58.47,Default,,0000,0000,0000,,
+Dialogue: 0,0:58:58.47,0:59:00.47,Default,,0000,0000,0000,,
+Dialogue: 0,0:59:00.80,0:59:02.89,Default,,0000,0000,0000,,說真的 剛才開的不錯 特蘭特納太太\N{\fs12}Well, that was very good, Mrs. trattner.
+Dialogue: 0,0:59:05.85,0:59:07.85,Default,,0000,0000,0000,,我覺得你今天真的進步了許多\N{\fs12}I think you made some real progress today.
+Dialogue: 0,0:59:09.64,0:59:10.90,Default,,0000,0000,0000,,你沒在聽我說什麼 英格力士\N{\fs12}You're not hearing me, English.
+Dialogue: 0,0:59:11.18,0:59:14.05,Default,,0000,0000,0000,,鑒於首相和沃爾塔的新友誼 目前情況已經變了\N{\fs12}Given the prime minister's new friendship with volta, the situation has changed.
+Dialogue: 0,0:59:14.27,0:59:18.69,Default,,0000,0000,0000,,但事實並非如此 這場襲擊是沃爾塔發起的\N{\fs12}But the facts haven't, sir. That attack is volta's responsibility.
+Dialogue: 0,0:59:18.98,0:59:21.24,Default,,0000,0000,0000,,只是根據你的個人判斷 而不是其他任何人的\N{\fs12}According to you, but not according to anyone else.
+Dialogue: 0,0:59:21.53,0:59:22.74,Default,,0000,0000,0000,,他在這裡嗎？\N{\fs12}Is he here yet?
+Dialogue: 0,0:59:23.57,0:59:25.74,Default,,0000,0000,0000,,下午好 首相大人 所以他就是 呃...\N{\fs12}Good afternoon, prime minister. So, this is, uh...
+Dialogue: 0,0:59:26.20,0:59:28.79,Default,,0000,0000,0000,,英格力士 首相大人 喬尼·英格力士\N{\fs12}English, prime minister. Johnny English.
+Dialogue: 0,0:59:29.29,0:59:31.58,Default,,0000,0000,0000,,你有什麼需要明確說明的嗎？\N{\fs12}What exactly do you have to say for yourself?
+Dialogue: 0,0:59:32.08,0:59:33.62,Default,,0000,0000,0000,,實際上還不少呢\N{\fs12}Rather a lot, actually.
+Dialogue: 0,0:59:34.12,0:59:37.51,Default,,0000,0000,0000,,總而言之 像我這樣的人不會口腹蜜劍 首相大人\N{\fs12}However, men like me don't deal in prevarication, prime minister,
+Dialogue: 0,0:59:37.79,0:59:39.26,Default,,0000,0000,0000,,所以讓我們直接切入重點吧\N{\fs12}So let me get straight to the point.
+Dialogue: 0,0:59:39.55,0:59:42.59,Default,,0000,0000,0000,,傑森·沃爾塔就是這一連串襲擊背後的始作俑者\N{\fs12}Jason volta is the man behind these attacks.
+Dialogue: 0,0:59:42.88,0:59:45.27,Default,,0000,0000,0000,,同時我還有強力證據證明\N{\fs12}And I have the evidence to prove it.
+Dialogue: 0,0:59:46.51,0:59:50.02,Default,,0000,0000,0000,,我在沃爾塔的犯罪老巢記錄下了這些罪證\N{\fs12}I managed to record this inside volta's country lair.
+Dialogue: 0,0:59:50.35,0:59:51.64,Default,,0000,0000,0000,,但我需要警告您 首相大人\N{\fs12}But I should warn you, prime minister,
+Dialogue: 0,0:59:51.98,0:59:55.69,Default,,0000,0000,0000,,你所要見到的將是邪惡的化身\N{\fs12}that what you're about to see is evil incarnate.
+Dialogue: 0,0:59:57.90,0:59:58.90,Default,,0000,0000,0000,,好吧\N{\fs12}Hmm.
+Dialogue: 0,0:59:58.90,1:00:00.90,Default,,0000,0000,0000,,
+Dialogue: 0,1:00:00.90,1:00:01.32,Default,,0000,0000,0000,,
+Dialogue: 0,1:00:01.32,1:00:04.08,Default,,0000,0000,0000,,現在我們在 菲菲的三歲生日聚會！\N{\fs12}Here we are at Fifi's third birthday!
+Dialogue: 0,1:00:04.36,1:00:06.40,Default,,0000,0000,0000,,真是令人興奮的一天！\N{\fs12}And it's a very exciting day!
+Dialogue: 0,1:00:08.41,1:00:10.95,Default,,0000,0000,0000,,吐舌 萬歲 吐舌 萬歲！\N{\fs12}Hip hip, hooray! Hip hip, hooray!
+Dialogue: 0,1:00:12.20,1:00:15.17,Default,,0000,0000,0000,,祝你生日快樂\N{\fs12}Happy birthday to you
+Dialogue: 0,1:00:16.54,1:00:20.18,Default,,0000,0000,0000,,祝你生日快樂\N{\fs12}happy birthday to you
+Dialogue: 0,1:00:21.76,1:00:22.56,Default,,0000,0000,0000,,謝了\N{\fs12}Thank you.
+Dialogue: 0,1:00:23.22,1:00:25.43,Default,,0000,0000,0000,,我能否問一下 你到底有什麼毛病？\N{\fs12}Can I just ask, what is wrong with you?
+Dialogue: 0,1:00:26.93,1:00:29.09,Default,,0000,0000,0000,,國家正處於完全混亂的狀態\N{\fs12}The country is in a state of complete chaos.
+Dialogue: 0,1:00:29.39,1:00:34.72,Default,,0000,0000,0000,,新聞界煽風點火 唯一一個能拯救我們的人 你卻指控他叛國罪\N{\fs12}The press is wetting itself, and the only person capable of saving us is the man you're accusing of high treason.
+Dialogue: 0,1:00:35.89,1:00:38.98,Default,,0000,0000,0000,,他發出襲擊命令時 我就在那個房間 首相大人\N{\fs12}I was in the room myself when he gave the order, prime minister!
+Dialogue: 0,1:00:39.31,1:00:40.32,Default,,0000,0000,0000,,但這這...\N{\fs12}But there was a...
+Dialogue: 0,1:00:40.61,1:00:42.09,Default,,0000,0000,0000,,你知道我在房間裡做什麼嗎？英格力士\N{\fs12}Do you know what I was in the room with, English?
+Dialogue: 0,1:00:42.32,1:00:44.91,Default,,0000,0000,0000,,讀你的文件 全部都看了一遍 所以我有幾個問題\N{\fs12}Your file, which I've read, in its entirety, and I have a few questions.
+Dialogue: 0,1:00:45.20,1:00:49.08,Default,,0000,0000,0000,,你是不是把科特迪羅餐廳燒成灰燼？\N{\fs12}Did you or did you not burn the cote de roc restaurant in antibes to the ground?
+Dialogue: 0,1:00:49.37,1:00:50.25,Default,,0000,0000,0000,,呃...\N{\fs12}Um...
+Dialogue: 0,1:00:50.53,1:00:54.45,Default,,0000,0000,0000,,還有你是否向法國自行車選手發射了催淚飛彈？\N{\fs12}And did you or did you not fire a guided missile at a peloton of French cyclists?
+Dialogue: 0,1:00:55.21,1:00:56.01,Default,,0000,0000,0000,,這個嘛...\N{\fs12}Well...
+Dialogue: 0,1:00:56.33,1:00:59.79,Default,,0000,0000,0000,,你有沒跑到巴士車頂將導遊扔下車？\N{\fs12}Before commandeering an open-top bus and tossing the tour guide off the top deck
+Dialogue: 0,1:01:00.13,1:01:02.24,Default,,0000,0000,0000,,　　　　　　　　　　　　　　　　　　　　　　　\N然後跑到麵包店襲擊一位坐著輪椅的８２歲老婦人？\N{\fs12}and then assaulting an 82-year-old grandmother in a sandwich shop
+Dialogue: 0,1:01:02.46,1:01:06.51,Default,,0000,0000,0000,,還用兩條法棍麵包瘋狂抽打了麵包店員工？\N{\fs12}before battering the employee of said sandwich shop with two organic sourdough baguettes?
+Dialogue: 0,1:01:07.84,1:01:09.38,Default,,0000,0000,0000,,呃 我不記得有...\N{\fs12}Uh, I don't remember the...
+Dialogue: 0,1:01:09.72,1:01:12.60,Default,,0000,0000,0000,,你知道這一切讓我有多困擾嗎？\N{\fs12}Do you have any idea how hard it is to be me?
+Dialogue: 0,1:01:14.39,1:01:15.81,Default,,0000,0000,0000,,- 呃．．．\N- 不知？　\N{\fs12}- Uh... - Hmm?
+Dialogue: 0,1:01:16.94,1:01:22.35,Default,,0000,0000,0000,,面對事件、真相和選民 還有那股被稱之為「國家媒體」的海嘯\N{\fs12}Do you have even the foggiest notion of how virtually impossible it is to get anything done
+Dialogue: 0,1:01:22.69,1:01:30.40,Default,,0000,0000,0000,,在這些事面前 你難道連最基本「不能做的事」的模糊概念都沒有嗎！？\N{\fs12}in the face of events and facts and voters and that Tsunami of tosspots we call "the national press"?
+Dialogue: 0,1:01:30.74,1:01:35.20,Default,,0000,0000,0000,,好不容易 我能為我的國家做些好事 然後發生什麼了？\N{\fs12}Finally I get the chance to do something good for my country, and what happens?
+Dialogue: 0,1:01:35.54,1:01:37.92,Default,,0000,0000,0000,,宇宙把我送到你面前\N{\fs12}The universe sends me you.
+Dialogue: 0,1:01:39.87,1:01:41.21,Default,,0000,0000,0000,,好吧 你知道我會說什麼嗎？\N{\fs12}Well, do you know what I say?
+Dialogue: 0,1:01:41.50,1:01:44.21,Default,,0000,0000,0000,,我會說 去他喵的宇宙！!\N{\fs12}I say, up the universe's arse!!
+Dialogue: 0,1:01:45.60,1:01:46.38,Default,,0000,0000,0000,,川普：Give Me A High-Five~
+Dialogue: 0,1:01:44.55,1:01:46.38,Default,,0000,0000,0000,,當然還有這句—— 你被開除了！\N{\fs12}And do you know what else I say? You're fired.
+Dialogue: 0,1:01:46.67,1:01:48.51,Default,,0000,0000,0000,,此刻起立刻生效 現在給老娘我滾！\N{\fs12}With immediate effect. Now get out!
+Dialogue: 0,1:01:49.09,1:01:52.93,Default,,0000,0000,0000,,還有確保我以後再也不會見到這個傻瓜 永遠的！\N{\fs12}And make sure I never clap eyes on that imbecile ever again!
+Dialogue: 0,1:01:52.93,1:01:54.93,Default,,0000,0000,0000,,
+Dialogue: 0,1:01:54.93,1:01:56.93,Default,,0000,0000,0000,,
+Dialogue: 0,1:02:35.10,1:02:36.73,Default,,0000,0000,0000,,你要去哪裡 長官？\N{\fs12}What are you doing, sir?
+Dialogue: 0,1:02:38.02,1:02:40.93,Default,,0000,0000,0000,,你覺得我能去哪兒？回家唄\N{\fs12}What do you think I'm doing, bough? I'm going home.
+Dialogue: 0,1:02:41.52,1:02:43.73,Default,,0000,0000,0000,,但首相正在完成她和沃爾塔的交易\N{\fs12}But the prime minister is finalizing her deal with volta.
+Dialogue: 0,1:02:44.06,1:02:47.11,Default,,0000,0000,0000,,她說要帶上他作為特邀嘉賓參加G12峰會\N{\fs12}She's taking him to the G12 summit in Scotland as her special guest.
+Dialogue: 0,1:02:47.44,1:02:51.24,Default,,0000,0000,0000,,一切都結束了 鮑夫 我們對這一切根本無能為力\N{\fs12}It's over, bough. And there's absolutely nothing we can do about it.
+Dialogue: 0,1:02:52.16,1:02:54.62,Default,,0000,0000,0000,,但 長官 我有個計劃\N{\fs12}But, sir, I have a plan.
+Dialogue: 0,1:02:55.20,1:02:56.79,Default,,0000,0000,0000,,記得我妻子嗎？\N{\fs12}Remember my wife?
+Dialogue: 0,1:03:05.88,1:03:06.96,Default,,0000,0000,0000,,收起你的擋板！\N{\fs12}Clear your baffles!
+Dialogue: 0,1:03:07.50,1:03:08.80,Default,,0000,0000,0000,,- 穿山甲說什麼？\N- 主意頭頂長官　\N{\fs12} - What? - Mind your head, sir.
+Dialogue: 0,1:03:08.90,1:03:09.80,Default,,0000,0000,0000,,噢！\N{\fs12}Owl!
+Dialogue: 0,1:03:13.93,1:03:14.97,Default,,0000,0000,0000,,這表上說我們正在下沉\N{\fs12}this says we're sinking.
+Dialogue: 0,1:03:18.85,1:03:23.52,Default,,0000,0000,0000,,她是有點老舊了 但她可以獻上一場地獄般的煙火表演\N{\fs12}She's old and a little rusty, but she can put on a hell of a fireworks display.
+Dialogue: 0,1:03:37.00,1:03:39.30,Default,,0000,0000,0000,,G12政界峰會 加洛什城堡
+Dialogue: 0,1:03:40.62,1:03:42.21,Default,,0000,0000,0000,,出色的表現 指揮官\N{\fs12}Excellent work, commander.
+Dialogue: 0,1:03:42.71,1:03:45.29,Default,,0000,0000,0000,,傑里米對您評價一直很高 英格力士特工\N{\fs12}Jeremy has always spoken very highly of you, agent English.
+Dialogue: 0,1:03:46.67,1:03:47.47,Default,,0000,0000,0000,,誰？\N{\fs12}Who?
+Dialogue: 0,1:03:49.59,1:03:50.55,Default,,0000,0000,0000,,哦\N{\fs12}Oh.
+Dialogue: 0,1:03:50.84,1:03:52.30,Default,,0000,0000,0000,,哦 是的 沒錯\N{\fs12}Oh, yes, yes.
+Dialogue: 0,1:03:54.38,1:03:56.30,Default,,0000,0000,0000,,我一直不太喜歡那些文職人員 所以\N{\fs12}I'm no fan of the pen pushers myself, so
+Dialogue: 0,1:03:56.59,1:03:58.41,Default,,0000,0000,0000,,當命令為了首腦峰會時把我們派駐到這裡時\N{\fs12}When orders came through stationing us here for the summit,
+Dialogue: 0,1:03:58.64,1:04:00.85,Default,,0000,0000,0000,,我想 那至少我也能知道地點在哪兒\N{\fs12}Well, I thought a lift was the least I could do.
+Dialogue: 0,1:04:01.39,1:04:03.10,Default,,0000,0000,0000,,好極 讓我們動身出發吧 鮑夫\N{\fs12}Right, let's get a move on, bough.
+Dialogue: 0,1:04:04.73,1:04:07.72,Default,,0000,0000,0000,,對了 你們應該不介意把手機一直關機吧 直到你們安全後再開\N{\fs12}Oh, if you wouldn't mind keeping your mobiles off until you're well clear, gentlemen.
+Dialogue: 0,1:04:07.98,1:04:10.27,Default,,0000,0000,0000,,這裡的導彈發射系統有點像80年代的\N{\fs12}The launch systems on the missiles are a bit 1980s.
+Dialogue: 0,1:04:10.57,1:04:13.11,Default,,0000,0000,0000,,對微波輻射有點敏感\N{\fs12}Gets a tad twitchy around microwave radiation.
+Dialogue: 0,1:04:13.45,1:04:17.24,Default,,0000,0000,0000,,沒問題 指揮官 我們會用舊式經典風格來完成這次任務\N{\fs12}No problem there, commander. We're doing this mission old-school.
+Dialogue: 0,1:04:27.58,1:04:29.05,Default,,0000,0000,0000,,這個地點完美極了\N{\fs12}This spot is perfect.
+Dialogue: 0,1:04:30.84,1:04:31.97,Default,,0000,0000,0000,,來吧\N{\fs12}Come on.
+Dialogue: 0,1:04:47.69,1:04:48.49,Default,,0000,0000,0000,,抱歉 長官\N{\fs12}Sorry, sir.
+Dialogue: 0,1:04:48.77,1:04:50.03,Default,,0000,0000,0000,,快過來 隱蔽起來...\N{\fs12}Come on, come on...
+Dialogue: 0,1:04:52.11,1:04:53.65,Default,,0000,0000,0000,,好了 鮑夫 我們的任務很簡單\N{\fs12}Right, bough. Our mission here is simple.
+Dialogue: 0,1:04:54.03,1:04:57.19,Default,,0000,0000,0000,,機智地潛入沃爾塔的房間 帶走他\N{\fs12}Gain access to volta's bedroom and take him out.
+Dialogue: 0,1:04:57.82,1:04:59.42,Default,,0000,0000,0000,,你打算怎麼進到那裡面？長官\N{\fs12}How are you going to get up there, though, sir?
+Dialogue: 0,1:05:00.16,1:05:03.25,Default,,0000,0000,0000,,輕鬆至極 只要你有外骨骼裝甲\N{\fs12}A walk in the park for the exoskeleton.
+Dialogue: 0,1:05:09.92,1:05:12.76,Default,,0000,0000,0000,,可以遠程操縱的 氯丁橡膠緊身衣\N{\fs12}Remotely operated neoprene bodysuit.
+Dialogue: 0,1:05:13.09,1:05:15.80,Default,,0000,0000,0000,,增強穿戴者100倍的力量\N{\fs12}Increases the wearer's strength 100 times.
+Dialogue: 0,1:05:16.38,1:05:19.47,Default,,0000,0000,0000,,好了 啟動它 把軟盤插進去然後出發\N{\fs12}Right, power it up. Stick in the floppy disk and let's go.
+Dialogue: 0,1:05:27.98,1:05:28.78,Default,,0000,0000,0000,,稍等下...\N{\fs12}Just...
+Dialogue: 0,1:05:45.45,1:05:46.46,Default,,0000,0000,0000,,天吶 長官\N{\fs12}Crikey, sir!
+Dialogue: 0,1:05:46.46,1:05:48.46,Default,,0000,0000,0000,,
+Dialogue: 0,1:05:48.46,1:05:50.46,Default,,0000,0000,0000,,
+Dialogue: 0,1:06:03.10,1:06:04.73,Default,,0000,0000,0000,,武器什麼時候能準備好？\N{\fs12}When will the weapon be ready?
+Dialogue: 0,1:06:05.06,1:06:08.47,Default,,0000,0000,0000,,只要首相今晚一簽署協議\N{\fs12}As soon as the prime minister signs the agreement, tonight.
+Dialogue: 0,1:06:08.81,1:06:09.94,Default,,0000,0000,0000,,我該如何發射？\N{\fs12}How do I fire it?
+Dialogue: 0,1:06:10.27,1:06:12.65,Default,,0000,0000,0000,,按一次攻擊就會觸發\N{\fs12}Press once and the attack is launched.
+Dialogue: 0,1:06:13.11,1:06:19.99,Default,,0000,0000,0000,,隨後 每個參加 G12峰會國家的數據都將傳送到 Dot CALM號上的服務器裡\N{\fs12}After which, the data of every G12 country will be transferred to the servers onboard the Dot CALM.
+Dialogue: 0,1:06:20.28,1:06:21.08,Default,,0000,0000,0000,,完美\N{\fs12}Perfect.
+Dialogue: 0,1:06:22.95,1:06:23.83,Default,,0000,0000,0000,,啊\N{\fs12}Ah.
+Dialogue: 0,1:06:25.45,1:06:26.25,Default,,0000,0000,0000,,乾杯\N{\fs12}Cheers.
+Dialogue: 0,1:06:34.88,1:06:37.97,Default,,0000,0000,0000,,你一開始就為俄國情報部門工作\N{\fs12}You're working for Russian intelligence and you have been from the start.
+Dialogue: 0,1:06:38.67,1:06:41.27,Default,,0000,0000,0000,,這就是我為什麼有你戒指裡毒藥的解藥\N{\fs12}Which is why I've taken an antidote to the poison you keep in your ring,
+Dialogue: 0,1:06:41.51,1:06:42.97,Default,,0000,0000,0000,,就是你下到這杯飲料裡的毒藥\N{\fs12}and which you've poured into this drink.
+Dialogue: 0,1:06:44.93,1:06:47.02,Default,,0000,0000,0000,,還取掉了你拿把槍裡的擊針\N{\fs12}And removed the firing pin from that pistol.
+Dialogue: 0,1:06:56.07,1:06:57.82,Default,,0000,0000,0000,,每個人都得 為了自己的人生努力生活\N{\fs12}Everyone has to make a life for themselves.
+Dialogue: 0,1:06:58.32,1:07:00.23,Default,,0000,0000,0000,,而你的令人悲傷 因為馬上就要...\N{\fs12}It's just sad that yours is
+Dialogue: 0,1:07:01.53,1:07:02.36,Default,,0000,0000,0000,,結束\N{\fs12}over.
+Dialogue: 0,1:07:02.66,1:07:03.54,Default,,0000,0000,0000,,哼嗯...\N{\fs12}Hmm.
+Dialogue: 0,1:07:03.82,1:07:06.91,Default,,0000,0000,0000,,剛從我的3D打印機裡做好 100%的純塑料製成\N{\fs12}Fresh from my 3D printer. Hundred percent plastic.
+Dialogue: 0,1:07:10.33,1:07:11.79,Default,,0000,0000,0000,,並且 100%致命\N{\fs12}And 100% deadly.
+Dialogue: 0,1:07:13.17,1:07:14.88,Default,,0000,0000,0000,,殺掉我並不能救你\N{\fs12}Killing me won't save you.
+Dialogue: 0,1:07:16.00,1:07:17.00,Default,,0000,0000,0000,,別那麼肯定\N{\fs12}Don't bet on it.
+Dialogue: 0,1:07:21.76,1:07:23.92,Default,,0000,0000,0000,,講真？這不可能發生\N{\fs12}Seriously, this cannot be happening.
+Dialogue: 0,1:07:24.34,1:07:26.01,Default,,0000,0000,0000,,哦 但這確實發生了\N{\fs12}Oh, but it is.
+Dialogue: 0,1:07:27.26,1:07:28.22,Default,,0000,0000,0000,,扔掉槍\N{\fs12}Drop the gun.
+Dialogue: 0,1:07:29.35,1:07:30.48,Default,,0000,0000,0000,,雙手舉到空中\N{\fs12}Get your hands in the air.
+Dialogue: 0,1:07:31.64,1:07:32.44,Default,,0000,0000,0000,,你也是\N{\fs12}And you.
+Dialogue: 0,1:07:40.74,1:07:41.82,Default,,0000,0000,0000,,沒時間搞這套 喬尼！\N{\fs12}There's no time for this, Johnny!
+Dialogue: 0,1:07:42.90,1:07:44.16,Default,,0000,0000,0000,,哦 這不可能吧\N{\fs12}Oh, it isn't possible.
+Dialogue: 0,1:07:44.45,1:07:46.99,Default,,0000,0000,0000,,你不可能和這個英格力士蠢蛋合作\N{\fs12}You cannot be working with this English idiot!
+Dialogue: 0,1:07:47.28,1:07:50.50,Default,,0000,0000,0000,,把你的白日夢話 留到監獄裡念叨吧 沃爾塔\N{\fs12}Save the pillow talk for your prison cell, volta.
+Dialogue: 0,1:07:51.04,1:07:54.67,Default,,0000,0000,0000,,- 你到裡面了嗎長官？　　　　　\N- 是的沒錯小鮑你可以把電源關了\N{\fs12}- Are you inside, sir? - Yes, yes, bough, you can power down.
+Dialogue: 0,1:07:55.25,1:07:56.88,Default,,0000,0000,0000,,一切盡在我的控制之中...\N{\fs12}Everything is under control.
+Dialogue: 0,1:07:58.04,1:07:59.18,Default,,0000,0000,0000,,好吧 你說關就關唄\N{\fs12}Shut down.
+Dialogue: 0,1:08:41.71,1:08:43.05,Default,,0000,0000,0000,,現在我們更難進去了 長官\N{\fs12}How do we get in now, sir?
+Dialogue: 0,1:08:52.01,1:08:53.48,Default,,0000,0000,0000,,有什麼妙招？\N{\fs12}What's the plan?
+Dialogue: 0,1:09:28.76,1:09:29.97,Default,,0000,0000,0000,,嘿 你！\N{\fs12}Hey, you!
+Dialogue: 0,1:09:30.85,1:09:31.73,Default,,0000,0000,0000,,站住！\N{\fs12}Hey!
+Dialogue: 0,1:09:31.73,1:09:33.73,Default,,0000,0000,0000,,
+Dialogue: 0,1:09:33.73,1:09:35.73,Default,,0000,0000,0000,,
+Dialogue: 0,1:09:47.99,1:09:50.57,Default,,0000,0000,0000,,非常感謝你們 我希望你們得到了需要的一切\N{\fs12}Thank you very much. I hope you have everything you need.
+Dialogue: 0,1:10:07.67,1:10:08.68,Default,,0000,0000,0000,,噢...\N{\fs12}Owl!
+Dialogue: 0,1:10:09.13,1:10:10.47,Default,,0000,0000,0000,,我代表著整個英國\N{\fs12}On behalf of the United Kingdom,
+Dialogue: 0,1:10:10.80,1:10:14.14,Default,,0000,0000,0000,,請允許我歡迎你來到這個古老的會議廳\N{\fs12}May I welcome you here today to this ancient meeting chamber
+Dialogue: 0,1:10:14.47,1:10:20.80,Default,,0000,0000,0000,,偉大的蘇格蘭民族 他們曾解決諸多紛爭 建立了新聯盟\N{\fs12}Where the great Scottish clans once settled their differences and forged new alliances.
+Dialogue: 0,1:10:21.40,1:10:26.70,Default,,0000,0000,0000,,一個我為了發佈特別信息 而精心挑選出的場所\N{\fs12}A place I have specifically chosen in order to make a very special announcement.
+Dialogue: 0,1:10:27.90,1:10:28.70,Default,,0000,0000,0000,,長官？\N{\fs12}Sir?
+Dialogue: 0,1:10:30.20,1:10:33.96,Default,,0000,0000,0000,,- 你還好吧長官？　　　　　　\N- 不我一點也不好扶我起來鮑夫\N{\fs12}- Are you all right, sir? - No, I'm not all right. Get me up, bough.
+Dialogue: 0,1:10:37.87,1:10:41.21,Default,,0000,0000,0000,,- 這可真重啊長官　　\N- 我知道這有多重鮑夫\N{\fs12}- It's very heavy, sir. - I know how heavy it is, bough.
+Dialogue: 0,1:10:44.34,1:10:45.84,Default,,0000,0000,0000,,我們必須趕到會場...\N{\fs12}We've got to get to the conference...
+Dialogue: 0,1:10:47.96,1:10:49.97,Default,,0000,0000,0000,,搶先到那裡 避免沃爾塔...\N{\fs12}To the conference room before volta...
+Dialogue: 0,1:10:51.88,1:10:53.89,Default,,0000,0000,0000,,避免沃爾塔啟動武器...\N{\fs12}Before volta triggers his weapon.
+Dialogue: 0,1:10:55.64,1:10:59.23,Default,,0000,0000,0000,,所以 隨著我在這份協議上簽名...\N{\fs12}And so, with my signature on this agreement...
+Dialogue: 0,1:11:01.14,1:11:03.03,Default,,0000,0000,0000,,這給了我無比的喜悅 哦...\N{\fs12}It gives me great pleasure, oh,
+Dialogue: 0,1:11:03.31,1:11:07.82,Default,,0000,0000,0000,,向你們介紹 我的嘉賓及朋友 傑森·沃爾塔\N{\fs12}to welcome to you, my guest, my friend, Jason volta.
+Dialogue: 0,1:11:10.95,1:11:14.08,Default,,0000,0000,0000,,隨時準備發動攻擊 傑森\N{\fs12}Standing by to launch attack, Jason.
+Dialogue: 0,1:11:14.57,1:11:16.54,Default,,0000,0000,0000,,- 見鬼把我弄出這身破玩意兒\N- 喬尼？　　　　　　　　　\N{\fs12}- Damn it, get me out of this stuff. - Johnny?
+Dialogue: 0,1:11:16.87,1:11:18.66,Default,,0000,0000,0000,,我看不見結合處 長官 這是扣環式的\N{\fs12}I can't see the join, sir. It's the clasp.
+Dialogue: 0,1:11:19.00,1:11:21.75,Default,,0000,0000,0000,,鬆開扣環 這樣上下就分開了\N{\fs12}Release the clasp and the top and the bottom separate.
+Dialogue: 0,1:11:23.92,1:11:25.67,Default,,0000,0000,0000,,一定是在你倒下時卡住了 長官\N{\fs12}Must have jammed when you fell over, sir.
+Dialogue: 0,1:11:26.04,1:11:27.88,Default,,0000,0000,0000,,- 這種危急時刻鏈子不掉\N- 等下試試這個　　　　\N{\fs12}- For goodness sake. - Wait. Try this.
+Dialogue: 0,1:11:34.97,1:11:36.76,Default,,0000,0000,0000,,這真是...噴了不少油啊 長官\N{\fs12}That is quite a lot of oil, sir.
+Dialogue: 0,1:11:38.06,1:11:40.27,Default,,0000,0000,0000,,哦 快點！快點 快點！...\N{\fs12}Oh, come on! Come on, come on...
+Dialogue: 0,1:11:40.27,1:11:41.60,Default,,0000,0000,0000,,
+Dialogue: 0,1:11:41.60,1:11:41.60,Default,,0000,0000,0000,,
+Dialogue: 0,1:11:41.60,1:11:45.11,Default,,0000,0000,0000,,你們能否想像如果蘋果公司接管運行這個世界？\N{\fs12}Can you imagine what the world would look like if it was run by apple?
+Dialogue: 0,1:11:46.77,1:11:48.98,Default,,0000,0000,0000,,又或者 谷歌，又或者...\N{\fs12}Or Google? Or...
+Dialogue: 0,1:11:49.73,1:11:50.61,Default,,0000,0000,0000,,我？\N{\fs12}Me?
+Dialogue: 0,1:11:54.07,1:11:55.95,Default,,0000,0000,0000,,你們認為還會存在失敗的學校嗎？\N{\fs12}Do you think you'd have failing schools?
+Dialogue: 0,1:11:56.91,1:11:59.04,Default,,0000,0000,0000,,還會存在醫院裡無止境的等待？\N{\fs12}Do you think you'd have endless waiting in your hospitals?
+Dialogue: 0,1:11:59.33,1:12:00.13,Default,,0000,0000,0000,,不\N{\fs12}No.
+Dialogue: 0,1:12:00.41,1:12:02.95,Default,,0000,0000,0000,,覺得你們的機場還會有超長的排隊嗎？\N{\fs12}Think you'd have such long lines in your airports?
+Dialogue: 0,1:12:03.29,1:12:04.63,Default,,0000,0000,0000,,- 不　　\N- 並不會\N{\fs12}- No. - No.
+Dialogue: 0,1:12:05.17,1:12:09.38,Default,,0000,0000,0000,,沒錯 不會發生的原因源於所有這一切 其實都是簡單的數據管理問題\N{\fs12}No, because all of these are simple data management problems.
+Dialogue: 0,1:12:09.71,1:12:12.17,Default,,0000,0000,0000,,最終人們會像我一樣 共同熱愛數據！\N{\fs12}And people like me, We love data!
+Dialogue: 0,1:12:13.13,1:12:15.59,Default,,0000,0000,0000,,我們生活在數據中...\N{\fs12}We live for data.
+Dialogue: 0,1:12:16.22,1:12:17.72,Default,,0000,0000,0000,,哈！我...\N{\fs12}Ha! My...
+Dialogue: 0,1:12:18.05,1:12:20.19,Default,,0000,0000,0000,,你知道我為了什麼而活嗎？沃爾塔\N{\fs12}Do you know what I live for, volta?
+Dialogue: 0,1:12:20.47,1:12:21.27,Default,,0000,0000,0000,,上帝啊...\N{\fs12}God.
+Dialogue: 0,1:12:21.56,1:12:26.73,Default,,0000,0000,0000,,消除你這樣滿嘴謊言 危害國家安全的惡棍！\N{\fs12}Eliminating the threat that lying villains like you pose to this country!
+Dialogue: 0,1:12:27.23,1:12:28.24,Default,,0000,0000,0000,,唉 額滴神啊\N{\fs12}Oh, for god's sake.
+Dialogue: 0,1:12:28.73,1:12:30.07,Default,,0000,0000,0000,,他是誰？\N{\fs12}Who is he?
+Dialogue: 0,1:12:30.44,1:12:31.65,Default,,0000,0000,0000,,逮捕這個重傢伙\N{\fs12}Arrest this whack job.
+Dialogue: 0,1:12:31.98,1:12:34.87,Default,,0000,0000,0000,,這裡唯一能下逮捕命令的人就是我\N{\fs12}The only person ordering an arrest around here will be me.
+Dialogue: 0,1:12:35.86,1:12:38.03,Default,,0000,0000,0000,,沒必要擔心 女士們 先生們\N{\fs12}There's no cause for concern, ladies and gentlemen,
+Dialogue: 0,1:12:38.37,1:12:42.83,Default,,0000,0000,0000,,你們現在在 女王陛下特勤局的可靠掌控局勢之下\N{\fs12}You are now in the capable hands of her majesty's secret service.
+Dialogue: 0,1:12:43.37,1:12:47.84,Default,,0000,0000,0000,,而你 我的朋友 正在經歷一場不愉快的旅行\N{\fs12}And you, my friend, are in for an uncomfortable ride.
+Dialogue: 0,1:12:53.00,1:12:54.50,Default,,0000,0000,0000,,噢嗚~~~\N{\fs12}Owww Ooh...
+Dialogue: 0,1:12:54.50,1:12:56.50,Default,,0000,0000,0000,,
+Dialogue: 0,1:12:56.50,1:12:58.50,Default,,0000,0000,0000,,
+Dialogue: 0,1:13:04.56,1:13:05.69,Default,,0000,0000,0000,,我說到哪兒了來著？\N{\fs12}Where was I?
+Dialogue: 0,1:13:07.35,1:13:08.89,Default,,0000,0000,0000,,生活在數據流中\N{\fs12}Living for data.
+Dialogue: 0,1:13:09.48,1:13:10.36,Default,,0000,0000,0000,,正是如此\N{\fs12}Exactly.
+Dialogue: 0,1:13:11.90,1:13:16.75,Default,,0000,0000,0000,,我的運算程序可以解決你們中每一個人的問題 只要我還有一樣東西——\N{\fs12}My algorithms can solve every one of your problems as long as I have one thing.
+Dialogue: 0,1:13:17.10,1:13:17.87,Default,,0000,0000,0000,,控制權\N{\fs12}Control.
+Dialogue: 0,1:13:18.74,1:13:21.87,Default,,0000,0000,0000,,那也正是你們現在要給我的\N{\fs12}And that is what you are about to give me now.
+Dialogue: 0,1:13:22.70,1:13:24.66,Default,,0000,0000,0000,,傑森 我好奇你是否能澄清一下...\N{\fs12}Jason, I wonder if you could just clarify...
+Dialogue: 0,1:13:24.95,1:13:25.83,Default,,0000,0000,0000,,閉嘴\N{\fs12}Shut up.
+Dialogue: 0,1:13:26.58,1:13:27.30,Default,,0000,0000,0000,,嘿 你小子給我等下\N{\fs12}Now, hold on.
+Dialogue: 0,1:13:29.17,1:13:30.63,Default,,0000,0000,0000,,城堡現在已封鎖\N{\fs12}Castle now locked down
+Dialogue: 0,1:13:31.88,1:13:33.92,Default,,0000,0000,0000,,一切盡在你的掌控之下 傑森\N{\fs12}and under your control, Jason.
+Dialogue: 0,1:13:36.09,1:13:38.30,Default,,0000,0000,0000,,這個無知的人剛才簽下的協議\N{\fs12}The agreement this ignoramus just signed
+Dialogue: 0,1:13:38.59,1:13:41.05,Default,,0000,0000,0000,,不只給予我訪問英國所有數據的權限\N{\fs12}didn't just give me access to all the UK's data.
+Dialogue: 0,1:13:41.39,1:13:45.15,Default,,0000,0000,0000,,還允許我接入北艾爾郡的一個接線盒\N{\fs12}It also gave me access to a junction box, in north ayrshire
+Dialogue: 0,1:13:45.47,1:13:47.81,Default,,0000,0000,0000,,它連接著整個全球互聯網\N{\fs12}that connects the entire world wide web.
+Dialogue: 0,1:13:48.31,1:13:53.78,Default,,0000,0000,0000,,禁用那個盒子裡的光纖電纜 互聯網將會不復存在\N{\fs12}Disable the fiber-optic cables in that box and the Internet will cease to exist.
+Dialogue: 0,1:13:55.28,1:13:57.66,Default,,0000,0000,0000,,喬尼？你還好嗎？\N{\fs12}Johnny? Are you okay?
+Dialogue: 0,1:14:05.20,1:14:07.84,Default,,0000,0000,0000,,你帶手機了嗎？我們需要呼叫外援\N{\fs12}Have you got a phone? We need to call for backup.
+Dialogue: 0,1:14:08.12,1:14:10.88,Default,,0000,0000,0000,,現在沒時間搬救兵了 我要直接去找沃爾塔\N{\fs12}There's no time for backup. I'm going after volta.
+Dialogue: 0,1:14:11.17,1:14:12.67,Default,,0000,0000,0000,,別把這部也搞丟！\N{\fs12}And don't lose that one!
+Dialogue: 0,1:14:13.92,1:14:17.63,Default,,0000,0000,0000,,你們能明白全球互聯網關閉的後果嗎？\N{\fs12}Do you understand what it means if I turn the Internet off?
+Dialogue: 0,1:14:18.05,1:14:22.18,Default,,0000,0000,0000,,城市將黯淡無光 飛機會從天空墜落\N{\fs12}Cities will go dark. Planes will fall out of the sky.
+Dialogue: 0,1:14:23.10,1:14:26.35,Default,,0000,0000,0000,,列車會相撞 法律和秩序也將奔潰\N{\fs12}Trains will collide. Law and order will break down
+Dialogue: 0,1:14:26.64,1:14:29.31,Default,,0000,0000,0000,,最後你們所熟悉的世界將會徹底結束\N{\fs12}and the world as you know it will be over.
+Dialogue: 0,1:14:30.23,1:14:32.64,Default,,0000,0000,0000,,壓軸節目 別劇透 對吧？\N{\fs12}Show, don't tell, right?
+Dialogue: 0,1:14:36.65,1:14:38.44,Default,,0000,0000,0000,,開始發起攻擊 傑森\N{\fs12}Initiating attack, Jason.
+Dialogue: 0,1:14:39.57,1:14:41.36,Default,,0000,0000,0000,,取得接線盒控制權限\N{\fs12}Taking control of junction box.
+Dialogue: 0,1:14:42.70,1:14:47.37,Default,,0000,0000,0000,,暫停英國和歐洲的互聯網及供電\N{\fs12}Suspending Internet and electricity supply across britain and Europe.
+Dialogue: 0,1:14:48.62,1:14:50.83,Default,,0000,0000,0000,,攻擊階段一 完成\N{\fs12}Stage one of attack complete.
+Dialogue: 0,1:14:51.54,1:14:54.63,Default,,0000,0000,0000,,女士們 先生們 我隨時可以停止攻擊\N{\fs12}Ladies and gentlemen. I can stop the attack
+Dialogue: 0,1:14:54.92,1:14:58.21,Default,,0000,0000,0000,,只要你們每個人都在協議上面簽名授權\N{\fs12}as long as each of you signs the same agreement as the prime minister,
+Dialogue: 0,1:14:58.51,1:15:00.30,Default,,0000,0000,0000,,給我完整的控制權\N{\fs12}Giving me complete control.
+Dialogue: 0,1:15:01.43,1:15:02.64,Default,,0000,0000,0000,,你們決定\N{\fs12}Your call.
+Dialogue: 0,1:15:02.64,1:15:03.68,Default,,0000,0000,0000,,
+Dialogue: 0,1:15:03.68,1:15:03.68,Default,,0000,0000,0000,,
+Dialogue: 0,1:15:03.68,1:15:06.26,Default,,0000,0000,0000,,- 歡迎致電英國特勤局\N- 給我接珀加索斯！　\N{\fs12}- Welcome to British intelligence. - Get me Pegasus!
+Dialogue: 0,1:15:06.89,1:15:10.43,Default,,0000,0000,0000,,軍情五處請按1 軍情六處請按2\N{\fs12}For MI5, press one. For MI7, press two.
+Dialogue: 0,1:15:11.06,1:15:13.19,Default,,0000,0000,0000,,軍情七處 請按3\N{\fs12}For MI7, press three.
+Dialogue: 0,1:15:19.99,1:15:22.95,Default,,0000,0000,0000,,已獲得8位 G12峰會首腦簽名\N{\fs12}Eight G12 signatures now acquired.
+Dialogue: 0,1:15:24.20,1:15:26.58,Default,,0000,0000,0000,,通知直升機 這邊快完事兒了\N{\fs12}Signal the chopper, we're almost done here.
+Dialogue: 0,1:15:27.20,1:15:28.79,Default,,0000,0000,0000,,賬戶服務 請按5\N{\fs12}For accounts, press five.
+Dialogue: 0,1:15:29.08,1:15:31.21,Default,,0000,0000,0000,,- 兒童托管請按６\N- 拜託快點行不！\N{\fs12}- For childcare services, press six. - Oh, come on!
+Dialogue: 0,1:15:31.54,1:15:33.67,Default,,0000,0000,0000,,更多選項 請按7\N{\fs12}For more options, press seven.
+Dialogue: 0,1:15:36.42,1:15:37.22,Default,,0000,0000,0000,,什麼？\N{\fs12}What?
+Dialogue: 0,1:15:38.84,1:15:43.80,Default,,0000,0000,0000,,還需要兩個簽名才能對G12國家數據進行控制\N{\fs12}Only two further signatures required to achieve control of G12 national data.
+Dialogue: 0,1:15:44.84,1:15:46.05,Default,,0000,0000,0000,,所有英國數據\N{\fs12}All UK data
+Dialogue: 0,1:15:46.35,1:15:48.93,Default,,0000,0000,0000,,已成功傳輸到 Dot CALM主機\N{\fs12}Now successfully transferred to the Dot CALM.
+Dialogue: 0,1:15:49.27,1:15:52.56,Default,,0000,0000,0000,,阿芙羅狄蒂 古希臘神話中愛與美的女神
+Dialogue: 0,1:15:49.27,1:15:52.56,Default,,0000,0000,0000,,　　　　　　　　　　　　　　　\N阿芙羅狄蒂請按１珀加索斯請按２\N{\fs12}- For Aphrodite, press one. - For Pegasus, press two.
+Dialogue: 0,1:15:55.31,1:15:56.11,Default,,0000,0000,0000,,哦 上帝啊\N{\fs12}Oh, my god.
+Dialogue: 0,1:15:56.40,1:15:59.91,Default,,0000,0000,0000,,準備下潛 重複 準備下潛\N{\fs12}Dive the submarine. Repeat, dive the submarine.
+Dialogue: 0,1:16:02.90,1:16:04.82,Default,,0000,0000,0000,,- 這裡是主管辦公室　\N- 我是喬尼·英格力士\N{\fs12}Director's office? This is Johnny English.
+Dialogue: 0,1:16:05.16,1:16:09.17,Default,,0000,0000,0000,,我需要立刻和珀加索斯通話 事關國家危機！\N{\fs12}I need to speak to Pegasus immediately. It's a national emergency!
+Dialogue: 0,1:16:09.49,1:16:10.78,Default,,0000,0000,0000,,稍等一下 先生\N{\fs12}One moment, please, sir.
+Dialogue: 0,1:16:12.96,1:16:13.79,Default,,0000,0000,0000,,這是復仇者潛艇號\N{\fs12}This is hms vengeance.
+Dialogue: 0,1:16:14.12,1:16:17.54,Default,,0000,0000,0000,,我們有一串啟動碼 重複 啟動代碼已被鎖定\N{\fs12}We have a full launch code. Repeat, launch code is locked.
+Dialogue: 0,1:16:17.88,1:16:19.67,Default,,0000,0000,0000,,請問我有發射許可嗎？\N{\fs12}Do I have your permission to fire?
+Dialogue: 0,1:16:20.00,1:16:22.14,Default,,0000,0000,0000,,哦 天吶 請你稍等一下下 拜託\N{\fs12}Oh, my god. Could you hold on one moment, please?
+Dialogue: 0,1:16:22.46,1:16:24.00,Default,,0000,0000,0000,,長官？長官！\N{\fs12}Sir? Sir!
+Dialogue: 0,1:16:25.18,1:16:25.98,Default,,0000,0000,0000,,你好？\N{\fs12}hello?
+Dialogue: 0,1:16:26.43,1:16:27.23,Default,,0000,0000,0000,,在嗎？\N{\fs12}Hello?
+Dialogue: 0,1:16:27.51,1:16:30.43,Default,,0000,0000,0000,,長官 這裡是復仇者號 我是否被授權發射許可？\N{\fs12}Sir! Hms vengeance here. Do I have your permission to launch?
+Dialogue: 0,1:16:30.76,1:16:33.48,Default,,0000,0000,0000,,什麼？聽著 我們必須發起攻擊\N{\fs12}What? Listen, we have to call in an attack.
+Dialogue: 0,1:16:33.77,1:16:34.81,Default,,0000,0000,0000,,你剛才說發起「攻擊」了嗎？長官？\N{\fs12}Did you say "attack," sir?
+Dialogue: 0,1:16:35.00,1:16:37.30,Default,,0000,0000,0000,,沒錯 發起攻擊 消滅敵人！\N{\fs12}Yes! and a Atttack, Atttack!
+Dialogue: 0,1:16:38.81,1:16:41.28,Default,,0000,0000,0000,,潛艇所有作戰人員注意！我們要準備發射導彈了\N{\fs12}General quarters, we are go for launch.
+Dialogue: 0,1:16:41.61,1:16:43.32,Default,,0000,0000,0000,,目標已鎖定！指揮官\N{\fs12}Target coordinates locked, commander.
+Dialogue: 0,1:16:43.65,1:16:44.45,Default,,0000,0000,0000,,你好？\N{\fs12}Hello?
+Dialogue: 0,1:16:46.57,1:16:47.41,Default,,0000,0000,0000,,雷嚎？\N{\fs12}Hello?
+Dialogue: 0,1:16:58.04,1:17:00.38,Default,,0000,0000,0000,,指揮官 導彈正在重新定向\N{\fs12}Commander, the missile is being redirected.
+Dialogue: 0,1:17:01.42,1:17:03.88,Default,,0000,0000,0000,,看上去像是鎖定了一個新的敵對目標\N{\fs12}It seems to be locking on to a new hostile target.
+Dialogue: 0,1:17:06.72,1:17:07.88,Default,,0000,0000,0000,,恍然大悟 √
+Dialogue: 0,1:17:06.72,1:17:07.88,Default,,0000,0000,0000,,「果露泉」是什麼？...\N{\fs12}What's a "sherbet f"?
+Dialogue: 0,1:17:19.40,1:17:21.31,Default,,0000,0000,0000,,- 哦不！　　　　\N- 那是什麼聲響？\N{\fs12}- Oh, no. - What was that?
+Dialogue: 0,1:17:23.07,1:17:25.90,Default,,0000,0000,0000,,Dot CALM號已下線 傑森\N{\fs12}Dot CALM appears to be offline, Jason.
+Dialogue: 0,1:17:26.28,1:17:28.74,Default,,0000,0000,0000,,網絡攻擊已經停止\N{\fs12}The cyber attack has been halted.
+Dialogue: 0,1:17:32.99,1:17:34.12,Default,,0000,0000,0000,,你有沒...\N{\fs12}Did you
+Dialogue: 0,1:17:34.70,1:17:37.09,Default,,0000,0000,0000,,距離潛艇很近打電話？\N{\fs12}make a call quite close to the submarine, sir?
+Dialogue: 0,1:17:40.17,1:17:41.08,Default,,0000,0000,0000,,呃...\N{\fs12}Um...
+Dialogue: 0,1:17:41.38,1:17:42.26,Default,,0000,0000,0000,,因為...\N{\fs12}Because...
+Dialogue: 0,1:17:43.46,1:17:44.59,Default,,0000,0000,0000,,你辦到了 長官！\N{\fs12}You did it, sir!
+Dialogue: 0,1:17:45.97,1:17:47.00,Default,,0000,0000,0000,,任務完成！\N{\fs12}Mission accomplished!
+Dialogue: 0,1:17:48.26,1:17:49.55,Default,,0000,0000,0000,,沒錯 當然是我啦\N{\fs12}Well, exactly!
+Dialogue: 0,1:17:51.51,1:17:54.40,Default,,0000,0000,0000,,我在重新評估我們的選項 傑森\N{\fs12}I am re-evaluating our options, Jason.
+Dialogue: 0,1:18:01.11,1:18:02.74,Default,,0000,0000,0000,,喬尼！喬尼！\N{\fs12}Johnny! Johnny!
+Dialogue: 0,1:18:03.02,1:18:05.91,Default,,0000,0000,0000,,沃爾塔準備跑路了 他正趕往他的直升機\N{\fs12}Volta is getting away! He's heading for his helicopter!
+Dialogue: 0,1:18:06.19,1:18:07.28,Default,,0000,0000,0000,,別急 鮑夫\N{\fs12}No, bough.
+Dialogue: 0,1:18:08.70,1:18:10.16,Default,,0000,0000,0000,,這傢伙是我的！\N{\fs12}This one's mine.
+Dialogue: 0,1:18:43.98,1:18:45.44,Default,,0000,0000,0000,,小心 長官 小心腳下\N{\fs12}Careful, sir. Sir?
+Dialogue: 0,1:18:45.44,1:18:47.44,Default,,0000,0000,0000,,
+Dialogue: 0,1:18:47.44,1:18:48.80,Default,,0000,0000,0000,,
+Dialogue: 0,1:18:48.80,1:18:53.00,Default,,0000,0000,0000,,{\fad(500,500)\fn宋体\fs23\shad2\4a&H50&\3c&HFF8000&\4c&HFF8000&}看守者感受到了自己體內 榮耀戰魂的力量！... :q
+Dialogue: 0,1:18:56.70,1:18:58.16,Default,,0000,0000,0000,,最後兩階台階 長官\N{\fs12}Last two steps, sir.
+Dialogue: 0,1:19:03.46,1:19:05.17,Default,,0000,0000,0000,,別想溜 沃爾塔！\N{\fs12}Not so fast, volta!
+Dialogue: 0,1:19:07.00,1:19:08.89,Default,,0000,0000,0000,,我應該被此嚇到嗎 蘭斯洛特爵士？\N{\fs12}Is this supposed to scare me, Sir Lancelot?
+Dialogue: 0,1:19:14.22,1:19:15.26,Default,,0000,0000,0000,,找好掩護 鮑夫\N{\fs12}Take cover, bough.
+Dialogue: 0,1:19:22.10,1:19:25.44,Default,,0000,0000,0000,,別擔心 他的槍裡只有六發子彈\N{\fs12}Don't worry, he's only got six bullets in that thing.
+Dialogue: 0,1:19:29.11,1:19:30.62,Default,,0000,0000,0000,,好吧 那玩意兒本身也能砸人\N{\fs12}And, of course, the thing itself.
+Dialogue: 0,1:19:33.24,1:19:35.07,Default,,0000,0000,0000,,這些無路可逃了 沃爾塔\N{\fs12}You've run out of options, volta.
+Dialogue: 0,1:19:36.12,1:19:37.20,Default,,0000,0000,0000,,哦 你還覺得自己贏了是吧？\N{\fs12}Oh, you think you've won?
+Dialogue: 0,1:19:37.49,1:19:38.50,Default,,0000,0000,0000,,差不多\N{\fs12}Mmm.
+Dialogue: 0,1:19:39.29,1:19:42.12,Default,,0000,0000,0000,,在我們內華達州的服務器上重新部署攻擊 傑森\N{\fs12}Rerouting the attack to our Nevada servers, Jason.
+Dialogue: 0,1:19:42.96,1:19:46.75,Default,,0000,0000,0000,,這世界注定要隕落 英格力士 然後我會成為那個笑到最後的人\N{\fs12}The world's going down, English. And I'll be the last man standing.
+Dialogue: 0,1:19:47.59,1:19:50.42,Default,,0000,0000,0000,,再見 英格力士 拜拜了 互聯網\N{\fs12}Goodbye, English! Goodbye, Internet.
+Dialogue: 0,1:19:51.88,1:19:56.35,Default,,0000,0000,0000,,我知道了！那是一家 瞪羚341輕型攻擊直升機\N{\fs12}I've got it. That's a Gazelle 341 light attack helicopter.
+Dialogue: 0,1:19:57.14,1:20:01.68,Default,,0000,0000,0000,,如果我們能黑進它的操作系統 就能禁用它的驅動功能\N{\fs12}If we can hack into its operating system, we can disable the drive function.
+Dialogue: 0,1:20:02.18,1:20:02.98,Default,,0000,0000,0000,,讓我看看\N{\fs12}Here.
+Dialogue: 0,1:20:07.02,1:20:10.94,Default,,0000,0000,0000,,瞧瞧你！你想使用你所信賴的東西 但卻又做不到！\N{\fs12}Look at you! You couldn't use that thing if your life depended on it!
+Dialogue: 0,1:20:11.30,1:20:12.00,Default,,0000,0000,0000,,哈哈...\N{\fs12}ha ha ha...
+Dialogue: 0,1:20:14.11,1:20:15.28,Default,,0000,0000,0000,,讓我們離開這破地方吧\N{\fs12}Let's get outta here.
+Dialogue: 0,1:20:16.20,1:20:17.70,Default,,0000,0000,0000,,把這鐵鳥開到...\N{\fs12}Get this steel bird in the...
+Dialogue: 0,1:20:23.12,1:20:27.84,Default,,0000,0000,0000,,重部署已完成 攻擊程序已安裝在我們位於美帝的服務器農場裡\N{\fs12}Rerouting complete. Attack data now installed at our Nevada servers.
+Dialogue: 0,1:20:28.46,1:20:30.05,Default,,0000,0000,0000,,我應該發起攻擊嗎？\N{\fs12}Should I initiate?
+Dialogue: 0,1:20:30.67,1:20:31.47,Default,,0000,0000,0000,,傑森？\N{\fs12}Jason?
+Dialogue: 0,1:20:36.34,1:20:38.30,Default,,0000,0000,0000,,我應該發起攻擊嗎？\N{\fs12}Should I initiate the new attack?
+Dialogue: 0,1:20:39.56,1:20:41.85,Default,,0000,0000,0000,,嘗嘗這個！\N{\fs12}Initiate this!
+Dialogue: 0,1:20:42.60,1:20:44.35,Default,,0000,0000,0000,,傑接姐節結界街潔... 傑森\N{\fs12}JJJJJJJJ... Jason.
+Dialogue: 0,1:20:44.35,1:20:46.35,Default,,0000,0000,0000,,
+Dialogue: 0,1:20:46.35,1:20:48.35,Default,,0000,0000,0000,,
+Dialogue: 0,1:20:55.82,1:20:56.95,Default,,0000,0000,0000,,好吧... 女士們 先生們\N{\fs12}Well, uh, ladies and gentlemen.
+Dialogue: 0,1:20:57.28,1:21:00.95,Default,,0000,0000,0000,,我想我們都一致同意 那並不是我們原本所期待的那個夜晚\N{\fs12}I think we can all agree, that wasn't quite the evening we were expecting.
+Dialogue: 0,1:21:06.50,1:21:08.29,Default,,0000,0000,0000,,我原本希望今晚呈現給你們...\N{\fs12}I had hoped to present to you tonight...
+Dialogue: 0,1:21:01.50,1:21:04.50,Default,,0000,0000,0000,,啊... 啊蛤蛤 蛤蛤\N{\fs12}ah ahaha, ahaha...
+Dialogue: 0,1:21:08.63,1:21:10.71,Default,,0000,0000,0000,,謝謝你
+Dialogue: 0,1:21:08.63,1:21:10.71,Default,,0000,0000,0000,,一個關於未來英國的展望\N{\fs12}A vision of what britain might be.
+Dialogue: 0,1:21:11.34,1:21:14.88,Default,,0000,0000,0000,,但 正如所發生的一般 一個男人將我們所有人從這個夜晚拯救了出來...\N{\fs12}But, as it happens, the man who saved us all this evening,
+Dialogue: 0,1:21:15.17,1:21:18.51,Default,,0000,0000,0000,,這個男人 也許我該補充一點 是我十分信任 親自指派負責這次的事件\N{\fs12}the man who, I might add, I personally assigned to this case,
+Dialogue: 0,1:21:19.34,1:21:21.35,Default,,0000,0000,0000,,也另闢蹊徑地為我們呈現了 另一種與眾不同的願景\N{\fs12}has presented us with a different kind of vision.
+Dialogue: 0,1:21:21.64,1:21:25.73,Default,,0000,0000,0000,,一個生動活現的英國優良品質化身 如果你允許我這麼說\N{\fs12}A living embodiment, if you like, of those fundamental British qualities
+Dialogue: 0,1:21:26.02,1:21:30.11,Default,,0000,0000,0000,,這些品質確保了我們所心愛的國家能夠長久地繁榮昌盛\N{\fs12}that have ensured that our beloved island nation endures.
+Dialogue: 0,1:21:30.81,1:21:33.53,Default,,0000,0000,0000,,赴湯蹈火的勇氣 無窮無盡的足智多謀\N{\fs12}Courage under fire, endless ingenuity
+Dialogue: 0,1:21:33.82,1:21:35.53,Default,,0000,0000,0000,,在這一切之上 是一種低調而又——\N{\fs12}and above all, a quiet
+Dialogue: 0,1:21:36.36,1:21:38.87,Default,,0000,0000,0000,,堅不可摧的人格尊嚴\N{\fs12}unassailable dignity.
+Dialogue: 0,1:21:43.80,1:21:46.80,Default,,0000,0000,0000,,你們是魔鬼嗎！？... |･ω･『)
+Dialogue: 0,1:21:58.22,1:21:59.26,Default,,0000,0000,0000,,多謝啦\N{\fs12}Thank you.
+Dialogue: 0,1:21:59.26,1:22:01.26,Default,,0000,0000,0000,,
+Dialogue: 0,1:22:01.26,1:22:03.26,Default,,0000,0000,0000,,
+Dialogue: 0,1:22:18.95,1:22:20.45,Default,,0000,0000,0000,,歡迎回來 英格力士先生\N{\fs12}Welcome back, Mr. English.
+Dialogue: 0,1:22:20.74,1:22:21.70,Default,,0000,0000,0000,,多謝你 校長\N{\fs12}Thank you, headmaster.
+Dialogue: 0,1:22:21.99,1:22:23.56,Default,,0000,0000,0000,,感謝你願意參加我們的客座演講\N{\fs12}Thank you for agreeing to be our guest speaker.
+Dialogue: 0,1:22:23.78,1:22:26.37,Default,,0000,0000,0000,,現在州長和工作人員都在花園那邊等我們\N{\fs12}Now the governors and staff are all waiting for us in the rose garden.
+Dialogue: 0,1:22:26.66,1:22:29.37,Default,,0000,0000,0000,,好的 不過請你稍微給我幾分鐘 校長\N{\fs12}Yes, if you could just excuse me for a few minutes, headmaster.
+Dialogue: 0,1:22:35.34,1:22:36.14,Default,,0000,0000,0000,,好吧\N{\fs12}oh
+Dialogue: 0,1:22:38.22,1:22:39.26,Default,,0000,0000,0000,,早安 先生！早安！\N{\fs12}Morning, sir! Hello, sir!
+Dialogue: 0,1:22:39.55,1:22:41.59,Default,,0000,0000,0000,,歡迎回來 老師！\N{\fs12}Welcome back, sir!
+Dialogue: 0,1:22:45.85,1:22:46.73,Default,,0000,0000,0000,,驚喜不？\N{\fs12}Surprise!
+Dialogue: 0,1:22:47.89,1:22:48.85,Default,,0000,0000,0000,,謝謝你們\N{\fs12}Thank you.
+Dialogue: 0,1:22:50.27,1:22:51.65,Default,,0000,0000,0000,,話說 斯特雷克那小子呢？\N{\fs12}Where's straker?
+Dialogue: 0,1:22:52.77,1:22:54.36,Default,,0000,0000,0000,,- 在這兒先生\N- 好極　　　\N{\fs12}- Here, sir. - Good.
+Dialogue: 0,1:22:54.82,1:22:56.53,Default,,0000,0000,0000,,以及你在這兒 巴格利\N{\fs12}And, of course, baggaley.
+Dialogue: 0,1:22:58.03,1:22:58.97,Default,,0000,0000,0000,,{\fs12}That was very good. Very good.
+Dialogue: 0,1:22:59.19,1:23:00.87,Default,,0000,0000,0000,,沒事兒 真的很棒 所有人 聚過來\N{\fs12}All right, gather round, everyone. Gather round.
+Dialogue: 0,1:23:01.99,1:23:03.70,Default,,0000,0000,0000,,我給你們帶了些秘密♂玩具\N{\fs12}I've got some toys to show you.
+Dialogue: 0,1:23:03.99,1:23:05.33,Default,,0000,0000,0000,,好 放心看吧\N{\fs12}Ooh! There we go.
+Dialogue: 0,1:23:06.62,1:23:08.70,Default,,0000,0000,0000,,我們有 這個 還有這個\N{\fs12}There we are. There we are.
+Dialogue: 0,1:23:09.41,1:23:11.30,Default,,0000,0000,0000,,- 麵包棒吹管誰想試試？\N- 我！　　　　　　　　\N{\fs12}- Breadstick blowpipe, anyone? - Me!
+Dialogue: 0,1:23:11.58,1:23:12.42,Default,,0000,0000,0000,,就決定是你啦\N{\fs12}There you go.
+Dialogue: 0,1:23:12.71,1:23:14.75,Default,,0000,0000,0000,,蘋果手雷？\N{\fs12}Granny Smith hand grenade?
+Dialogue: 0,1:23:15.50,1:23:17.29,Default,,0000,0000,0000,,- 那麼絞殺手錶呢？　\N- 老師４７該換新的了\N{\fs12}- And what about a garroting watch? - Here, sir.
+Dialogue: 0,1:23:17.59,1:23:18.39,Default,,0000,0000,0000,,拿好了\N{\fs12}There you go.
+Dialogue: 0,1:23:19.97,1:23:21.47,Default,,0000,0000,0000,,這個 還是讓我來保管吧\N{\fs12}Here, let me take that.
+Dialogue: 0,1:23:21.80,1:23:23.89,Default,,0000,0000,0000,,別擔心 只是種輕微鎮靜劑\N{\fs12}Don't worry, it's only a mild sedative.
+Dialogue: 0,1:23:25.30,1:23:27.60,Default,,0000,0000,0000,,哦！那是根拔開後五秒就會爆炸的保險絲\N{\fs12}Oh! That's just a five-second fuse.
+Dialogue: 0,1:23:29.06,1:23:31.47,Default,,0000,0000,0000,,行了行了 別耍了 小心47叔叔來找你\N{\fs12}Yes, all right, we all know what garroting looks like.
+Dialogue: 0,1:23:31.81,1:23:33.60,Default,,0000,0000,0000,,你準備好了嗎 英格力士先生？\N{\fs12}Whenever you're ready, Mr. English.
+Dialogue: 0,1:23:33.94,1:23:36.32,Default,,0000,0000,0000,,哦 抱歉 校長 我一分鐘內就好\N{\fs12}Oh, I'm sorry, headmaster, I'll just be one moment.
+Dialogue: 0,1:23:36.65,1:23:38.61,Default,,0000,0000,0000,,- 收好那些好的\N- 哦！　　　　\N{\fs12}- Just take those. Thank you. - Ooh!
+Dialogue: 0,1:23:39.69,1:23:42.53,Default,,0000,0000,0000,,讓我們把這些收起來吧 就像這樣...\N{\fs12}Put those away, shall we? There we...
+Dialogue: 0,1:23:43.45,1:23:44.41,Default,,0000,0000,0000,,呃...\N{\fs12}Um...
+Dialogue: 0,1:23:45.45,1:23:47.08,Default,,0000,0000,0000,,我一直很喜歡果凍軟糖！... :q\N{\fs12}I always did love a jelly baby.
+

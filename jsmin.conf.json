@@ -1,0 +1,20 @@
+uglify: {
+	options: {
+		mangle: {
+			keep_classnames: true,
+			keep_fnames: true,
+			keep_quoted: true
+		}
+	},
+	all_vendor_js: {
+		files: [
+			{
+				expand: true,
+				cwd: "dev/",
+				src: ["*.js", "!*.min.js"],
+				dest: "min/",
+				ext: ".js"
+			}
+		]
+	}
+}

@@ -1,0 +1,46 @@
+name: JS Minify
+on: 
+#  push:
+#    branches: 
+#      - master
+#    paths:
+#      - 'js/dev/*'
+  schedule:
+    - cron: '27 0 * * *'
+
+jobs:
+  push_jsdeals:
+    runs-on: ubuntu-latest
+    name: Minify ES6+ JS files
+    steps:
+    - name: Setup Node.js for use with actions
+      uses: actions/setup-node@v1.1.0
+      timeout-minutes: 1
+    - name: Install UglifyJS-ES
+      run: |
+        npm install uglify-es -g
+        npm install uglifyjs-folder -g
+    - name: Get all files
+      uses: actions/checkout@v1
+    - name: Show all directories
+      run: 'dir -a ../'
+    - name: Copy for fallback
+      run: 'yes | cp -a "dev/." "min/"'
+    - name: Minification
+      run: |
+        uglifyjs-folder dev/main -e -y -x ".js" -o min/main
+        uglifyjs-folder dev/cider -e -y -x ".js" -o min/cider
+        uglifyjs-folder dev/media -e -y -x ".js" -o min/media
+        uglifyjs-folder dev/spec -e -y -x ".js" -o min/spec
+    - name: Commit files
+      run: |
+        echo ${{ github.ref }}
+        git add .
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git commit -m "Automated task: Minify JS files" -a | exit 0
+    - name: Push changes
+      if: github.ref == 'refs/heads/master'
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}

@@ -1,0 +1,14 @@
+{
+    "name": "webcirque/websf",
+    "description": "Close the gaps between Web platforms.",
+    "version": "1.0",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/webcirque/websf.git"
+    },
+    "keywords": ["framework"],
+    "author": "Project Webcirque",
+    "license": "MIT License",
+    "homepage": "https://github.com/webcirque/websf",
+    "dependencies": {}
+}
