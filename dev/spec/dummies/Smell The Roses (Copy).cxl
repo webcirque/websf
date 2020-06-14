@@ -88,7 +88,7 @@ spaceFallback=true
 [ti:Smell the Roses]
 [ar:4everfreebrony]
 [by:Mu_guang_138] //lyrics maker
-[by:Chdkfd] //timeline creator
+[by:EdChdX] //timeline creator
 [00:00.00]~v1:0,v1:1@A //lyric without timings
 #[00:05.00]~v1:2,v1:3@A //lyric with global timings
 #[00:10.00]~v1:4,v1:5@A,1926,810,114,514,817 //lyric with overriden global timings
