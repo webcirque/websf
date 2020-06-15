@@ -17,7 +17,7 @@ Enhanced LRC adds timing data after each unit, while TRC adds prior to each unit
 #### CXL
 CXL stands for Compact eXtended Lyrics, which is a lyrics format designed to split and minimize processing work. Not yet supported.
 
-This format is designed by us (originally Chdkfd), with ease of collaboration in mind. The first CXL file is by Mu_guang_138 and Chdkfd.
+This format is designed by us (originally EdChdX), with ease of collaboration in mind. The first CXL file is by Mu_guang_138 and EdChdX.
 
 It is backwards compatible with good old LRC. Supports timings and basic styling.
 
