@@ -1,5 +1,92 @@
 "use strict";
-function wAlter (text, map) {
+
+// If an array has...
+Array.prototype.withCount = function () {
+    var act = 0;
+    for (var pt = 0; pt < arguments.length; pt ++) {
+        if (this.indexOf(arguments[pt]) != -1) {
+            act ++;
+        };
+    };
+    return act;
+};
+Array.prototype.withAny = function () {
+    var ans = false;
+    for (var pt = 0; pt < arguments.length; pt ++) {
+        if (this.indexOf(arguments[pt]) != -1) {
+            ans = true;
+        };
+        if (ans == true) {
+            continue;
+        };
+    };
+    return ans;
+};
+Array.prototype.withAll = function () {
+    var act = 0;
+    for (var pt = 0; pt < arguments.length; pt ++) {
+        if (this.indexOf(arguments[pt]) != -1) {
+            act ++;
+        };
+    };
+    return (act == arguments.length);
+};
+Array.prototype.matchAny = function (args) {
+    var a1 = this, a2 = args, ans = false;
+    if (a1.length < a2.length) {
+        var a3 = a1;
+        a1 = a2;
+        a2 = a3;
+    };
+    for (var pt = 0; pt1 < a2.length; pt ++) {
+        if (a1.indexOf(a2[pt]) != -1) {
+            ans = true;
+        };
+    };
+    return ans;
+};
+
+// Batch type comparison, one array-based, one argument-based
+try {
+    var Compare = function () {
+        this.type = function (dType, args) {
+            var count = 0;
+            for (var pt = 0; pt < args.length; pt ++) {
+                if (!(!(args[pt]))) {
+                    if (args[pt].constructor == dType) {
+                        count ++;
+                    };
+                };
+            };
+            return count;
+        };
+        this.able = function (args) {
+            var count = 0;
+            for (var pt = 0; pt < args.length; pt ++) {
+                if (!(!(args[pt]))) {
+                    count ++;
+                };
+            };
+            return count;
+        };
+    };
+    Compare = new Compare();
+} catch (err) {};
+try {
+    var Compard = function () {
+        this.type = function () {
+            var dType = arguments[0];
+            var args = Array.from(arguments).slice(1, arguments.length - 1);
+            return Compare.type(dType, args);
+        };
+        this.able = function () {
+            return Compare.able(arguments);
+        };
+    };
+    Compard = new Compard();
+} catch (err) {};
+
+/* function wAlter (text, map) {
 	let wtAr = Array.from(text);
 	let wlist = [];
 	let wstart = 0;
@@ -95,4 +182,4 @@ wAlter.alterItem = function (start, name, value) {
 	} else {
 		throw(new TypeError("Value \"value\" must not be an explicit object."));
 	};
-};
+};*/
