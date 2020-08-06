@@ -5,6 +5,14 @@ var walterna = [];
 if (!Array.prototype.indexOf) {
 	walterna.push("noIndexOf");
 };
+// Looping functions made easy
+try {
+	Function.prototype.repeat = function (times) {
+		for (var c = 0; c < times; c ++) {
+			this();
+		};
+	};
+} catch (err) {};
 // If a number has...
 Number.prototype.inside = function (maxRange) {
 	return (this % maxRange + maxRange) % maxRange;
@@ -20,14 +28,12 @@ Number.prototype.within = function (min, max) {
 // Primitive compatibility layer for array
 Array.from = Array.from || function (target) {
 	var ans = [];
-	if (target.length) {
-		if (target.length >= 0) {
-			for (var pt = 0; pt < target.length; pt ++) {
-				ans.push(target[pt]);
-			};
-		} else {
-			throw Error("Illegal length");
+	if (target.length >= 0) {
+		for (var pt = 0; pt < target.length; pt ++) {
+			ans.push(target[pt]);
 		};
+	} else {
+		throw Error("Illegal length");
 	};
 	return ans;
 };
@@ -67,6 +73,7 @@ Array.prototype.lastIndexOf = Array.prototype.lastIndexOf || function (del) {
 		for (var pt = 0; pt < this.length; pt ++) {
 			if (this[pt] == del) {
 				ans = pt;
+				break;
 			};
 		};
 	};
