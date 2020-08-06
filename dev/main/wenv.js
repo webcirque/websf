@@ -179,14 +179,10 @@ var WEnv = function () {
 		if (navigator.clipboard) {
 			this._features.push("navClipboard");
 			if (navigator.clipboard.readText) {
-				if (navigator.clipboard.readText.constructor == Function) {
-					this._features.push("navClipboardRead");
-				};
+				this._features.push("navClipboardRead");
 			};
 			if (navigator.clipboard.writeText) {
-				if (navigator.clipboard.writeText.constructor == Function) {
-					this._features.push("navClipboardWrite");
-				};
+				this._features.push("navClipboardWrite");
 			};
 		};
 	};
@@ -628,7 +624,7 @@ var WEnv = function () {
 			};
 		};
 		// 360 Chromium fingerprints
-		if ((mimeTypes.indexOf("application/360softmgrplugin") > -1) || (mimeTypes.indexOf("application/mozilla-npqihooquicklogin") > -1) || (this.version[0] > 45 && mimeTypes.indexOf("application/vnd.chromium.remoting-viewer") > -1) || (this.version[0] > 58 && mimeTypes.indexOf("application/asx") > -1) || (this.version[0] > 36 && self.showModalDialog)) {
+		if ((mimeTypes.withAnyd("application/360softmgrplugin", "application/mozilla-npqihooquicklogin", "application/vnd.chromium.remoting-viewer", "application/asx") || (this.version[0] > 36 && self.showModalDialog)) {
 			this.moddedName = "360";
 			this.moddedFrom = "cn";
 			this.modded = true;
