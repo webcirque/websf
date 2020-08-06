@@ -21,12 +21,12 @@ var IconMgr = function (rootDir = "", conf) {
 		return obj;
 	};
 	this.delSize = function (name) {
-		var candidate = null;
+		var cand = null;
 		if (sizeMap.has(name)) {
-			candidate = sizeMap.get(name);
+			cand = sizeMap.get(name);
 		};
 		sizeMap.delete(name);
-		return candidate;
+		return cand;
 	};
 	var getISize = function (text) {
 		var candidate = null;
