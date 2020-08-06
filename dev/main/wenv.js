@@ -34,6 +34,12 @@ var WEnv = function () {
 		self;
 		this._features.push("self");
 	} catch (err) {};
+	// Worker?
+	try {
+		if (self.importScripts) {
+			this._features.push("importScripts");
+		};
+	} catch (err) {}
 	// Basic polyfills for window and self
 	if (!(this._features.withAnyd("self"))) {
 		window.self = window;
@@ -133,16 +139,26 @@ var WEnv = function () {
 		};
 	};
 	// If Font Variation Settings exist (Chrome 62)
+	// display: minimal-ui (Chrome 80)
 	if (this._features.withAlld("cssApi", "cssSupports")) {
 		if (CSS.supports("font-variation-settings", "'wght' 700")) {
 			this._features.push("fontVarConf");
 		};
+		if (CSS.supports("display", "minimal-ui")) {
+			this._features.push("dispMinUI");
+		};
 	};
 	// Intl.PluralRules? (Chrome 63, Firefox 58)
+	// DisplayNames? (Chrome 81, Firefox not yet)
 	if (this._features.withAlld("intlApi")) {
 		if (Intl.PluralRules) {
 			if (Intl.PluralRules.constructor == Function) {
 				this._features.push("intlPluralRules");
+			};
+		};
+		if (Intl.DisplayNames) {
+			if (Intl.DisplayNames.constructor == Function) {
+				this._features.push("intlDispNames");
 			};
 		};
 	};
@@ -262,12 +278,6 @@ var WEnv = function () {
 		};
 	};
 	var tmpArray = undefined;
-	// display: minimal-ui (Chrome 80)
-	if (this._features.withAlld("cssApi", "cssSupports")) {
-		if (CSS.supports("display", "minimal-ui")) {
-			this._features.push("dispMinUI");
-		};
-	};
 	// Optional Chaining (Chrome 80, Firefox 74)
 	try {
 		if (this._features.withAlld("a2b")) {
@@ -276,14 +286,6 @@ var WEnv = function () {
 			};
 		};
 	} catch (err) {};
-	// DisplayNames? (Chrome 81, Firefox not yet)
-	if (this._features.withAlld("intlApi")) {
-		if (Intl.DisplayNames) {
-			if (Intl.DisplayNames.constructor == Function) {
-				this._features.push("intlDispNames");
-			};
-		};
-	};
 	// There are no Chrome 82!
 	// Shape Detection API
 	if (Compard.able(self.FaceDetector, self.BarcodeDetector, self.TextDetector) > 0) {
