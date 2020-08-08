@@ -122,6 +122,108 @@ Array.prototype.matchAny = function (args) {
 	return ans;
 };
 
+// Batch type comparison, one array-based, one argument-based
+try {
+	var Compare = function () {
+		this.type = function (dType, args) {
+			var count = 0;
+			Array.from(args).forEach(function (e) {
+				if (!!e) {
+					if (e.constructor == dType) {
+						count ++;
+					};
+				};
+			});
+			return count;
+		};
+		this.able = function (args) {
+			var count = 0;
+			Array.from(args).forEach(function (e) {
+				if (e != null && e != undefined) {
+					count ++;
+				};
+			});
+			return count;
+		};
+	};
+	Compare = new Compare();
+} catch (err) {};
+try {
+	var Compard = function () {
+		this.type = function () {
+			var dType = arguments[0];
+			var args = Array.from(arguments).slice(1, arguments.length - 1);
+			return Compare.type(dType, args);
+		};
+		this.able = function () {
+			return Compare.able(arguments);
+		};
+	};
+	Compard = new Compard();
+} catch (err) {};
+
+// If a string has...
+String.prototype.withCount = function (args) {
+	var count = 0, copied = this.slice();
+	Array.from(args).forEach(function (e) {
+		if (copied.indexOf(e) != -1) {
+			count ++;
+		};
+	});
+	return count;
+};
+String.prototype.withAny = function (args) {
+	return (this.withCount(args) > 0);
+};
+String.prototype.withAll = function (args) {
+	return (this.withCount(args) == args.length);
+};
+String.prototype.withCountd = function () {
+	return this.withCount(arguments);
+};
+String.prototype.withAnyd = function () {
+	return (this.withCount(arguments) > 0);
+};
+String.prototype.withAlld = function () {
+	return (this.withCount(arguments) == arguments.length);
+};
+try {
+	String.prototype.parseMap = function () {
+		var upThis = this;
+		var decURI = arguments[1];
+		if (decURI == undefined) {
+			decURI = true;
+		};
+		var startChar = arguments[2] || "?";
+		var breakChar = arguments[3] || "&";
+		var assignChar = arguments[4] || "=";
+		var query = upThis.replace(startChar, "");
+		var valMap = new Map();
+		if (query.length) {
+			query = query.split(breakChar);
+			query.forEach(function (e, i, a) {
+				var key = "", value = "", valueYet = false;
+				Array.from(e).forEach(function (e2) {
+					if (!valueYet) {
+						if (e2 == assignChar) {
+							valueYet = true;
+						} else {
+							key += e2;
+						};
+					} else {
+						value += e2;
+					};
+				});
+				key = decodeURIComponent(key);
+				value = decodeURIComponent(value);
+				valMap.set(key, value);
+			});
+		};
+		return valMap;
+	};
+} catch (err) {};
+String.prototype.formText = function (map) {};
+
 // Why not use FileReader to polyfill .arrayBuffer and .text ?
 try {
 	Blob.prototype.get = function (type) {
@@ -177,7 +279,7 @@ try {
 	Blob.prototype.binaryString = function () {
 		return this.get("binstr");
 	};
-	Blob.prototype.dataURL = || function () {
+	Blob.prototype.dataURL = function () {
 		return this.get("dataurl");
 	};
 	Blob.prototype.getURL = function () {
@@ -194,71 +296,7 @@ try {
 		};
 	};
 } catch (err) {};
-// Batch type comparison, one array-based, one argument-based
-try {
-	var Compare = function () {
-		this.type = function (dType, args) {
-			var count = 0;
-			Array.from(args).forEach(function (e) {
-				if (!!e) {
-					if (e.constructor == dType) {
-						count ++;
-					};
-				};
-			});
-			return count;
-		};
-		this.able = function (args) {
-			var count = 0;
-			Array.from(args).forEach(function (e) {
-				if (e != null && e != undefined) {
-					count ++;
-				};
-			});
-			return count;
-		};
-	};
-	Compare = new Compare();
-} catch (err) {};
-try {
-	var Compard = function () {
-		this.type = function () {
-			var dType = arguments[0];
-			var args = Array.from(arguments).slice(1, arguments.length - 1);
-			return Compare.type(dType, args);
-		};
-		this.able = function () {
-			return Compare.able(arguments);
-		};
-	};
-	Compard = new Compard();
-} catch (err) {};
-// If a string has...
-String.prototype.withCount = function (args) {
-	var count = 0, copied = this.slice();
-	Array.from(args).forEach(function (e) {
-		if (copied.indexOf(e) != -1) {
-			count ++;
-		};
-	});
-	return count;
-};
-String.prototype.withAny = function (args) {
-	return (this.withCount(args) > 0);
-};
-String.prototype.withAll = function (args) {
-	return (this.withCount(args) == args.length);
-};
-String.prototype.withCountd = function () {
-	return this.withCount(arguments);
-};
-String.prototype.withAnyd = function () {
-	return (this.withCount(arguments) > 0);
-};
-String.prototype.withAlld = function () {
-	return (this.withCount(arguments) == arguments.length);
-};
-String.prototype.formText = function (map) {};
+
 /* function wAlter (text, map) {
 	let wtAr = Array.from(text);
 	let wlist = [];
