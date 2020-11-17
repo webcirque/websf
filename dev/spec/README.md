@@ -19,7 +19,7 @@ CXL stands for Compact eXtended Lyrics, which is a lyrics format designed to spl
 
 This format is designed by us (originally EdChdX), with ease of collaboration in mind. The first CXL file is by Mu_guang_138 and EdChdX.
 
-It is backwards compatible with good old LRC. Supports timings and basic styling.
+It is not backwards compatible with good old LRC. Supports timings and basic styling.
 
 #### KRC
 Proprietary lyrics format. Supports timings. Will add support to automatically decide if the file needs to be decoded.
