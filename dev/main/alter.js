@@ -1,5 +1,9 @@
 "use strict";
 
+/*
+WEBSF.main.alter is a module for basic polyfills and patches to make all the requirements needed by WEBSF.main.wenv will be met, so it will not produce any error.
+*/
+
 // Ahead
 var walterna = [];
 if (!Array.prototype.indexOf) {
@@ -24,6 +28,13 @@ Number.prototype.within = function (min, max) {
 	} else {
 		throw(new RangeError("Maximum value cannot be lower than minimum value"));
 	};
+};
+Number.prototype.round = function (precision) {
+	var actual = (10 ** Math.round(precision));
+	return (Math.round(this / actual) * actual);
+};
+Number.prototype.roundAny = function (precision) {
+	return (Math.round(this / precision) * precision);
 };
 // Primitive compatibility layer for array
 Array.from = Array.from || function (target) {
@@ -121,6 +132,117 @@ Array.prototype.matchAny = function (args) {
 	};
 	return ans;
 };
+
+Array.prototype.same = function () {
+	var res = true;
+	this.forEach(function (e, i, a) {
+		if (i < (a.length - 1)) {
+			if (e.constructor != a[i + 1].constructor) {
+				res = false;
+			};
+		};
+	});
+	return res;
+};
+// Get where to insert, or to find
+Array.prototype.point = function (element) {
+	var safeMode = arguments[1];
+	if (safeMode != false) {
+		safeMode = true;
+	};
+	// Initialize blocks
+	var block = 1 << Math.floor(Math.log(this.length - 1) / Math.log(2));
+	// Initialize pointer and continuation
+	var pointer = block, resume = true;
+	if (safeMode) {
+		resume = this.same();
+		if (element.constructor != this[0].constructor) {
+			resume = false;
+		};
+		if (!resume) {
+			pointer = -1;
+		};
+	};
+	console.log("Block size " + block + ", pointer at " + pointer + ".");
+	if (element <= this[0]) {
+		pointer = 0;
+		resume = false;
+	} else if (element > this[this.length - 1]) {
+		pointer = this.length;
+		resume = false;
+	};
+	var lastblock = block;
+	while (resume) {
+		block = block >> 1;
+		if (block < 1) {
+			resume = false;
+		} else {
+			if (this[pointer] > element) {
+				if (this[pointer - 1] >= element) {
+					pointer -= block;
+				};
+			} else if (this[pointer] < element) {
+				pointer += block;
+			};
+		};
+		if (lastblock <= block) {
+			resume = false;
+		};
+		lastblock = block;
+		// Finally exits the loop
+	};
+	console.log("Over. Points at " + pointer);
+	return pointer;
+};
+Array.prototype.where = function (element) {
+	var idx = this.point(element);
+	if (this[idx] != element) {
+		idx = -1;
+	};
+	return idx;
+};
+
+// Map!
+/*var Map = self.Map || function (map) {
+	var keys = [];
+	var values = [];
+	this.clear = function () {
+		keys = [];
+		values = [];
+	};
+	this.has = function (key) {
+		return (keys.indexOf(key) != -1);
+	};
+	this.get = function (key) {
+		var res = undefined;
+		if (this.has(key)) {
+			res = values[keys.indexOf(key)];
+		};
+		return res;
+	};
+	this.set = function (key) {
+		//
+	};
+	this.getLegacyArray = function () {
+		var tmpArr = [];
+		keys.forEach(function (e, i) {
+			tmpArr.push([e, values[i]]);
+		});
+		return tmpArr;
+	};
+	if (map) {
+		var beforevalues = [];
+		map.forEach(function (e) {
+			keys.push(e[0]);
+			beforevalues.push(e[1]);
+		});
+		var beforekeys = keys.slice();
+		keys.sort();
+		keys.forEach(function (e) {
+			values.push(beforevalues[beforekeys.indexOf(e)]);
+		});
+	};
+};*/
 
 // Batch type comparison, one array-based, one argument-based
 try {
@@ -223,174 +345,3 @@ try {
 	};
 } catch (err) {};
 String.prototype.formText = function (map) {};
-
-// Why not use FileReader to polyfill .arrayBuffer and .text ?
-try {
-	Blob.prototype.get = function (type) {
-		var upThis = this, type = type || "";
-		return new Promise(function (p, r) {
-			var reader = new FileReader();
-			reader.onabort = function (event) {
-				r(event);
-			};
-			reader.onerror = function (event) {
-				r(event);
-			};
-			reader.onload = function (event) {
-				p(event.target.result);
-			};
-			switch (type.toLowerCase()) {
-				case "arraybuffer":
-				case "arrbuff": {
-					reader.readAsArrayBuffer(upThis);
-					break;
-				};
-				case "text":
-				case "atext":
-				case "str":
-				case "string": {
-					reader.readAsText(upThis);
-					break;
-				};
-				case "bintext":
-				case "binstr":
-				case "binarystring": {
-					reader.readAsBinaryString(upThis);
-					break;
-				};
-				case "dataurl": {
-					reader.readAsDataURL(upThis);
-				};
-				default : {
-					throw TypeError("Unsupported type");
-				};
-			};
-		});
-	};
-	Blob.prototype.text = Blob.prototype.text || function () {
-		return this.get("str");
-	};
-	Blob.prototype.unicodeText = function () {
-		return this.get("str");
-	};
-	Blob.prototype.arrayBuffer = Blob.prototype.arrayBuffer || function () {
-		return this.get("arrbuff");
-	};
-	Blob.prototype.binaryString = function () {
-		return this.get("binstr");
-	};
-	Blob.prototype.dataURL = function () {
-		return this.get("dataurl");
-	};
-	Blob.prototype.getURL = function () {
-		var url = this.objectURL || URL.createObjectURL(this);
-		this.objectURL = url;
-		return url;
-	};
-	Blob.prototype.revokeURL = function () {
-		if (this.objectURL) {
-			URL.revokeObjectURL(this);
-			this.objectURL = undefined;
-		} else {
-			throw (new Error("Not registered"));
-		};
-	};
-} catch (err) {};
-
-/* function wAlter (text, map) {
-	let wtAr = Array.from(text);
-	let wlist = [];
-	let wstart = 0;
-	let wname = "";
-	let wmode = 0; //0 for $ searching, 1 for ${ confirm, 2 for ${} name add
-	let wres = "";
-	wtAr.forEach((e, i) => {
-		//console.warn(i);
-		switch (wmode) {
-			case 0: {
-				if (e == "$") {
-					wmode = 1;
-				};
-				break;
-			};
-			case 1: {
-				if (e == "{") {
-					wstart = i - 1;
-					wmode = 2;
-				} else {
-					wmode = 0;
-				};
-				break;
-			};
-			case 2: {
-				if (e == "}") {
-					wstart ++;
-					wlist.push(new wAlter.alterItem(wstart, wname, ""));
-					wstart = 0;
-					wname = "";
-					wmode = 0;
-				} else {
-					wname += e;
-				};
-				break;
-			};
-			default: {
-				throw(new Error("Unknown mode $1 encountered at index $2.".replace("$1", wmode))).replace("$2", i);
-			};
-		};
-	});
-	let stOffset = 0;
-	wlist.forEach((e) => {
-		let wstart = e.start;
-		let wname = e.name;
-		console.log([wstart, wname]);
-		wtAr.splice(wstart - 1 - stOffset, wname.length + 3);
-		console.log(e.start);
-		e.start -= stOffset;
-		console.log(e.start);
-		stOffset += wname.length + 3;
-		console.log(wtAr);
-	});
-	stOffset = 0;
-	wlist.forEach((e) => {
-		let value = map[e.name];
-		if (map[e.name] == undefined || map[e.name] == null) {
-			e.value = Array.from("ERR_NULL");
-		} else {
-			let value = map[e.name];
-			if (value.constructor == String) {
-				e.value = Array.from(value);
-			} else if (value.constructor == Number || value.constructor == BigInt) {
-				e.value = Array.from(value.toString());
-			} else {
-				throw(new TypeError("Value \"$1\" must not be an explicit object.").replace("$1", e.name));
-			};
-		};
-		wtAr.splice(e.start - 1 + stOffset, 0, ...e.value);
-		stOffset += e.value.length;
-	});
-	console.log(wlist);
-	wtAr.forEach((e) => {
-		wres += e;
-	});
-	return (wres);
-};
-wAlter.alterItem = function (start, name, value) {
-	if (start.constructor == Number) {
-		this.start = start;
-	} else {
-		throw(new TypeError("Value \"start\" must be a Number."));
-	};
-	if (name.constructor == String) {
-		this.name = name;
-	} else {
-		throw(new TypeError("Value \"name\" must be a String."));
-	};
-	if (value.constructor == String) {
-		this.value = Array.from(value);
-	} else if (value.constructor == Number || value.constructor == BigInt) {
-		this.value = Array.from(value.toString());
-	} else {
-		throw(new TypeError("Value \"value\" must not be an explicit object."));
-	};
-};*/
